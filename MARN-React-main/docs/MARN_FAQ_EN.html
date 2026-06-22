@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARN — Frequently Asked Questions</title>
+  <style>
+    /* ── Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      direction: ltr;
+      text-align: left;
+      background: #f8f9fb;
+      color: #1a1a2e;
+      line-height: 1.85;
+      font-size: 16px;
+    }
+
+    /* ── Layout ── */
+    .page-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      border-radius: 14px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 .brand {
+      color: #e94560;
+      font-style: italic;
+    }
+    header .sub {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.7;
+    }
+
+    /* ── Table of Contents ── */
+    .toc {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    }
+    .toc h2 {
+      font-size: 1.1rem;
+      color: #0f3460;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e94560;
+    }
+    .toc ol {
+      padding-left: 1.5rem;
+      padding-right: 0;
+      columns: 2;
+      column-gap: 2rem;
+    }
+    @media (max-width: 600px) { .toc ol { columns: 1; } }
+    .toc li { margin-bottom: 0.35rem; }
+    .toc a {
+      color: #0f3460;
+      text-decoration: none;
+      font-size: 0.93rem;
+      transition: color .2s;
+    }
+    .toc a:hover { color: #e94560; text-decoration: underline; }
+
+    /* ── Sections ── */
+    .faq-section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    }
+    .faq-section h2 {
+      font-size: 1.25rem;
+      color: #0f3460;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 2px solid #e94560;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .faq-section h2 .num {
+      background: #e94560;
+      color: #fff;
+      border-radius: 50%;
+      width: 1.8rem;
+      height: 1.8rem;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* ── Q&A ── */
+    .qa { margin-bottom: 1.4rem; }
+    .qa:last-child { margin-bottom: 0; }
+    .qa .q {
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 0.45rem;
+      font-size: 1rem;
+    }
+    .qa .a {
+      color: #374151;
+      font-size: 0.97rem;
+    }
+
+    /* ── Lists inside answers ── */
+    .qa .a ul, .qa .a ol {
+      padding-left: 1.4rem;
+      padding-right: 0;
+      margin-top: 0.5rem;
+    }
+    .qa .a ul li, .qa .a ol li { margin-bottom: 0.3rem; }
+
+    /* ── Numbered steps ── */
+    .steps { margin-top: 0.5rem; }
+    .steps li { margin-bottom: 0.3rem; }
+
+    /* ── Tech table ── */
+    .tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.91rem;
+      margin-top: 0.75rem;
+    }
+    .tech-table th {
+      background: #0f3460;
+      color: #fff;
+      padding: 0.55rem 0.75rem;
+      text-align: left;
+    }
+    .tech-table td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    .tech-table tr:nth-child(even) td { background: #f8f9fb; }
+    .tech-table td:last-child {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 0.88rem;
+      color: #0f3460;
+    }
+
+    /* ── Contract status flow ── */
+    .status-flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+      direction: ltr;
+      justify-content: flex-start;
+    }
+    .status-flow .st {
+      background: #e8f0fe;
+      color: #0f3460;
+      border-radius: 20px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .status-flow .arr { color: #e94560; font-weight: 700; align-self: center; }
+
+    /* ── Inline code ── */
+    .code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #f1f5f9;
+      padding: 0.1em 0.35em;
+      border-radius: 4px;
+      font-size: 0.88em;
+      color: #c0392b;
+    }
+    .url {
+      font-family: 'Consolas', 'Courier New', monospace;
+      color: #e94560;
+      font-size: 0.92em;
+    }
+
+    /* ── Highlight badge ── */
+    .badge {
+      display: inline-block;
+      background: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffc107;
+      border-radius: 4px;
+      padding: 0.05rem 0.4rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.88rem;
+      color: #6b7280;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 1.5rem;
+    }
+    footer strong { color: #e94560; }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header>
+    <h1><span class="brand">MARN</span> — Frequently Asked Questions</h1>
+    <p class="sub">
+      <strong>Modern Accommodation Rent Network</strong><br>
+      Damietta University · Faculty of Computers &amp; Artificial Intelligence · Graduation Project 2025/2026
+    </p>
+  </header>
+
+  <!-- ═══════════ TABLE OF CONTENTS ═══════════ -->
+  <nav class="toc">
+    <h2>📋 Table of Contents</h2>
+    <ol>
+      <li><a href="#s1">General &amp; Overview</a></li>
+      <li><a href="#s2">Account &amp; Registration</a></li>
+      <li><a href="#s3">Identity Verification</a></li>
+      <li><a href="#s4">Searching for Properties</a></li>
+      <li><a href="#s5">Listing a Property (Owners)</a></li>
+      <li><a href="#s6">Booking &amp; Requests</a></li>
+      <li><a href="#s7">Roommate Matching</a></li>
+      <li><a href="#s8">AI Recommendations &amp; Chatbot</a></li>
+      <li><a href="#s9">Digital Contracts &amp; Blockchain</a></li>
+      <li><a href="#s10">Payments</a></li>
+      <li><a href="#s11">Communication &amp; Notifications</a></li>
+      <li><a href="#s12">Ratings, Reviews &amp; Reporting</a></li>
+      <li><a href="#s13">Admin &amp; Platform Governance</a></li>
+      <li><a href="#s14">Technical Stack &amp; Architecture</a></li>
+      <li><a href="#s15">Future Improvements</a></li>
+    </ol>
+  </nav>
+
+  <!-- ═══════════ SECTION 1 ═══════════ -->
+  <section class="faq-section" id="s1">
+    <h2><span class="num">1</span> General &amp; Overview</h2>
+
+    <div class="qa">
+      <p class="q">What is MARN?</p>
+      <p class="a">
+        MARN (Modern Accommodation Rent Network) is a centralized, Egypt-wide digital platform that connects property owners with renters. It supports the entire rental lifecycle — from searching and booking to digital contracts, blockchain-anchored signatures, and online payments — all within a single, user-friendly application.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Who is MARN designed for?</p>
+      <p class="a">
+        MARN serves a wide range of users: students, young professionals, families, workers, and expatriates. It equally serves property owners who want to list and manage their rentals digitally.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What types of accommodation does MARN support?</p>
+      <p class="a">MARN supports three accommodation types:</p>
+      <ul class="a">
+        <li><strong>Full apartments</strong> — for families or groups seeking an entire unit</li>
+        <li><strong>Private rooms</strong> — for individuals wanting a dedicated space</li>
+        <li><strong>Shared beds</strong> — for students or budget-conscious renters in co-living setups</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">What makes MARN different from other platforms like Roomster, Aqarmap, or Airbnb?</p>
+      <p class="a">MARN is the only platform that combines all of the following in one place:</p>
+      <ul class="a">
+        <li>Full end-to-end rental management (search → booking → contract → payment)</li>
+        <li>AI-powered personalized property recommendations</li>
+        <li>Lifestyle-based roommate matching</li>
+        <li>Blockchain-anchored digital contracts (unique in Egypt)</li>
+        <li>Integrated online payments with monthly scheduling</li>
+        <li>AI chatbot support in both Arabic and English</li>
+        <li>Nationwide coverage across all Egyptian governorates</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Is MARN available across all of Egypt?</p>
+      <p class="a">
+        Yes. MARN covers all 27 Egyptian governorates, including cities and smaller towns often underrepresented on global platforms.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What platforms can I access MARN on?</p>
+      <p class="a">MARN is available as:</p>
+      <ul class="a">
+        <li>A <strong>Flutter mobile application</strong> (Android and iOS)</li>
+        <li>A <strong>React.js web application</strong> accessible via browser</li>
+      </ul>
+      <p class="a">
+        The platform is deployed and accessible at <span class="url">marn.runasp.net</span> and <span class="url">marn-six.vercel.app</span>.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What languages does MARN support?</p>
+      <p class="a">
+        MARN fully supports both <strong>Arabic</strong> and <strong>English</strong>, including the AI chatbot and all user interface elements.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 2 ═══════════ -->
+  <section class="faq-section" id="s2">
+    <h2><span class="num">2</span> Account &amp; Registration</h2>
+
+    <div class="qa">
+      <p class="q">How do I create a MARN account?</p>
+      <p class="a">
+        You can register using your email address. After submitting your details, the system sends a confirmation link to verify your account before it is activated.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I be both an owner and a renter on the same account?</p>
+      <p class="a">
+        Yes. MARN allows users to select and update their roles. You can act as a renter, an owner, or both from the same account.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How do I reset my password?</p>
+      <p class="a">
+        Use the "Forgot Password" option on the login screen. The system will send you a verification link to reset your password securely.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Does MARN support two-factor authentication (2FA)?</p>
+      <p class="a">
+        Yes. MARN supports optional two-factor authentication (2FA), which can be toggled on or off from your profile settings.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I sign in using Google?</p>
+      <p class="a">
+        Yes. MARN supports Google Login as an alternative to email-based registration.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How do I update my profile information?</p>
+      <p class="a">
+        Go to your <strong>Profile Settings</strong> screen, where you can edit personal information, upload a profile picture, change your password, and adjust language or notification preferences.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 3 ═══════════ -->
+  <section class="faq-section" id="s3">
+    <h2><span class="num">3</span> Identity Verification</h2>
+
+    <div class="qa">
+      <p class="q">Why do I need to verify my identity?</p>
+      <p class="a">
+        Verification ensures platform trust and legal compliance. Unverified users cannot create property listings or enter into rental contracts.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What documents are required for verification?</p>
+      <ul class="a">
+        <li><strong>Renters:</strong> A valid legal identification document (e.g., National ID)</li>
+        <li><strong>Owners:</strong> National ID plus proof of property ownership documents</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">How does the verification process work?</p>
+      <ol class="a steps">
+        <li>Upload your documents from the Profile Settings or verification section</li>
+        <li>The system validates the file format and stores documents securely</li>
+        <li>Documents are submitted for administrative review</li>
+        <li>You will be notified once your verification is approved or rejected</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">How long does verification take?</p>
+      <p class="a">
+        Verification is reviewed by MARN administrators. You will receive a notification as soon as a decision is made.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What happens if my verification is rejected?</p>
+      <p class="a">
+        You will be notified of the rejection. You can re-upload corrected documents and resubmit for review.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 4 ═══════════ -->
+  <section class="faq-section" id="s4">
+    <h2><span class="num">4</span> Searching for Properties</h2>
+
+    <div class="qa">
+      <p class="q">How can I search for a property?</p>
+      <p class="a">From the Property Search screen, you can search by:</p>
+      <ul class="a">
+        <li>Location (city or area within any of the 27 governorates)</li>
+        <li>Keywords</li>
+        <li>Property type (apartment, room, bed)</li>
+        <li>Price range</li>
+        <li>Rental duration</li>
+        <li>Number of occupants</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I view property locations on a map?</p>
+      <p class="a">
+        Yes. MARN integrates map-based property visualization so you can see listings geographically.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What information is shown on a property listing?</p>
+      <p class="a">
+        Each listing shows photos, description, amenities, house rules, pricing, availability, owner information, location, and user ratings and reviews.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I save or bookmark properties?</p>
+      <p class="a">
+        Yes. Authenticated users can save or bookmark properties to revisit them later.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Are all visible listings verified?</p>
+      <p class="a">
+        Yes. Only listings that have been approved by MARN administrators appear publicly. Pending or rejected listings are not visible to renters.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What if no results match my search?</p>
+      <p class="a">
+        The system will display a "No listings available" message. You can adjust your filters or try different search terms.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 5 ═══════════ -->
+  <section class="faq-section" id="s5">
+    <h2><span class="num">5</span> Listing a Property (Owners)</h2>
+
+    <div class="qa">
+      <p class="q">How do I list my property on MARN?</p>
+      <p class="a">
+        After becoming a verified owner, go to the Owner Dashboard and select "Add Property." Fill in your property details across the following stages:
+      </p>
+      <ol class="a steps">
+        <li><strong>Stage 1:</strong> Basic details — title, type, address, city, price, and capacity</li>
+        <li><strong>Stage 2:</strong> Amenities — select features like Wi-Fi, parking, and AC</li>
+        <li><strong>Stage 3:</strong> Media — upload high-quality photos of the property</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">What property types can I list?</p>
+      <p class="a">
+        You can list an entire <strong>apartment</strong>, a <strong>room</strong>, or a shared <strong>bed</strong>.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What details can I define for my listing?</p>
+      <p class="a">
+        You can set the price, rental duration, occupancy rules, amenities, house rules, and upload images and videos.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What happens after I submit a listing?</p>
+      <p class="a">
+        Your listing is saved with a <span class="badge">Pending</span> status and sent for administrative review. It will only be published and made visible to renters after approval.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I edit or remove a listing after publishing it?</p>
+      <p class="a">
+        Yes. From the Owner Dashboard you can edit, deactivate, or delete your listings at any time.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I temporarily make my listing unavailable without deleting it?</p>
+      <p class="a">
+        Yes. You can deactivate a listing to hide it from search results without permanently removing it.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 6 ═══════════ -->
+  <section class="faq-section" id="s6">
+    <h2><span class="num">6</span> Booking &amp; Requests</h2>
+
+    <div class="qa">
+      <p class="q">How do I book a property?</p>
+      <p class="a">
+        Open the property page and click <strong>"Book Now."</strong> A booking request will be sent to the owner, who will be notified and can accept or reject it.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I schedule a property visit before booking?</p>
+      <p class="a">
+        Yes. MARN allows renters to schedule property visits as part of the request workflow.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What happens after my booking request is accepted?</p>
+      <p class="a">
+        Once the owner accepts, the system moves to the digital contract stage, where both parties review and sign the agreement.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I cancel a booking request?</p>
+      <p class="a">
+        Yes. Renters can cancel a booking request before it is accepted.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How are owners notified of new requests?</p>
+      <p class="a">
+        The system sends real-time notifications to owners when a new booking request arrives.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 7 ═══════════ -->
+  <section class="faq-section" id="s7">
+    <h2><span class="num">7</span> Roommate Matching</h2>
+
+    <div class="qa">
+      <p class="q">How does the roommate matching system work?</p>
+      <p class="a">
+        MARN uses an algorithmic compatibility model. Users fill in their lifestyle preferences, and the system matches them with compatible roommates based on those inputs.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What preferences can I set for roommate matching?</p>
+      <ul class="a">
+        <li>Sleep schedule and daily habits</li>
+        <li>Smoking preferences</li>
+        <li>Pet ownership</li>
+        <li>Gender preferences</li>
+        <li>Educational background and field of study</li>
+        <li>Budget range</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Where do I set my roommate preferences?</p>
+      <p class="a">
+        Go to <strong>Profile Settings → Roommate Preferences</strong> to define and update your lifestyle profile.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How is compatibility calculated?</p>
+      <p class="a">
+        The system computes a compatibility score based on how closely each user's preferences align with potential matches. Matches are ranked and presented with a summary of matching and non-matching traits (e.g., smoking, pets, sleep habits).
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I contact a suggested roommate?</p>
+      <p class="a">
+        Yes. From the Roommate Matches screen, you can view a match's basic profile and initiate communication.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 8 ═══════════ -->
+  <section class="faq-section" id="s8">
+    <h2><span class="num">8</span> AI Recommendations &amp; Chatbot</h2>
+
+    <div class="qa">
+      <p class="q">How does MARN recommend properties to me?</p>
+      <p class="a">The recommendation engine analyzes your activity on the platform — including searches, viewed listings, saved properties, and bookings — and uses three strategies:</p>
+      <ul class="a">
+        <li><strong>Criteria-Based Search:</strong> When you apply filters, the engine uses FAISS vector search on 58-dimensional feature vectors to surface the most relevant listings.</li>
+        <li><strong>Behavior-Based Personalization:</strong> Based on your past activity, DBSCAN geographic clustering identifies your interest zones and FAISS search retrieves tailored suggestions, with more recent interactions given greater influence.</li>
+        <li><strong>Similar Listing Discovery:</strong> On any property page, you can see similar listings ranked by cosine similarity.</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Do recommendations get better over time?</p>
+      <p class="a">
+        Yes. The more you interact with the platform (search, view, save, book), the more accurate your personalized recommendations become. Recent interactions carry more weight than older ones through a recency decay model.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What is the MARN AI chatbot?</p>
+      <p class="a">
+        The AI chatbot is a built-in assistant that helps you discover properties, understand platform features, and navigate the rental process through natural language conversation. It is available 24/7 and supports both Arabic and English.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What can the chatbot help me with?</p>
+      <ul class="a">
+        <li>Searching and filtering properties</li>
+        <li>Answering questions about how MARN works</li>
+        <li>Guiding you through the booking and contract process</li>
+        <li>Providing context-aware suggestions during your session</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Is the chatbot available on both the mobile app and the website?</p>
+      <p class="a">
+        Yes. The chatbot is available through both the Flutter mobile app and the React.js web application.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 9 ═══════════ -->
+  <section class="faq-section" id="s9">
+    <h2><span class="num">9</span> Digital Contracts &amp; Blockchain</h2>
+
+    <div class="qa">
+      <p class="q">How does the digital contract work?</p>
+      <p class="a">Once a booking is accepted, the system automatically generates a digital rental contract. Both the renter and owner review the contract terms. When the renter approves:</p>
+      <ol class="a steps">
+        <li>A PDF is generated with a cryptographic hash</li>
+        <li>The contract is anchored to the Bitcoin blockchain via <strong>OpenTimestamps</strong></li>
+        <li>A tamper-proof timestamp (OTS proof file) is created</li>
+        <li>The contract and payment schedules are stored securely</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">What does blockchain anchoring mean for my contract?</p>
+      <p class="a">
+        The contract's cryptographic fingerprint is recorded on the Bitcoin blockchain, providing an independent, permanent, and verifiable proof of the contract's content and the date it was signed. This cannot be altered or forged.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Can I download my contract?</p>
+      <p class="a">
+        Yes. Approved contracts can be downloaded by authorized users directly from the platform. You can also download your <span class="code">.ots</span> proof file for independent verification.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What is an OTS file?</p>
+      <p class="a">
+        An OTS (OpenTimestamps) file is a blockchain proof receipt. It contains the data needed to independently verify that your contract existed and was signed at a specific point in time, linked to the Bitcoin network.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Is MARN's digital contract legally compliant?</p>
+      <p class="a">
+        MARN is built to comply with applicable Egyptian laws related to electronic transactions and digital contracts. Admin review ensures contracts meet platform and legal standards before activation.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What happens if one party rejects the contract?</p>
+      <p class="a">
+        If the renter rejects the contract, it is cancelled. The booking will not proceed, and no financial obligations are created.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What are the possible contract statuses?</p>
+      <p class="a">A contract can be in one of the following states:</p>
+      <div class="status-flow">
+        <span class="st">Created</span>
+        <span class="arr">→</span>
+        <span class="st">Pending</span>
+        <span class="arr">→</span>
+        <span class="st">Signed</span>
+        <span class="arr">→</span>
+        <span class="st">Verified</span>
+        <span class="arr">→</span>
+        <span class="st">Cancelled / Expired</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 10 ═══════════ -->
+  <section class="faq-section" id="s10">
+    <h2><span class="num">10</span> Payments</h2>
+
+    <div class="qa">
+      <p class="q">How do I pay rent on MARN?</p>
+      <p class="a">
+        From the Payment screen, select <strong>"Pay Rent."</strong> The system creates a payment session through an integrated online payment gateway. Supported methods include credit/debit cards and mobile wallets.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Does MARN support monthly payment scheduling?</p>
+      <p class="a">
+        Yes. After a contract is activated, monthly rent installments are scheduled with defined due dates. The system tracks each installment's status and sends automated reminders for upcoming or overdue payments.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Will I be notified about upcoming payments?</p>
+      <p class="a">
+        Yes. MARN sends reminders before payment due dates and notifications for successful or failed transactions.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Where can I view my payment history?</p>
+      <p class="a">
+        Payment history is available from the Payment screen for renters and from the Owner Dashboard (earnings and payment status) for owners.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How do owners receive their rental income?</p>
+      <p class="a">
+        Owners can connect a payment account and initiate withdrawals of their balance through the Owner Dashboard.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What happens if a payment fails?</p>
+      <p class="a">
+        The system provides retry options. You will be notified of the failure and can attempt the payment again.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 11 ═══════════ -->
+  <section class="faq-section" id="s11">
+    <h2><span class="num">11</span> Communication &amp; Notifications</h2>
+
+    <div class="qa">
+      <p class="q">How can I communicate with an owner or renter?</p>
+      <p class="a">
+        MARN has a built-in real-time chat powered by <strong>SignalR</strong>. You can message owners or renters directly within the platform. Chat access is restricted to users associated with a relevant listing or booking request.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Are my messages stored?</p>
+      <p class="a">
+        Yes. Chat messages are stored and can be retrieved later from the Chat screen.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What types of notifications does MARN send?</p>
+      <p class="a">You will receive notifications for:</p>
+      <ul class="a">
+        <li>Booking requests and responses</li>
+        <li>Verification approval or rejection</li>
+        <li>Contract status changes</li>
+        <li>Payment reminders and transaction outcomes</li>
+        <li>Listing approval or rejection (owners)</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Are notifications real-time?</p>
+      <p class="a">
+        Yes. MARN supports both real-time notifications (via SignalR) and asynchronous push notifications (via Firebase Cloud Messaging / FCM).
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 12 ═══════════ -->
+  <section class="faq-section" id="s12">
+    <h2><span class="num">12</span> Ratings, Reviews &amp; Reporting</h2>
+
+    <div class="qa">
+      <p class="q">Can I rate a property after renting it?</p>
+      <p class="a">
+        Yes. After a completed rental, you can submit a star rating and a written review for the property.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">Where are ratings displayed?</p>
+      <p class="a">
+        Average ratings and individual reviews appear on property detail pages, helping other renters make informed decisions.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How do I report an inappropriate listing or user?</p>
+      <p class="a">
+        Use the <strong>Report</strong> function on the listing or user profile. Submitted reports are forwarded to MARN administrators for review and moderation.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 13 ═══════════ -->
+  <section class="faq-section" id="s13">
+    <h2><span class="num">13</span> Admin &amp; Platform Governance</h2>
+
+    <div class="qa">
+      <p class="q">What does the MARN admin team do?</p>
+      <p class="a">Administrators manage the health and integrity of the platform through a comprehensive Admin Dashboard. Their responsibilities include:</p>
+      <ul class="a">
+        <li>Reviewing and approving user identity documents</li>
+        <li>Approving or rejecting property listings</li>
+        <li>Reviewing and verifying digital contracts</li>
+        <li>Managing users (including suspension or banning)</li>
+        <li>Handling reports and moderation actions</li>
+        <li>Generating analytics reports</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">Are listings reviewed before going live?</p>
+      <p class="a">
+        Yes. Every newly submitted listing is reviewed by an administrator before it becomes publicly visible. This ensures accuracy, compliance, and quality.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How is user trust maintained on the platform?</p>
+      <p class="a">
+        Through a combination of identity verification, document review, admin-approved listings, user ratings, a reporting system, and audit logging of all critical operations.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 14 ═══════════ -->
+  <section class="faq-section" id="s14">
+    <h2><span class="num">14</span> Technical Stack &amp; Architecture</h2>
+
+    <div class="qa">
+      <p class="q">What technologies power MARN?</p>
+      <table class="tech-table">
+        <thead>
+          <tr><th>Layer</th><th>Technology</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Backend API</td><td>ASP.NET Core Web API</td></tr>
+          <tr><td>AI Microservice</td><td>FastAPI (Python)</td></tr>
+          <tr><td>Mobile App</td><td>Flutter (Android &amp; iOS)</td></tr>
+          <tr><td>Web App</td><td>React.js</td></tr>
+          <tr><td>Database</td><td>Microsoft SQL Server + Entity Framework Core</td></tr>
+          <tr><td>Real-Time Communication</td><td>SignalR</td></tr>
+          <tr><td>AI Recommendation Engine</td><td>FAISS, KNN (Ball-Tree), DBSCAN, TF-IDF</td></tr>
+          <tr><td>AI Chatbot</td><td>LangGraph ReAct + Qwen LLM</td></tr>
+          <tr><td>Blockchain Timestamping</td><td>OpenTimestamps (Bitcoin network)</td></tr>
+          <tr><td>Push Notifications</td><td>Firebase Cloud Messaging (FCM)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="qa">
+      <p class="q">How does the recommendation engine work at a technical level?</p>
+      <p class="a">
+        Each property is represented as a <strong>58-dimensional feature vector</strong> combining 8 weighted numeric features (price, area, bedrooms, bathrooms, beds, max occupants, latitude, longitude) and a 50-dimensional TF-IDF title encoding. These are indexed in a <strong>FAISS</strong> index (cosine similarity via L2-normalized inner product). Behavior-based personalization uses <strong>DBSCAN geographic clustering</strong> to identify user interest zones, then performs FAISS search per cluster with weighted interaction scores and recency decay.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">What is the chatbot's architecture?</p>
+      <p class="a">
+        The chatbot uses a <strong>LangGraph ReAct</strong> (Reasoning + Acting) agent architecture with a local <strong>Qwen3.5-4B</strong> large language model served via LM Studio. It maintains conversation history in the database (<span class="code">AssistantSessions</span> / <span class="code">AssistantMessages</span> tables) for chat persistence across sessions.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">How is data secured on MARN?</p>
+      <ul class="a">
+        <li>Role-based access control (renter, owner, admin)</li>
+        <li>JWT-based authentication with 2FA support</li>
+        <li>Encrypted storage for legal documents and contracts</li>
+        <li>HTTPS for all client-server communication</li>
+        <li>Audit logs for critical system operations</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">What development methodology was used?</p>
+      <p class="a">
+        MARN was developed using the <strong>Agile methodology</strong>, with iterative sprints covering requirements analysis, architecture design, UI/UX prototyping, backend development, frontend integration, and testing &amp; refinement.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 15 ═══════════ -->
+  <section class="faq-section" id="s15">
+    <h2><span class="num">15</span> Future Improvements</h2>
+
+    <div class="qa">
+      <p class="q">What features are planned for future versions of MARN?</p>
+      <ul class="a">
+        <li><strong>AI-Assisted Verification:</strong> Automated review of identity and ownership documents to speed up the verification process and detect inconsistencies</li>
+        <li><strong>AI-Based Price Estimation:</strong> A pricing model to help owners set fair rental prices and help renters evaluate offers based on market data</li>
+        <li><strong>Geographical Expansion:</strong> Extending the platform beyond Egypt to support other countries, currencies, and languages</li>
+        <li><strong>Handwritten Digital Signature Support:</strong> Allowing users to sign contracts with a handwritten-style signature for a more natural experience</li>
+        <li><strong>Voice-Enabled Assistant:</strong> Adding voice interaction to the chatbot for improved accessibility</li>
+        <li><strong>AI-Assisted Reporting &amp; Violation Detection:</strong> Using AI to help detect abusive messages, misleading listings, and repeated policy violations</li>
+        <li><strong>Property Sales Support:</strong> Expanding MARN beyond rentals to support full property purchases</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer>
+    <p>For additional support, use the <strong>Contact Us</strong> page within the platform or interact with the AI chatbot available in the app.</p>
+    <br>
+    <p><strong>MARN</strong> — Transforming accommodation access in Egypt.</p>
+  </footer>
+
+</div>
+</body>
+</html>

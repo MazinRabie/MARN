@@ -1,0 +1,22 @@
+## Listing a Property (Owners)
+
+**How do I list my property on MARN?**
+After becoming a verified owner, go to the Owner Dashboard and select "Add Property." Fill in your property details across the following stages:
+1. Stage 1: Basic details — title, type, address, city, price, and capacity
+2. Stage 2: Amenities — select features like Wi-Fi, parking, and AC
+3. Stage 3: Media — upload high-quality photos of the property
+
+**What property types can I list?**
+You can list an entire apartment, a room, or a shared bed.
+
+**What details can I define for my listing?**
+You can set the price, rental duration, occupancy rules, amenities, house rules, and upload images and videos.
+
+**What happens after I submit a listing?**
+Your listing is saved with a Pending status and sent for administrative review. It will only be published and made visible to renters after approval.
+
+**Can I edit or remove a listing after publishing it?**
+Yes. From the Owner Dashboard you can edit, deactivate, or delete your listings at any time.
+
+**Can I temporarily make my listing unavailable without deleting it?**
+Yes. You can deactivate a listing to hide it from search results without permanently removing it.

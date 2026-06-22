@@ -1,0 +1,909 @@
+{
+  "find_your_perfect_home": "Find Your Perfect Home",
+  "common": {
+    "please_wait": "Please wait...",
+    "something_went_wrong": "Something went wrong",
+    "select": "Select",
+    "copyright": "Copyright © 2026 MARN. All rights reserved.",
+    "save": "Save",
+    "edit": "Edit",
+    "enable": "Enable",
+    "disable": "Disable",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "yesterday_time": "Yesterday {}",
+    "price_million": "{}M",
+    "price_thousand": "{}K"
+  },
+  "errors": {
+    "empty_image_url": "Empty image url",
+    "failed_to_download_image": "Failed to download image: {}"
+  },
+  "api_errors": {
+    "connection_timeout": "Connection timeout with server",
+    "send_timeout": "Failed to send request to server",
+    "receive_timeout": "Failed to receive response from server",
+    "bad_certificate": "Bad certificate received",
+    "no_response": "No response from server",
+    "request_cancelled": "Request was cancelled, please try again",
+    "no_internet": "No internet connection, please try again",
+    "unexpected_error": "Unexpected error, please try again",
+    "request_not_found": "Request not found, please try later",
+    "server_error": "Server error, please try again later",
+    "server_update": "Server Update now, please try again later",
+    "unexpected_failure": "Unexpected Failure"
+  },
+  "validation": {
+    "required_field": "This field is required",
+    "invalid_email": "Invalid email address",
+    "name_required": "Name is required",
+    "name_length": "Name must be at least 3 characters",
+    "password_uppercase": "Password must contain at least one uppercase letter",
+    "password_lowercase": "Password must contain at least one lowercase letter",
+    "password_number": "Password must contain at least one number",
+    "invalid_number": "Invalid number",
+    "front_of_id_card_required": "Front of ID card is required",
+    "back_of_id_card_required": "Back of ID card is required",
+    "national_id_required": "National ID is required",
+    "national_id_must_be_14_digits": "National ID must be 14 digits",
+    "id_card_image_required": "ID card image is required",
+    "email_required": "Email is required",
+    "password_required": "Password is required",
+    "password_min_length": "Password must be at least 6 characters",
+    "field_is_required": "{} is required",
+    "field_length_between_2_and_50": "{} must be between 2 and 50 characters"
+  },
+  "report": {
+    "inaccurate_listing": "Inaccurate listing details",
+    "fraudulent_listing": "Fraudulent or misleading listing",
+    "suspicious_host": "Unresponsive or suspicious host",
+    "other": "Other",
+    "harassment": "Harassment or bullying",
+    "spam": "Spam or scams",
+    "hate_speech": "Hate speech or symbols",
+    "inappropriate_content": "Inappropriate content",
+    "please_select_reason": "Please select a reason or type one",
+    "failed_with_status": "Failed with status: {}",
+    "report_target": "Report {}"
+  },
+  "static": {
+    "about_marn": "About MARN",
+    "how_it_works": "How it Works",
+    "faq": "FAQ",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use",
+    "contact_us": "Contact Us"
+  },
+  "auth": {
+    "login": {
+      "headerTitle": "Welcome Back!",
+      "headerSubtitle": "Access your dashboard and manage properties",
+      "formTitle": "Sign In",
+      "noAccount": "Don't have an account? ",
+      "forgotPasswordLink": "Forgot password?",
+      "rememberMe": "Remember me for 30 days",
+      "orContinueWith": "Or continue with"
+    },
+    "signUp": {
+      "headerTitle": "Join MARN",
+      "headerSubtitle": "Start managing your properties today",
+      "formTitle": "Create Account",
+      "alreadyHaveAccount": "Already have an account? ",
+      "male": "Male",
+      "female": "Female",
+      "agreeTo": "I agree to the ",
+      "termsOfService": "Terms of Service",
+      "and": " and ",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "forgotPassword": {
+      "headerTitle": "Forgot Your Password?",
+      "headerSubtitle": "No worries! We'll send you reset instructions",
+      "formTitle": "Reset Password",
+      "formSubtitle": "Enter your email to receive reset instructions",
+      "infoValidity": "● Reset link valid for 24 hours",
+      "infoSecure": "● Secure password recovery",
+      "infoAccess": "● Access restored in minutes",
+      "rememberPassword": "Remember your password? "
+    },
+    "resetPassword": {
+      "title": "Set New Password",
+      "subtitle": "Resetting password for {}"
+    },
+    "otp": {
+      "title": "Verify Your Email",
+      "subtitle": "OTP sent to your email",
+      "enterCode": "Enter 6-digit code",
+      "didNotReceiveCode": "Didn't receive the code? ",
+      "contactSupport": "Contact support",
+      "resendTimer": "Resend OTP in {}s",
+      "resendButton": "Resend Code"
+    },
+    "buttons": {
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "sendResetLink": "Send Reset Link",
+      "resetPassword": "Reset Password",
+      "verifyAndContinue": "Verify & Continue"
+    },
+    "placeholders": {
+      "emailAddress": "Email Address",
+      "emailHint": "you@example.com",
+      "password": "Password",
+      "passwordHint": "Enter your password",
+      "firstName": "First Name",
+      "firstNameHint": "First name",
+      "lastName": "Last Name",
+      "lastNameHint": "Last name",
+      "createPasswordHint": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordHint": "Confirm your password",
+      "gender": "Gender",
+      "birthDate": "Birthdate",
+      "birthDateHint": "Select your birthdate"
+    },
+    "validation": {
+      "passwordHelper": "Must be at least 8 characters with a mix of letters and numbers",
+      "confirmPasswordRequired": "Confirm Password is required",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "genderRequired": "Please select the Gender.",
+      "birthDateRequired": "Please select the Birthdate.",
+      "acceptTermsRequired": "Please accept the terms to continue."
+    },
+    "errors": {
+      "twoFactorRequired": "Two-Factor Authentication is required",
+      "googleSignInFailed": "Failed to sign in with Google",
+      "googleSignInCancelled": "Sign in with Google Cancelled"
+    },
+    "success": {
+      "registration": "Registration successful. Please check your email.",
+      "login": "Login successful.",
+      "resendConfirmation": "Confirmation email resent successfully.",
+      "passwordResetEmailSent": "Password reset email sent successfully.",
+      "emailConfirmed": "Email confirmed successfully.",
+      "googleSignIn": "Signed in with Google successful.",
+      "loggedOut": "Logged out successfully.",
+      "accountDeleted": "Account deleted successfully.",
+      "passwordReset": "Password reset successful."
+    },
+    "snackbar": {
+      "checkEmailToConfirm": "Check your email to confirm your account. Didn’t receive it?",
+      "resendAction": "Resend"
+    },
+    "social": {
+      "google": "Google"
+    },
+    "confirmEmail": {
+      "pleaseLoginAgain": "Please login again"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editTitle": "Edit Profile",
+    "changePassword": {
+      "title": "Set New Password",
+      "subtitle": "Change Password",
+      "currentPassword": "Current Password",
+      "currentPasswordHint": "Enter your current password",
+      "newPassword": "New Password",
+      "newPasswordHint": "Create a New Password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordHint": "Confirm your password"
+    },
+    "toggle2fa": {
+      "securityLayer": "Add an extra layer of security to your account",
+      "enabledSubtitle": "Two-Factor Authentication is Enabled.Enter your password to disable it",
+      "disabledSubtitle": "Two-Factor Authentication is Disabled.Enter your password to enable it",
+      "passwordLabel": "Password",
+      "passwordHint": "Enter your password"
+    },
+    "placeholders": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "phoneHint": "Phone",
+      "bio": "Bio",
+      "bioHint": "Bio",
+      "gender": "Gender",
+      "language": "Language",
+      "country": "Country"
+    },
+    "validation": {
+      "phoneRequired": "Phone is required",
+      "dobRequired": "Date of Birth is required",
+      "passwordRequired": "Password is required",
+      "passwordUppercase": "Password Must Contains at least one Upper Case",
+      "passwordLowercase": "Password Must Contains at least one Lower Case",
+      "passwordNumber": "Password Must Contains at least one Number",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "passwordSameAsCurrent": "New Password cannot be the same as Current Password",
+      "confirmPasswordRequired": "Confirm Password is required",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "minBudgetRequired": "Please enter min budget",
+      "maxBudgetRequired": "Please enter max budget"
+    },
+    "errors": {
+      "noUserData": "No user data found",
+      "noSettingsData": "No profile settings data found"
+    },
+    "buttons": {
+      "changePasswordButton": "Change Password",
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "menu": {
+      "chat": "Chat",
+      "report": "Report"
+    },
+    "statistics": {
+      "reviewsCount": "{} ({}) reviews",
+      "propertiesCount": "{} Properties"
+    },
+    "sections": {
+      "aboutMe": "About Me",
+      "generalInfo": "General Information",
+      "roommatePreferences": "Roommate Preferences",
+      "properties": "Properties"
+    },
+    "info": {
+      "dob": "Date of Birth",
+      "gender": "Gender",
+      "country": "Country",
+      "memberSince": "Member Since",
+      "smoking": "Smoking",
+      "pets": "Pets",
+      "sleepSchedule": "Sleep Schedule",
+      "educationLevel": "Education Level",
+      "fieldOfStudy": "Field of Study",
+      "noiseTolerance": "Noise Tolerance",
+      "guestsFrequency": "Guests Frequency",
+      "workSchedule": "Work Schedule",
+      "sharingLevel": "Sharing Level",
+      "budgetRange": "Budget Range",
+      "yes": "Yes",
+      "no": "No",
+      "na": "N/A"
+    },
+    "roommate": {
+      "visibilityTitle": "Roommate Preferences Visibility",
+      "visibilitySubtitle": "Enable visibility to help potential roommates find you.",
+      "budgetRange": "Budget Range",
+      "minBudget": "Min Budget",
+      "maxBudget": "Max Budget",
+      "importance": "Importance",
+      "budgetValue": "{} - {} EGP",
+      "preferencesLifestyle": "Preferences & Lifestyle",
+      "smokingLabel": "Smoking",
+      "iSmoke": "I Smoke",
+      "nonSmoker": "Non-Smoker",
+      "petsLabel": "Pets",
+      "petFriendly": "I am pet friendly",
+      "notPetFriendly": "Not pet friendly",
+      "education": "Education",
+      "educationLevel": "Education Level",
+      "fieldOfStudy": "Field of Study",
+      "socialWork": "Social & Work",
+      "noiseTolerance": "Noise Tolerance",
+      "guestsFrequency": "Guests Frequency",
+      "sharingLevel": "Sharing Level",
+      "workSchedule": "Work Schedule"
+    },
+    "verification": {
+      "frontIdCard": "Front of ID Card",
+      "frontIdRequired": "Front of ID Card is required",
+      "backIdCard": "Back of ID Card",
+      "backIdRequired": "Back of ID Card is required",
+      "arabicAddress": "Arabic Address",
+      "arabicFullName": "Arabic Full Name",
+      "nationalId": "National ID Number",
+      "nationalIdRequired": "Please enter your national ID number",
+      "nationalIdLength": "National ID number must be 14 digits"
+    }
+  },
+  "property": {
+    "emptyState": "No properties found",
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "available": "Available",
+      "notAvailable": "Not Available",
+      "shared": "Shared Property",
+      "notShared": "Not Shared Property",
+      "sharedSubtitle": "Property can be used by multiple people",
+      "notSharedSubtitle": "Property can be used by single person or family"
+    },
+    "buttons": {
+      "bookNow": "Book Now",
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "view": "View"
+    },
+    "dialogs": {
+      "toggleActiveTitle": "Toggle Property Active Status",
+      "toggleActiveContent": "Are you sure you want to toggle the property active status?",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "deleteTitle": "Delete Property",
+      "deleteContent": "Are you sure you want to delete the property?"
+    },
+    "booking": {
+      "priceEgp": "Price: {price} EGP",
+      "startRequired": "Please select a start date",
+      "endRequired": "Please select an end date",
+      "selectPaymentFrequency": "select how you want to pay",
+      "selectEndMonthYear": "Select End Month & Year",
+      "selectEndYear": "Select End Year",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year",
+      "statusBooking": "Booking...",
+      "confirmBooking": "Confirm Booking",
+      "cancel": "Cancel"
+    },
+    "details": {
+      "aboutProperty": "About This Property",
+      "amenities": "Amenities",
+      "hostedBy": "Hosted By",
+      "activeRenters": "Active Renters",
+      "matching": "Matching: {percentage}%",
+      "rules": "Rules",
+      "paymentFrequency": "Payment Frequency: {frequency}",
+      "dates": "Dates: {start} to {end}",
+      "ownerWorkspace": "Owner Workspace",
+      "propertyStatus": "Property Status",
+      "pendingRequests": "Pending Requests ({count})",
+      "accept": "Accept",
+      "decline": "Decline",
+      "contractsHistory": "Contracts History ({count})",
+      "expiryDate": "Expiry Date: {date}",
+      "contract": "Contract",
+      "bedrooms": "Bedrooms",
+      "baths": "Baths",
+      "area": "Area",
+      "areaValue": "{area} sq m",
+      "beds": "Beds",
+      "maxOccupants": "Max Occupants",
+      "sharedProperty": "Shared Property",
+      "listedOn": "Listed On",
+      "rating": "rating ⭐: {rating}",
+      "propertiesCount": "properties 🏠: {count}",
+      "yes": "Yes",
+      "no": "No",
+      "rentLabel": "{unit} Rent",
+      "ratingLabel": "Rating",
+      "reviewsCount": "{count} reviews",
+      "yourRating": "Your Rating",
+      "tapStarsToRate": "Tap stars below to rate!",
+      "noRatingSubmitted": "No rating submitted.",
+      "noReviewsYet": "No reviews yet.",
+      "rateShareThoughts": "Rate & Share Your Thoughts",
+      "shareExperience": "Share Your Experience",
+      "yourRatingLabel": "Your Rating:",
+      "writeReviewHere": "Write your review here...",
+      "submitReview": "Submit Review",
+      "deleteCommentTitle": "Delete Comment",
+      "deleteCommentConfirm": "Are you sure you want to delete this comment?",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "updateCommentHint": "Update your comment...",
+      "save": "Save",
+      "stayFrom": "From: {date}",
+      "stayTo": "To: {date}",
+      "activeTenant": "Active Tenant",
+      "feedbackSuccess": "Feedback submitted successfully!",
+      "ratingRequired": "Please select a star rating.",
+      "commentRequired": "Please write a comment.",
+      "reportComment": "Report Comment"
+    },
+    "card": {
+      "views": "{count} views",
+      "viewsLabel": "Views",
+      "occupied": "Occupied: {occupied} / {total}",
+      "activeContracts": "Active Contracts"
+    },
+    "filters": {
+      "title": "Filters",
+      "sorting": "Sorting",
+      "sortBy": "Sort By",
+      "order": "Order",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "location": "Location",
+      "governorate": "Governorate",
+      "city": "City",
+      "mapSearch": "Map Search",
+      "selectOnMap": "Select on Map",
+      "change": "Change",
+      "selectedCoords": "Selected: {lat}, {lng}",
+      "radius": "Radius (Km): ",
+      "radiusValue": "{km} km",
+      "details": "Property Details",
+      "type": "Property Type",
+      "rentalUnit": "Rental Unit",
+      "isShared": "Is Shared Property?",
+      "pricingRating": "Pricing & Rating",
+      "minPrice": "Min Price",
+      "maxPrice": "Max Price",
+      "minRating": "Min Rating: ",
+      "any": "Any",
+      "capacitySpace": "Capacity & Space",
+      "minBedrooms": "Min Bedrooms",
+      "minBeds": "Min Beds",
+      "minBathrooms": "Min Bathrooms",
+      "maxOccupants": "Max Occupants",
+      "minSqMeters": "Min Sq Meters",
+      "maxSqMeters": "Max Sq Meters",
+      "amenities": "Amenities",
+      "clearAll": "Clear All",
+      "apply": "Apply Filters"
+    },
+    "form": {
+      "title": "Title",
+      "titleHint": "Enter property title",
+      "titleRequired": "Please enter a title",
+      "titleLength": "Title must be between 10 and 100 characters",
+      "address": "Street Address",
+      "addressHint": "Enter street address",
+      "addressRequired": "Please enter a street address",
+      "stateLabel": "State",
+      "stateHint": "Enter state",
+      "stateRequired": "Please enter state",
+      "zip": "Zip Code",
+      "zipHint": "Enter zip code",
+      "zipRequired": "Please enter zip code",
+      "noLocationSelected": "No location selected",
+      "changeLocation": "Change Location",
+      "bedrooms": "Number of bedrooms",
+      "bedroomsHint": "Enter number of bedrooms",
+      "bedroomsRequired": "Please enter number of bedrooms",
+      "bedroomsLength": "Number of bedrooms must be between 0 and 50",
+      "beds": "Beds Number",
+      "bedsHint": "Enter number of beds",
+      "bedsRequired": "Beds number is required",
+      "bedsLength": "Beds number must be between 0 and 50",
+      "bathrooms": "Number of bathrooms",
+      "bathroomsHint": "Enter number of bathrooms",
+      "bathroomsRequired": "Please enter number of bathrooms",
+      "bathroomsLength": "Number of bathrooms must be between 0 and 50",
+      "sqMeters": "Square meters",
+      "sqMetersHint": "Enter square meters",
+      "sqMetersRequired": "Please enter square meters",
+      "description": "Description",
+      "descriptionHint": "Enter description",
+      "descriptionRequired": "Please enter description",
+      "descriptionLength": "Description must be between 20 and 2000 characters",
+      "maxOccupants": "Number of People",
+      "maxOccupantsHint": "Enter number of people",
+      "maxOccupantsRequired": "Please enter number of people allowed",
+      "maxOccupantsLength": "Number of people must be between 1 and 50",
+      "legal": {
+        "proofRequired": "Proof of ownership is required",
+        "proofLabel": "Proof of ownership"
+      },
+      "photos": {
+        "primaryRequired": "Primary Image is required",
+        "primaryLabel": "Primary Image",
+        "alreadyAdded": "this image is already added"
+      },
+      "pricing": {
+        "billingCycle": "Billing Cycle",
+        "priceLabel": "Price (EGP)",
+        "priceHint": "e.g. 3000",
+        "priceRequired": "Required",
+        "priceInvalid": "Enter a valid number"
+      },
+      "rules": {
+        "addRule": "Add Rule",
+        "ruleHint": "Enter house rule",
+        "ruleIndex": "Rule {index}"
+      },
+      "steps": {
+        "details": "Details",
+        "amenities": "Amenities",
+        "photos": "Photos",
+        "pricing": "Pricing",
+        "rules": "Rules",
+        "legal": "Legal"
+      }
+    },
+    "share": {
+      "preparing": "Preparing share...",
+      "subject": "Stunning property on MARN 🏘️",
+      "textTemplate": "Check out this stunning property on MARN 🏘️✨\n\n🏠 Title: {}\n📍 Location: {}, {}\n💰 Price: {} {}\n🛌 Bedrooms: {} | 🛏️ Beds: {} | 🚿 Bathrooms: {}\n\n🔗 More details and photos here:\nhttps://marn-six.vercel.app/property/{}"
+    }
+  },
+  "dashboard": {
+    "ownerDashboard": "Owner Dashboard",
+    "myDashboard": "My Dashboard",
+    "activeRentals": "Active Rentals",
+    "myContractsAsOwner": "My Contracts as Owner",
+    "myContractsAsRenter": "My Contracts as Renter",
+    "recentReceivedPayments": "Recent Received Payments",
+    "recentPaidPayments": "Recent Paid Payments",
+    "stripeSetupLaunchError": "Could not launch Stripe setup link",
+    "stripeSetupError": "Error launching setup link: {error}",
+    "status": {
+      "accountStatus": "Status: {status}",
+      "yes": "Yes",
+      "no": "No",
+      "succeeded": "Succeeded",
+      "pending": "Pending",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "buttons": {
+      "showProperty": "Show Property",
+      "decline": "Decline",
+      "cancel": "Cancel",
+      "accept": "Accept",
+      "sign": "Sign",
+      "contractDetails": "Contract Details",
+      "viewContract": "View Contract",
+      "withdrawEarnings": "Withdraw Earnings",
+      "setupStripe": "Setup / Complete Onboarding"
+    },
+    "statistics": {
+      "nextPaymentRent": "Next Payment Rent",
+      "activeRentals": "Active Rentals",
+      "savedProperties": "Saved Properties",
+      "totalRevenue": "Total Revenue",
+      "onHoldAmount": "On hold: {amount} EGP",
+      "myProperties": "My Properties",
+      "occupied": "{count} occupied",
+      "pendingRequests": "Pending Requests",
+      "totalViews": "Total Views"
+    },
+    "reports": {
+      "receivedOn": "Received on {date}",
+      "paidOn": "Paid on {date}",
+      "availableOn": "Available on {date}",
+      "amountEgp": "{amount} EGP",
+      "due": "Due: {date}",
+      "earningsOverview": "Earnings Overview",
+      "showingMonthlyGrowth": "Showing monthly growth",
+      "showingYearlyGrowth": "Showing yearly growth",
+      "earningsLegend": "Earnings (EGP)",
+      "noData": "No Data",
+      "monthlyToggle": "M",
+      "yearlyToggle": "Y",
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "management": {
+      "paymentFrequency": "Payment Frequency: {frequency}",
+      "bookingRequestsCount": "Pending Booking Requests ({count})",
+      "propertiesBookedCount": "Pending Booking Requests ({count})",
+      "renterLabel": "Renter: {name}",
+      "ownerLabel": "Owner: {name}",
+      "expiryDate": "Expiry Date: {date}",
+      "paymentOnlyAvailableSevenDays": "The payment is only available 7 days before the due date (starting from {date})",
+      "chatWithOwner": "Chat with the owner",
+      "ownerProfileStripe": "Owner Profile & Stripe Dashboard",
+      "vacantPlaces": "Vacant Places",
+      "rating": "Rating",
+      "stripeLinked": "Stripe Linked",
+      "withdrawableEarnings": "Withdrawable Earnings",
+      "onHoldEarnings": "On Hold Earnings",
+      "paymentFrequencyLabel": "Payment Frequency",
+      "nextPayment": "Next Payment",
+      "noSchedule": "No schedule",
+      "paymentStatusLabel": "Payment Status",
+      "unknown": "Unknown",
+      "contract": "Contract",
+      "payment": "Payment",
+      "datesRange": "🗓 {start} to {end}"
+    }
+  },
+  "chat": {
+    "validation": {},
+    "errors": {},
+    "buttons": {
+      "show_profile": "Show Profile",
+      "report_user": "Report User"
+    },
+    "placeholders": {
+      "search_users": "Search Users",
+      "no_chats_yet": "No chats yet",
+      "recent_chats": "Recent Chats",
+      "no_recent_chats": "No recent chats",
+      "other_users": "Other Users",
+      "no_other_users": "No other users",
+      "type_message": "Type a message"
+    },
+    "dialogs": {},
+    "snackbar": {
+      "failed_to_send_message": "Failed to send message"
+    },
+    "messages": {
+      "you_prefix": "You: ",
+      "copy": "Copy",
+      "report": "Report"
+    },
+    "attachments": {},
+    "permissions": {},
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "user_deleted_notice": "This user has been deleted. You can only view the chat history."
+    },
+    "notifications": {}
+  },
+  "chatbot": {
+    "errors": {},
+    "buttons": {},
+    "placeholders": {},
+    "dialogs": {},
+    "messages": {
+      "welcome_greeting": "Hi! I'm MARN's virtual assistant. How can I help you today?",
+      "help_header": "How can I help you today?",
+      "help_desc": "Ask me anything about finding properties, using MARN or what can I do for you"
+    },
+    "prompts": {
+      "what_can_you_do": "What can you do?",
+      "getting_started": "Getting Started",
+      "find_properties": "Find Properties"
+    },
+    "status": {
+      "bot_name": "MARN Assistant",
+      "always_here": "Always here to help"
+    }
+  },
+  "contracts": {
+    "blockchain": {
+      "title": "Blockchain Verification",
+      "status": "Anchoring Status",
+      "txId": "Transaction ID",
+      "merkleRoot": "Merkle Root",
+      "anchored": "Secured on Blockchain",
+      "notAnchored": "Not Secured / Pending",
+      "copied": "Copied to clipboard!"
+    },
+    "placeholders": {
+      "instructions": "Download, sign, and upload your rental agreement",
+      "details_title": "Contract Details",
+      "id_label": "Contract ID",
+      "duration_label": "Duration",
+      "property_label": "Property",
+      "price_per_duration": "EGP {price}/{duration}",
+      "tenant_label": "Tenant",
+      "owner_label": "Owner",
+      "rental_period_label": "Rental Period",
+      "start_date_label": "Start Date",
+      "end_date_label": "End Date",
+      "total_value_label": "Total Contract Value",
+      "total_value_amount": "EGP {amount}",
+      "rental_agreement_pdf": "Rental Agreement. PDF",
+      "download_desc": "Download the rental contract, review all terms carefully",
+      "proof_file": "OpenTimestamps Proof File",
+      "proof_desc": "Download the OpenTimestamps proof file associated with this contract. This file can be used to verify the timestamp and integrity of the contract on the blockchain.",
+      "upload_desc": "Upload the signed contract to verify it on the blockchain.",
+      "selected_file": "Selected: {fileName}",
+      "click_to_upload": "Click to upload signed contract",
+      "pdf_format": "PDF Format",
+      "pdf_format_only": "PDF format only",
+      "important_notes_title": "Important Notes",
+      "note_read_carefully": "Please read the entire contract carefully before signing",
+      "note_both_parties": "Both parties must sign the contract for it to be valid",
+      "note_keep_copy": "Keep a copy of the signed contract for your records",
+      "note_contact_support": "Contact support if you have any questions or concerns",
+      "note_effective_date": "The contract becomes effective on the start date specified"
+    },
+    "status": {
+      "title": "Contract Status",
+      "awaiting_signatures": "awaiting signatures",
+      "download_disabled_pending": "You cannot download the contract while it is pending.",
+      "proof_disabled_pending": "You cannot download the proof file while the contract is pending.",
+      "upload_disabled_pending": "You cannot upload or verify the contract while it is pending.",
+      "pending_anchoring": "The contract is currently pending anchoring on the blockchain. Please wait.",
+      "upload_disabled_label": "Upload disabled (Contract Pending)",
+      "pdf_download_success": "Contract PDF downloaded and opened successfully!",
+      "proof_download_success": "Contract OTS proof downloaded and opened successfully!",
+      "matched": "Matched",
+      "not_matched": "Did NOT Match"
+    },
+    "buttons": {
+      "download_contract_title": "Download Contract",
+      "download_contract": "Download Contract",
+      "download_proof_title": "Download Proof",
+      "download_proof": "Download Proof",
+      "verify_contract_title": "Verify Contract",
+      "submit_contract": "Submit Contract"
+    },
+    "dialogs": {
+      "verification_result": "Verification Result: {match}\nStatus: {status}\nMessage: {message}"
+    }
+  },
+  "payments": {
+    "checkout": {
+      "merchant_display_name": "MARN Rent Payment"
+    },
+    "errors": {
+      "payment_cancelled": "Payment cancelled"
+    }
+  },
+  "roommate": {
+    "title": "Roommate Matches",
+    "compatibility": "Compatibility",
+    "noMatchesFound": "No roommate matches found based on your preferences.",
+    "updatePreferences": "Update Preferences",
+    "matchingTraits": "Matching Traits",
+    "mismatchedTraits": "Mismatched Traits",
+    "dealbreakers": "Dealbreakers",
+    "chatWith": "Chat",
+    "searchStatus": "Status: {status}",
+    "compatibilityHigh": "Excellent lifestyle and preference alignment.",
+    "compatibilityMedium": "Moderate compatibility, some differences exist.",
+    "compatibilityLow": "Low compatibility, review traits carefully."
+  },
+  "mainLayout": {
+    "home": {
+      "searchProperties": "Search Properties",
+      "searchResult": "Search Result",
+      "recommendedForYou": "Recommended For You"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "home": "Home",
+      "chat": "Chat",
+      "roommate": "Roommates"
+    },
+    "drawer": {
+      "showProfile": "Show Profile",
+      "myProperties": "My Properties",
+      "ownerDashboard": "Owner Dashboard",
+      "favorites": "Favorites",
+      "addProperty": "Add Property",
+      "settings": "Settings"
+    },
+    "settings": {
+      "account": "Account",
+      "editProfile": "Edit Profile",
+      "changePassword": "Change Password",
+      "preferences": "Preferences",
+      "roommatePreferences": "Roommate Preferences & Lifestyle",
+      "security": "Security",
+      "twoFactorAuth": "Two-Factor Authentication",
+      "identityVerification": "Identity Verification",
+      "language": "Language",
+      "arabicLanguage": "Arabic Language",
+      "helpSupport": "Help & Support",
+      "aboutMarn": "About MARN",
+      "howItWorks": "How it Works",
+      "faq": "FAQ",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "contact": "Contact",
+      "logout": "Logout",
+      "deleteAccount": "Delete Account",
+      "deleteAccountConfirmTitle": "Delete Account",
+      "deleteAccountConfirmContent": "Are you sure you want to delete your account? This action cannot be undone.",
+      "delete": "Delete"
+    },
+    "notifications": {
+      "markAsRead": "Read",
+      "action": "Action",
+      "viewProperty": "View Property",
+      "chatNow": "Chat Now",
+      "editProfile": "Edit Profile",
+      "renterDashboard": "Renter Dashboard",
+      "ownerDashboard": "Owner Dashboard",
+      "viewContract": "View Contract",
+      "payNow": "Pay Now"
+    }
+  },
+  "staticScreens": {
+    "titles": {
+      "aboutMarn": "About MARN",
+      "howItWorks": "How MARN works",
+      "faq": "Frequently Asked Questions",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "contactUs": "Contact Us",
+      "pageNotFound": "Page Not Found",
+      "ourMission": "Our Mission",
+      "ourValues": "Our Values",
+      "meetOurTeam": "Meet Our Team",
+      "stillHaveQuestions": "Still Have Questions?",
+      "questionsAboutPrivacy": "Questions about Privacy Policy?",
+      "questionsAboutTerms": "Questions about Terms of Use?",
+      "faqForTenants": "For Tenants",
+      "faqForPropertyOwners": "For Property Owners",
+      "faqSafetyAndSecurity": "Safety & Security",
+      "faqPaymentsAndBilling": "Payments & Billing",
+      "faqGeneralOverview": "General & Overview",
+      "faqAccountAndRegistration": "Account & Registration",
+      "faqIdentityVerification": "Identity Verification",
+      "faqSearchingForProperties": "Searching for Properties",
+      "faqListingAPropertyOwners": "Listing a Property (Owners)",
+      "faqBookingAndRequests": "Booking & Requests",
+      "faqRoommateMatching": "Roommate Matching",
+      "faqAiRecommendationsAndChatbot": "AI Recommendations & Chatbot",
+      "faqDigitalContractsAndBlockchain": "Digital Contracts & Blockchain",
+      "faqPayments": "Payments",
+      "faqCommunicationAndNotifications": "Communication & Notifications",
+      "faqRatingsReviewsAndReporting": "Ratings, Reviews & Reporting",
+      "faqAdminAndPlatformGovernance": "Admin & Platform Governance",
+      "faqTechnicalStackAndArchitecture": "Technical Stack & Architecture",
+      "faqFutureImprovements": "Future Improvements",
+      "whyChooseUs": "Why Choose MARN?"
+    },
+    "subtitles": {
+      "aboutMarn": "Learn more about MARN and our mission to simplify the rental process.",
+      "howItWorks": "Your complete guide to finding the perfect rental or listing your property",
+      "faq": "Find answers to common questions about using MARN",
+      "contactUs": "Get in touch with us for any inquiries or support.",
+      "pageNotFound": "The page you are looking for does not exist or has been moved.",
+      "ourValues": "The principles that guide everything we do",
+      "meetOurTeam": "Meet the talented individuals behind MARN",
+      "stillHaveQuestions": "Our support team is here to help you out",
+      "questionsAboutPrivacy": "Contact us for any questions or concerns about our privacy policy",
+      "questionsAboutTerms": "Contact us for any questions or concerns about our terms of use",
+      "privacyPolicy": "Your privacy is important to us.",
+      "termsOfUse": "Please read these terms carefully before using MARN."
+    },
+    "placeholders": {
+      "searchFaq": "Search FAQ",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "validation": {
+      "fullNameRequired": "Please enter your full name",
+      "emailRequired": "Please enter your email address",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneNumberRequired": "Please enter your phone number",
+      "subjectRequired": "Please enter a subject",
+      "messageRequired": "Please enter your message"
+    },
+    "buttons": {
+      "backToHome": "Back to Home",
+      "contactSupport": "Contact Support",
+      "sendMessage": "Send Message"
+    },
+    "messages": {
+      "messageSentSuccess": "Your message was sent successfully!",
+      "messageSentError": "Failed to send message. Please try again later."
+    },
+    "labels": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "whatsapp": "WhatsApp",
+      "locationValue": "Egypt, Damietta"
+    },
+    "lastUpdated": "Last updated: {}"
+  }
+}

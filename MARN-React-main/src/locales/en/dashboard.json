@@ -1,0 +1,183 @@
+{
+  "tenant": {
+    "title": "My Dashboard",
+    "welcome": "Welcome back, {{name}}!",
+    "findProperties": "Find Properties",
+    "cards": {
+      "nextPaymentDue": "Next Payment Due",
+      "currentRent": "Current Rent",
+      "noActiveRental": "No active rental",
+      "perMonth": "/ mo",
+      "activeRentals": "Active Rentals",
+      "savedProperties": "Saved Properties",
+      "notifications": "Notifications"
+    },
+    "activeRentals": {
+      "title": "Active Rentals",
+      "none": "No active rentals.",
+      "findProperty": "Find a property.",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "monthlyRent": "Monthly Rent",
+      "payRent": "Pay Rent",
+      "status": "Status"
+    },
+    "pendingRequests": {
+      "title": "Pending Requests"
+    },
+    "recommended": {
+      "title": "Recommended for You",
+      "none": "No recommendations available."
+    },
+    "recentNotifications": {
+      "title": "Recent Notifications",
+      "none": "No notifications yet."
+    },
+    "contracts": {
+      "title": "Contracts",
+      "viewDocument": "View Document"
+    },
+    "savedPropertiesCard": {
+      "title": "Saved Properties",
+      "viewAll": "View all"
+    },
+    "paymentHistory": {
+      "title": "Payment History"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "payRent": "Pay Rent",
+      "requestMaintenance": "Request Maintenance",
+      "contactLandlord": "Contact Landlord"
+    }
+  },
+  "owner": {
+    "title": "Owner Dashboard",
+    "subtitle": "Manage your properties and track performance",
+    "addNewProperty": "Add New Property",
+    "cards": {
+      "totalProperties": "Total Properties",
+      "occupiedVacant": "{{occupied}} occupied • {{vacant}} vacant",
+      "monthlyRevenue": "Monthly Revenue",
+      "totalViews": "{{count}} total views",
+      "withdrawableEarnings": "Withdrawable Earnings",
+      "onHold": "On hold:",
+      "transferMoney": "Transfer Money",
+      "withdraw": "Withdraw",
+      "withdrawing": "Withdrawing...",
+      "connectStripe": "Connect Stripe",
+      "connecting": "Connecting...",
+      "activeBookings": "Active Bookings",
+      "pendingRequests": "Pending Requests",
+      "awaitingResponse": "Awaiting your response"
+    },
+    "chart": {
+      "earningsOverTime": "Earnings Over Time",
+      "earningsOverview": "Earnings Overview",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "earnings": "Earnings (EGP)",
+      "noData": "No earning data available yet."
+    },
+    "occupancy": {
+      "title": "Occupancy Rate",
+      "occupied": "Occupied",
+      "vacant": "Vacant"
+    },
+    "pendingRequests": {
+      "title": "Pending Requests",
+      "bookingRequests": "Booking Requests",
+      "none": "No pending requests.",
+      "noPending": "No pending booking requests.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "message": "Message",
+      "new": "New",
+      "tenantLabel": "Tenant",
+      "dateLabel": "Date",
+      "paymentFrequency": "Frequency",
+      "unknownTenant": "Unknown Tenant",
+      "unknownProperty": "Unknown Property"
+    },
+    "contracts": {
+      "title": "Recent Contracts",
+      "history": "Contracts History",
+      "none": "No contracts yet.",
+      "noContracts": "No contracts found.",
+      "download": "Download",
+      "contractId": "Contract ID",
+      "property": "Property",
+      "tenant": "Tenant",
+      "status": "Status",
+      "expiry": "Expiry",
+      "anchoring": "Anchoring",
+      "actions": "Actions"
+    },
+    "receivedPayments": {
+      "title": "Received Payments",
+      "none": "No received payments found.",
+      "date": "Date",
+      "amount": "Amount",
+      "contractId": "Contract ID",
+      "availableAt": "Available At",
+      "status": "Status"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "none": "No notifications.",
+      "unread": "{{count}} unread",
+      "showAll": "Show All",
+      "showLess": "Show Less"
+    },
+    "properties": {
+      "title": "My Properties",
+      "none": "No properties listed yet.",
+      "noPropertiesAdd": "No properties yet.",
+      "addFirst": "Add your first one.",
+      "viewDetails": "View Details",
+      "edit": "Edit",
+      "occupied": "Occupied",
+      "vacant": "Vacant",
+      "full": "Full",
+      "occupiedCount": "Occupied {{occupied}}/{{total}}",
+      "views": "{{count}} views",
+      "monthlyRent": "Rent",
+      "rating": "Rating",
+      "showMore": "Show More",
+      "showAll": "Show All",
+      "showLess": "Show Less"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "messages": "Messages",
+      "addProperty": "Add Property"
+    },
+    "quickStats": {
+      "title": "Quick Stats",
+      "totalProperties": "Total Properties",
+      "pendingRequests": "Pending Requests",
+      "activeContracts": "Active Contracts",
+      "averageRating": "Average Rating",
+      "reviews": "{{count}} reviews"
+    },
+    "toasts": {
+      "bookingAccepted": "Booking request accepted",
+      "acceptFailed": "Failed to accept request",
+      "bookingDeclined": "Booking request declined",
+      "declineFailed": "Failed to decline request",
+      "downloadingContract": "Downloading contract {{id}}",
+      "transferInitiated": "Transfer initiated"
+    },
+    "rentalUsersModal": {
+      "title": "Current Tenants",
+      "activeTenants_one": "{{count}} active tenant",
+      "activeTenants_other": "{{count}} active tenants",
+      "endsLabel": "Ends:",
+      "daysRemaining": "{{count}} days remaining",
+      "endsToday": "Ends today",
+      "expiredDaysAgo": "Expired {{count}} days ago",
+      "contractButton": "Contract",
+      "noActiveTenants": "No active tenants"
+    }
+  }
+}

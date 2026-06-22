@@ -1,0 +1,112 @@
+Privacy Policy
+Last Updated: February 12, 2026
+Your privacy is important to us. This policy explains how we collect, use, and protect your information.
+
+1. Information We Collect
+We collect information you provide directly to us when you create an account, list a property, or use our services. This includes:
+• Personal Information: Name, email address, phone number, profile photo
+• Identity Verification: Government-issued ID, social security number (encrypted)
+• Financial Information: Bank account details, payment card information
+• Property Information: Addresses, photos, descriptions, rental terms
+• Usage Data: How you interact with our platform, search queries, page views
+• Device Information: IP address, browser type, operating system, device identifiers
+• Location Data: GPS coordinates, city, region (with your permission)
+• Communications: Messages sent through our platform, support inquiries
+
+2. How We Use Your Information
+We use the information we collect to:
+• Provide, maintain, and improve our services
+• Process transactions and send related information
+• Verify your identity and prevent fraud
+• Send you technical notices, updates, and support messages
+• Respond to your comments, questions, and customer service requests
+• Communicate with you about products, services, and events
+• Monitor and analyze trends, usage, and activities
+• Personalize and improve your experience
+• Facilitate connections between property owners and tenants
+• Comply with legal obligations and enforce our policies
+
+3. Information Sharing and Disclosure
+We may share your information in the following circumstances:
+• With Other Users: Profile information is visible to other users when you list a property or apply for a rental
+• Service Providers: Third-party vendors who perform services on our behalf (payment processing, identity verification, analytics)
+• Business Transfers: In connection with any merger, sale, or acquisition of all or a portion of our business
+• Legal Requirements: When required by law or to protect our rights and safety
+• With Your Consent: When you explicitly authorize us to share your information
+
+We do NOT sell your personal information to third parties for their marketing purposes.
+
+4. Data Security
+We take reasonable measures to protect your information from unauthorized access, use, or disclosure:
+• 256-bit SSL encryption for data transmission
+• Encrypted storage of sensitive information
+• Regular security audits and penetration testing
+• Restricted access to personal information on a need-to-know basis
+• Multi-factor authentication for account access
+• Compliance with PCI DSS standards for payment processing
+
+However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.
+
+5. Your Privacy Rights
+You have the following rights regarding your personal information:
+• Access: Request a copy of the personal information we hold about you
+• Correction: Update or correct inaccurate information
+• Deletion: Request deletion of your personal information (subject to legal obligations)
+• Portability: Receive your data in a structured, machine-readable format
+• Opt-Out: Unsubscribe from marketing communications at any time
+• Do Not Sell: Egyptian residents have the right to object to data processing for direct marketing (we don't sell data)
+
+To exercise these rights, contact us at kareemmustafafoda@gmail.com or through your account settings.
+
+6. Cookies and Tracking Technologies
+We use cookies and similar tracking technologies to:
+• Remember your preferences and settings
+• Understand how you use our platform
+• Deliver targeted advertising
+• Analyze site traffic and trends
+
+You can control cookies through your browser settings. However, disabling cookies may limit your ability to use certain features of our platform.
+
+7. Third-Party Services
+Our platform may contain links to third-party websites and services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies before providing any information.
+
+We use the following third-party services:
+• Google Analytics for usage analytics
+• Stripe for payment processing
+• AWS for cloud hosting
+• Twilio for SMS notifications
+
+8. Children's Privacy
+MARN is not intended for use by children under the age of 18. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately, and we will take steps to delete such information.
+
+9. International Data Transfers
+Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. By using our services, you consent to the transfer of your information to Egypt and other countries where we operate.
+
+10. Data Retention
+We retain your personal information for as long as necessary to:
+• Provide our services to you
+• Comply with legal obligations
+• Resolve disputes and enforce our agreements
+• Maintain business records
+
+When you delete your account, we will delete or anonymize your personal information within 30 days, except where we are required to retain it for legal purposes.
+
+11. Egyptian Privacy Rights
+Egyptian residents have additional rights under the Egyptian Personal Data Protection Law (PDPL):
+• Right to know what personal data is being processed
+• Right to access personal data
+• Right to correct or modify personal data
+• Right to deletion of personal data
+• Right to object to the processing of personal data
+
+To exercise these rights, email kareemmustafafoda@gmail.com or call 01012345678.
+
+12. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new policy on this page and updating the "Last Updated" date. Your continued use of our services after changes constitutes acceptance of the updated policy.
+
+13. Contact Us
+If you have questions or concerns about this Privacy Policy, please contact us:
+Email: kareemmustafafoda@gmail.com
+Phone: 01012345678
+Address: Besides new Damietta University, New Damietta, Egypt
+Data Protection Officer: dpo@marn.com

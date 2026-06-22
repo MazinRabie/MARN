@@ -1,0 +1,183 @@
+{
+  "tenant": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بعودتك، {{name}}!",
+    "findProperties": "ابحث عن عقارات",
+    "cards": {
+      "nextPaymentDue": "موعد الدفع القادم",
+      "currentRent": "الإيجار الحالي",
+      "noActiveRental": "لا يوجد إيجار نشط",
+      "perMonth": "/ شهر",
+      "activeRentals": "الإيجارات النشطة",
+      "savedProperties": "العقارات المحفوظة",
+      "notifications": "الإشعارات"
+    },
+    "activeRentals": {
+      "title": "الإيجارات النشطة",
+      "none": "لا توجد إيجارات نشطة.",
+      "findProperty": "ابحث عن عقار.",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "monthlyRent": "الإيجار الشهري",
+      "payRent": "دفع الإيجار",
+      "status": "الحالة"
+    },
+    "pendingRequests": {
+      "title": "الطلبات المعلقة"
+    },
+    "recommended": {
+      "title": "موصى به لك",
+      "none": "لا توجد توصيات متاحة."
+    },
+    "recentNotifications": {
+      "title": "الإشعارات الأخيرة",
+      "none": "لا توجد إشعارات بعد."
+    },
+    "contracts": {
+      "title": "العقود",
+      "viewDocument": "عرض المستند"
+    },
+    "savedPropertiesCard": {
+      "title": "العقارات المحفوظة",
+      "viewAll": "عرض الكل"
+    },
+    "paymentHistory": {
+      "title": "سجل المدفوعات"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "payRent": "دفع الإيجار",
+      "requestMaintenance": "طلب صيانة",
+      "contactLandlord": "التواصل مع المالك"
+    }
+  },
+  "owner": {
+    "title": "لوحة المالك",
+    "subtitle": "أدر عقاراتك وتابع الأداء",
+    "addNewProperty": "إضافة عقار جديد",
+    "cards": {
+      "totalProperties": "إجمالي العقارات",
+      "occupiedVacant": "{{occupied}} مشغول • {{vacant}} شاغر",
+      "monthlyRevenue": "الإيرادات الشهرية",
+      "totalViews": "{{count}} مشاهدة",
+      "withdrawableEarnings": "الأرباح القابلة للسحب",
+      "onHold": "محتجز:",
+      "transferMoney": "تحويل الأموال",
+      "withdraw": "سحب",
+      "withdrawing": "جاري السحب...",
+      "connectStripe": "ربط سترايب",
+      "connecting": "جاري الربط...",
+      "activeBookings": "الحجوزات النشطة",
+      "pendingRequests": "الطلبات المعلقة",
+      "awaitingResponse": "بانتظار ردك"
+    },
+    "chart": {
+      "earningsOverTime": "الأرباح عبر الزمن",
+      "earningsOverview": "نظرة عامة على الأرباح",
+      "monthly": "شهري",
+      "yearly": "سنوي",
+      "earnings": "الأرباح (جنيه)",
+      "noData": "لا تتوفر بيانات أرباح بعد."
+    },
+    "occupancy": {
+      "title": "نسبة الإشغال",
+      "occupied": "مشغول",
+      "vacant": "شاغر"
+    },
+    "pendingRequests": {
+      "title": "الطلبات المعلقة",
+      "bookingRequests": "طلبات الحجز",
+      "none": "لا توجد طلبات معلقة.",
+      "noPending": "لا توجد طلبات حجز معلقة.",
+      "accept": "قبول",
+      "decline": "رفض",
+      "message": "رسالة",
+      "new": "جديد",
+      "tenantLabel": "المستأجر",
+      "dateLabel": "التاريخ",
+      "paymentFrequency": "معدل الدفع",
+      "unknownTenant": "مستأجر غير معروف",
+      "unknownProperty": "عقار غير معروف"
+    },
+    "contracts": {
+      "title": "أحدث العقود",
+      "history": "سجل العقود",
+      "none": "لا توجد عقود بعد.",
+      "noContracts": "لم يتم العثور على عقود.",
+      "download": "تحميل",
+      "contractId": "رقم العقد",
+      "property": "العقار",
+      "tenant": "المستأجر",
+      "status": "الحالة",
+      "expiry": "تاريخ الانتهاء",
+      "anchoring": "التوثيق المالي",
+      "actions": "إجراءات"
+    },
+    "receivedPayments": {
+      "title": "المدفوعات المستلمة",
+      "none": "لم يتم العثور على مدفوعات.",
+      "date": "التاريخ",
+      "amount": "المبلغ",
+      "contractId": "رقم العقد",
+      "availableAt": "متاح في",
+      "status": "الحالة"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "none": "لا توجد إشعارات.",
+      "unread": "{{count}} غير مقروء",
+      "showAll": "عرض الكل",
+      "showLess": "عرض أقل"
+    },
+    "properties": {
+      "title": "عقاراتي",
+      "none": "لم تُضف أي عقارات بعد.",
+      "noPropertiesAdd": "لا توجد عقارات بعد.",
+      "addFirst": "أضف أول عقار.",
+      "viewDetails": "عرض التفاصيل",
+      "edit": "تعديل",
+      "occupied": "مشغول",
+      "vacant": "شاغر",
+      "full": "مكتمل",
+      "occupiedCount": "مشغول {{occupied}}/{{total}}",
+      "views": "{{count}} مشاهدة",
+      "monthlyRent": "الإيجار",
+      "rating": "التقييم",
+      "showMore": "عرض المزيد",
+      "showAll": "عرض الكل",
+      "showLess": "عرض أقل"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "messages": "الرسائل",
+      "addProperty": "إضافة عقار"
+    },
+    "quickStats": {
+      "title": "إحصائيات سريعة",
+      "totalProperties": "إجمالي العقارات",
+      "pendingRequests": "الطلبات المعلقة",
+      "activeContracts": "العقود النشطة",
+      "averageRating": "متوسط التقييم",
+      "reviews": "{{count}} تقييم"
+    },
+    "toasts": {
+      "bookingAccepted": "تم قبول طلب الحجز",
+      "acceptFailed": "فشل قبول الطلب",
+      "bookingDeclined": "تم رفض طلب الحجز",
+      "declineFailed": "فشل رفض الطلب",
+      "downloadingContract": "جارٍ تحميل العقد {{id}}",
+      "transferInitiated": "تم بدء التحويل"
+    },
+    "rentalUsersModal": {
+      "title": "المستأجرون الحاليون",
+      "activeTenants_one": "مستأجر نشط واحد",
+      "activeTenants_other": "{{count}} مستأجر نشط",
+      "endsLabel": "ينتهي:",
+      "daysRemaining": "{{count}} يوم متبقٍّ",
+      "endsToday": "ينتهي اليوم",
+      "expiredDaysAgo": "انتهى منذ {{count}} يوم",
+      "contractButton": "العقد",
+      "noActiveTenants": "لا يوجد مستأجرون نشطون"
+    }
+  }
+}

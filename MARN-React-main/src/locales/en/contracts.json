@@ -1,0 +1,53 @@
+{
+  "title": "Rental Contract",
+  "subtitle": "Download, sign, and upload your rental agreement",
+  "download": "Download Contract",
+  "upload": "Upload Signed Contract",
+  "submit": "Submit Contract",
+  "status": {
+    "active": "Active",
+    "expired": "Expired",
+    "pending": "Pending"
+  },
+  "tenant": "Tenant",
+  "owner": "Owner",
+  "property": "Property",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "monthlyRent": "Monthly Rent",
+  "noContract": "No contract found.",
+  "back": "Back",
+  "notFound": "Contract not found.",
+  "contractStatus": "Contract Status",
+  "contractDetails": "Contract Details",
+  "contractId": "Contract ID",
+  "rentalPeriod": "Rental Period",
+  "rentalAgreementPdf": "Rental Agreement PDF",
+  "rentalAgreementDesc": "Download the rental contract, review all terms carefully, sign it, and upload the signed copy below.",
+  "uploadSignedDoc": "Upload Signed Document (PDF only)",
+  "clickToUpload": "Click to upload signed contract",
+  "pdfFormatOnly": "PDF format only",
+  "contractUploadedSuccess": "Contract uploaded successfully",
+  "importantNotes": {
+    "title": "Important Notes",
+    "readCarefully": "Please read the entire contract carefully before signing",
+    "bothParties": "Both parties must sign the contract for it to be valid",
+    "keepCopy": "Keep a copy of the signed contract for your records",
+    "contactSupport": "Contact support if you have any questions or concerns",
+    "effectiveDate": "The contract becomes effective on the start date specified"
+  },
+  "statusText": {
+    "awaitingSignatures": "Awaiting signatures",
+    "fullyExecuted": "Fully executed",
+    "expired": "Contract expired",
+    "terminated": "Contract terminated"
+  },
+  "cancel": "Cancel",
+  "toasts": {
+    "downloaded": "Contract downloaded successfully",
+    "uploaded": "Signed contract uploaded successfully",
+    "pdfOnly": "Please upload a PDF file",
+    "submitted": "Contract submitted for review. You will be notified once approved.",
+    "uploadFirst": "Please upload the signed contract first"
+  }
+}

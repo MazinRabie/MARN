@@ -1,0 +1,19 @@
+## Account & Registration
+
+**How do I create a MARN account?**
+You can register using your email address. After submitting your details, the system sends a confirmation link to verify your account before it is activated.
+
+**Can I be both an owner and a renter on the same account?**
+Yes. MARN allows users to select and update their roles. You can act as a renter, an owner, or both from the same account.
+
+**How do I reset my password?**
+Use the "Forgot Password" option on the login screen. The system will send you a verification link to reset your password securely.
+
+**Does MARN support two-factor authentication (2FA)?**
+Yes. MARN supports optional two-factor authentication (2FA), which can be toggled on or off from your profile settings.
+
+**Can I sign in using Google?**
+Yes. MARN supports Google Login as an alternative to email-based registration.
+
+**How do I update my profile information?**
+Go to your Profile Settings screen, where you can edit personal information, upload a profile picture, change your password, and adjust language or notification preferences.

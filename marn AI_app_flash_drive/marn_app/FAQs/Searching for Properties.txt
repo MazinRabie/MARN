@@ -1,0 +1,25 @@
+## Searching for Properties
+
+**How can I search for a property?**
+From the Property Search screen, you can search by:
+- Location (city or area within any of the 27 governorates)
+- Keywords
+- Property type (apartment, room, bed)
+- Price range
+- Rental duration
+- Number of occupants
+
+**Can I view property locations on a map?**
+Yes. MARN integrates map-based property visualization so you can see listings geographically.
+
+**What information is shown on a property listing?**
+Each listing shows photos, description, amenities, house rules, pricing, availability, owner information, location, and user ratings and reviews.
+
+**Can I save or bookmark properties?**
+Yes. Authenticated users can save or bookmark properties to revisit them later.
+
+**Are all visible listings verified?**
+Yes. Only listings that have been approved by MARN administrators appear publicly. Pending or rejected listings are not visible to renters.
+
+**What if no results match my search?**
+The system will display a "No listings available" message. You can adjust your filters or try different search terms.

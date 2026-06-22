@@ -1,0 +1,32 @@
+## Technical Stack & Architecture
+
+**What technologies power MARN?**
+
+| Layer | Technology |
+|---|---|
+| Backend API | ASP.NET Core Web API |
+| AI Microservice | FastAPI (Python) |
+| Mobile App | Flutter (Android & iOS) |
+| Web App | React.js |
+| Database | Microsoft SQL Server + Entity Framework Core |
+| Real-Time Communication | SignalR |
+| AI Recommendation Engine | FAISS, KNN (Ball-Tree), DBSCAN, TF-IDF |
+| AI Chatbot | LangGraph ReAct architecture + Qwen LLM |
+| Blockchain Timestamping | OpenTimestamps (Bitcoin network) |
+| Push Notifications | Firebase Cloud Messaging (FCM) |
+
+**How does the recommendation engine work at a technical level?**
+Each property is represented as a 58-dimensional feature vector combining 8 weighted numeric features (price, area, bedrooms, bathrooms, beds, max occupants, latitude, longitude) and a 50-dimensional TF-IDF title encoding. These are indexed in a FAISS index (cosine similarity via L2-normalized inner product). Behavior-based personalization uses DBSCAN geographic clustering to identify user interest zones, then performs FAISS search per cluster with weighted interaction scores and recency decay.
+
+**What is the chatbot's architecture?**
+The chatbot uses a LangGraph ReAct (Reasoning + Acting) agent architecture with a local Qwen3.5-4B large language model served via LM Studio. It maintains conversation history in the database (AssistantSessions / AssistantMessages tables) for chat persistence across sessions.
+
+**How is data secured on MARN?**
+- Role-based access control (renter, owner, admin)
+- JWT-based authentication with 2FA support
+- Encrypted storage for legal documents and contracts
+- HTTPS for all client-server communication
+- Audit logs for critical system operations
+
+**What development methodology was used?**
+MARN was developed using the Agile methodology, with iterative sprints covering requirements analysis, architecture design, UI/UX prototyping, backend development, frontend integration, and testing & refinement.

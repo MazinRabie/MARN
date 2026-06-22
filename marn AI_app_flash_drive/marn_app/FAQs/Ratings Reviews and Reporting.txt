@@ -1,0 +1,10 @@
+## Ratings, Reviews & Reporting
+
+**Can I rate a property after renting it?**
+Yes. After a completed rental, you can submit a star rating and a written review for the property.
+
+**Where are ratings displayed?**
+Average ratings and individual reviews appear on property detail pages, helping other renters make informed decisions.
+
+**How do I report an inappropriate listing or user?**
+Use the Report function on the listing or user profile. Submitted reports are forwarded to MARN administrators for review and moderation.

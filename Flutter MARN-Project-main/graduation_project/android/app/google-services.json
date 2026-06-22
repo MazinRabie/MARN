@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7797512915",
+    "project_id": "marn-48249",
+    "storage_bucket": "marn-48249.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7797512915:android:f40590ae07f493b1b35226",
+        "android_client_info": {
+          "package_name": "com.example.graduation_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB47W8rOSWdLYiXQlVJNnA7VqIdrhTXEiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

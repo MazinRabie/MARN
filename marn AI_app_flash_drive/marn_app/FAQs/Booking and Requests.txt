@@ -1,0 +1,16 @@
+## Booking & Requests
+
+**How do I book a property?**
+Open the property page and click "Book Now." A booking request will be sent to the owner, who will be notified and can accept or reject it.
+
+**Can I schedule a property visit before booking?**
+Yes. MARN allows renters to schedule property visits as part of the request workflow.
+
+**What happens after my booking request is accepted?**
+Once the owner accepts, the system moves to the digital contract stage, where both parties review and sign the agreement.
+
+**Can I cancel a booking request?**
+Yes. Renters can cancel a booking request before it is accepted.
+
+**How are owners notified of new requests?**
+The system sends real-time notifications to owners when a new booking request arrives.

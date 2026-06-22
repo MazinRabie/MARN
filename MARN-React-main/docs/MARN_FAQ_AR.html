@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARN — الأسئلة الشائعة</title>
+  <style>
+    /* ── Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', 'Cairo', 'Noto Sans Arabic', Tahoma, Arial, sans-serif;
+      direction: rtl;
+      text-align: right;
+      background: #f8f9fb;
+      color: #1a1a2e;
+      line-height: 1.85;
+      font-size: 16px;
+    }
+
+    /* ── Layout ── */
+    .page-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      border-radius: 14px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 .en-brand {
+      color: #e94560;
+      font-style: italic;
+    }
+    header .sub {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.7;
+    }
+    header .sub .en {
+      direction: ltr;
+      display: inline-block;
+    }
+
+    /* ── Table of Contents ── */
+    .toc {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    }
+    .toc h2 {
+      font-size: 1.1rem;
+      color: #0f3460;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e94560;
+    }
+    .toc ol {
+      padding-right: 1.5rem;
+      padding-left: 0;
+      columns: 2;
+      column-gap: 2rem;
+    }
+    @media (max-width: 600px) { .toc ol { columns: 1; } }
+    .toc li { margin-bottom: 0.35rem; }
+    .toc a {
+      color: #0f3460;
+      text-decoration: none;
+      font-size: 0.93rem;
+      transition: color .2s;
+    }
+    .toc a:hover { color: #e94560; text-decoration: underline; }
+
+    /* ── Sections ── */
+    .faq-section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 1px 6px rgba(0,0,0,.06);
+    }
+    .faq-section h2 {
+      font-size: 1.25rem;
+      color: #0f3460;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 2px solid #e94560;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+    .faq-section h2 .num {
+      background: #e94560;
+      color: #fff;
+      border-radius: 50%;
+      width: 1.8rem;
+      height: 1.8rem;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* ── Q&A ── */
+    .qa { margin-bottom: 1.4rem; }
+    .qa:last-child { margin-bottom: 0; }
+    .qa .q {
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 0.45rem;
+      font-size: 1rem;
+    }
+    .qa .a {
+      color: #374151;
+      font-size: 0.97rem;
+    }
+
+    /* ── Lists inside answers ── */
+    .qa .a ul, .qa .a ol {
+      padding-right: 1.4rem;
+      padding-left: 0;
+      margin-top: 0.5rem;
+    }
+    .qa .a ul li, .qa .a ol li { margin-bottom: 0.3rem; }
+
+    /* ── Numbered steps ── */
+    .steps { margin-top: 0.5rem; }
+    .steps li { margin-bottom: 0.3rem; }
+
+    /* ── Tech table ── */
+    .tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.91rem;
+      margin-top: 0.75rem;
+    }
+    .tech-table th {
+      background: #0f3460;
+      color: #fff;
+      padding: 0.55rem 0.75rem;
+      text-align: right;
+    }
+    .tech-table td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    .tech-table tr:nth-child(even) td { background: #f8f9fb; }
+    .tech-table td:last-child {
+      direction: ltr;
+      text-align: left;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 0.88rem;
+      color: #0f3460;
+    }
+
+    /* ── Contract status flow ── */
+    .status-flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+      direction: ltr; /* arrow sequence reads left-to-right */
+      justify-content: flex-end;
+    }
+    .status-flow .st {
+      background: #e8f0fe;
+      color: #0f3460;
+      border-radius: 20px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .status-flow .arr { color: #e94560; font-weight: 700; align-self: center; }
+
+    /* ── Inline English ── */
+    /* LTR islands: technical terms, proper nouns, URLs, code */
+    .en {
+      direction: ltr;
+      unicode-bidi: embed;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #0f3460;
+      font-weight: 600;
+    }
+    .en.code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #f1f5f9;
+      padding: 0.1em 0.35em;
+      border-radius: 4px;
+      font-size: 0.88em;
+      color: #c0392b;
+      font-weight: normal;
+    }
+    .en.url {
+      font-family: 'Consolas', 'Courier New', monospace;
+      color: #e94560;
+      font-weight: normal;
+      font-size: 0.92em;
+    }
+
+    /* ── Highlight badge ── */
+    .badge {
+      display: inline-block;
+      background: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffc107;
+      border-radius: 4px;
+      padding: 0.05rem 0.4rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.88rem;
+      color: #6b7280;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 1.5rem;
+    }
+    footer strong { color: #e94560; }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header>
+    <h1><span class="en-brand">MARN</span> — الأسئلة الشائعة</h1>
+    <p class="sub">
+      <strong>شبكة تأجير السكن الحديثة</strong><br>
+      جامعة دمياط · كلية الحاسبات والذكاء الاصطناعي · مشروع تخرج 2025/2026
+    </p>
+  </header>
+
+  <!-- ═══════════ TABLE OF CONTENTS ═══════════ -->
+  <nav class="toc">
+    <h2>📋 فهرس المحتويات</h2>
+    <ol>
+      <li><a href="#s1">عام ونظرة عامة</a></li>
+      <li><a href="#s2">الحساب والتسجيل</a></li>
+      <li><a href="#s3">التحقق من الهوية</a></li>
+      <li><a href="#s4">البحث عن عقارات</a></li>
+      <li><a href="#s5">إدراج عقار (الملّاك)</a></li>
+      <li><a href="#s6">الحجز والطلبات</a></li>
+      <li><a href="#s7">مطابقة الشركاء في السكن</a></li>
+      <li><a href="#s8">التوصيات الذكية والشاتبوت</a></li>
+      <li><a href="#s9">العقود الرقمية والبلوك‌تشين</a></li>
+      <li><a href="#s10">المدفوعات</a></li>
+      <li><a href="#s11">التواصل والإشعارات</a></li>
+      <li><a href="#s12">التقييمات والمراجعات والإبلاغ</a></li>
+      <li><a href="#s13">الإدارة وحوكمة المنصة</a></li>
+      <li><a href="#s14">التقنيات والبنية</a></li>
+      <li><a href="#s15">التحسينات المستقبلية</a></li>
+    </ol>
+  </nav>
+
+  <!-- ═══════════ SECTION 1 ═══════════ -->
+  <section class="faq-section" id="s1">
+    <h2><span class="num">١</span> عام ونظرة عامة</h2>
+
+    <div class="qa">
+      <p class="q">ما هي <span class="en">MARN</span>؟</p>
+      <p class="a">
+        <span class="en">MARN</span> (<span class="en">Modern Accommodation Rent Network</span>) هي منصة رقمية مركزية تغطي جميع أنحاء مصر، وتربط أصحاب العقارات بالمستأجرين. تدعم المنصة دورة الإيجار بالكامل — من البحث والحجز إلى العقود الرقمية والتوقيعات المُرسَّخة على البلوك‌تشين والمدفوعات الإلكترونية — وكل ذلك داخل تطبيق واحد سهل الاستخدام.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">لمن صُمِّمت <span class="en">MARN</span>؟</p>
+      <p class="a">
+        تخدم <span class="en">MARN</span> شرائح واسعة من المستخدمين: الطلاب، والمهنيين الشباب، والأسر، والعمال، والمغتربين. كما تخدم أصحاب العقارات الراغبين في إدراج وحداتهم وإدارتها رقمياً.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما أنواع السكن التي تدعمها <span class="en">MARN</span>؟</p>
+      <p class="a">تدعم المنصة ثلاثة أنواع:</p>
+      <ul class="a">
+        <li><strong>شقق كاملة</strong> — للأسر أو المجموعات الراغبة في وحدة مستقلة</li>
+        <li><strong>غرف خاصة</strong> — للأفراد الراغبين في مساحة مخصصة لهم</li>
+        <li><strong>أسرّة مشتركة</strong> — للطلاب أو المستأجرين ذوي الميزانية المحدودة في مساكن مشتركة</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما الذي يُميّز <span class="en">MARN</span> عن منصات مثل <span class="en">Roomster</span> و<span class="en">Aqarmap</span> و<span class="en">Airbnb</span>؟</p>
+      <p class="a"><span class="en">MARN</span> هي المنصة الوحيدة التي تجمع كل ما يلي في مكان واحد:</p>
+      <ul class="a">
+        <li>إدارة الإيجار الكاملة من البداية للنهاية (بحث → حجز → عقد → دفع)</li>
+        <li>توصيات عقارية ذكية ومخصصة بتقنية الذكاء الاصطناعي</li>
+        <li>مطابقة شركاء السكن بناءً على أسلوب الحياة</li>
+        <li>عقود رقمية مُرسَّخة على البلوك‌تشين (الأولى من نوعها في مصر)</li>
+        <li>مدفوعات إلكترونية متكاملة مع جدولة شهرية</li>
+        <li>شاتبوت ذكاء اصطناعي يدعم العربية والإنجليزية</li>
+        <li>تغطية وطنية شاملة لجميع المحافظات المصرية</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل <span class="en">MARN</span> متاحة في جميع أنحاء مصر؟</p>
+      <p class="a">
+        نعم. تغطي <span class="en">MARN</span> جميع المحافظات المصرية الـ 27، بما فيها المدن والمناطق الأصغر التي نادراً ما تُمثَّل على المنصات العالمية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">على أي منصات يمكنني استخدام <span class="en">MARN</span>؟</p>
+      <p class="a">
+        <span class="en">MARN</span> متاحة عبر:
+      </p>
+      <ul class="a">
+        <li>تطبيق جوال مبني بتقنية <span class="en">Flutter</span> (يعمل على <span class="en">Android</span> و<span class="en">iOS</span>)</li>
+        <li>تطبيق ويب مبني بتقنية <span class="en">React.js</span> يعمل عبر المتصفح</li>
+      </ul>
+      <p class="a">
+        المنصة منشورة ويمكن الوصول إليها على:
+        <span class="en url">marn.runasp.net</span> و<span class="en url">marn-six.vercel.app</span>.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما اللغات التي تدعمها <span class="en">MARN</span>؟</p>
+      <p class="a">
+        تدعم <span class="en">MARN</span> دعماً كاملاً للغتين <strong>العربية</strong> و<strong>الإنجليزية</strong>، بما في ذلك الشاتبوت وجميع عناصر واجهة المستخدم.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 2 ═══════════ -->
+  <section class="faq-section" id="s2">
+    <h2><span class="num">٢</span> الحساب والتسجيل</h2>
+
+    <div class="qa">
+      <p class="q">كيف أنشئ حساباً على <span class="en">MARN</span>؟</p>
+      <p class="a">
+        يمكنك التسجيل باستخدام بريدك الإلكتروني. بعد إرسال بياناتك، يُرسل النظام رابط تأكيد للتحقق من حسابك قبل تفعيله.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني أن أكون مالكاً ومستأجراً في نفس الحساب؟</p>
+      <p class="a">
+        نعم. تتيح <span class="en">MARN</span> للمستخدمين اختيار أدوارهم وتغييرها. يمكنك التصرف كمستأجر أو مالك أو كليهما من نفس الحساب.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف أعيد تعيين كلمة مروري؟</p>
+      <p class="a">
+        استخدم خيار «نسيتَ كلمة المرور» في شاشة تسجيل الدخول، وسيُرسل النظام إليك رابط تحقق لإعادة تعيين كلمة المرور بأمان.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل تدعم <span class="en">MARN</span> المصادقة الثنائية (<span class="en">2FA</span>)؟</p>
+      <p class="a">
+        نعم. تدعم <span class="en">MARN</span> المصادقة الثنائية الاختيارية (<span class="en">2FA</span>)، ويمكن تفعيلها أو إيقافها من إعدادات ملفك الشخصي.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني تسجيل الدخول باستخدام <span class="en">Google</span>؟</p>
+      <p class="a">
+        نعم. تدعم <span class="en">MARN</span> تسجيل الدخول عبر <span class="en">Google</span> كبديل للتسجيل بالبريد الإلكتروني.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف أُحدِّث معلومات ملفي الشخصي؟</p>
+      <p class="a">
+        انتقل إلى شاشة <strong>إعدادات الملف الشخصي</strong>، حيث يمكنك تعديل المعلومات الشخصية، ورفع صورة الملف، وتغيير كلمة المرور، وضبط تفضيلات اللغة والإشعارات.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 3 ═══════════ -->
+  <section class="faq-section" id="s3">
+    <h2><span class="num">٣</span> التحقق من الهوية</h2>
+
+    <div class="qa">
+      <p class="q">لماذا أحتاج إلى التحقق من هويتي؟</p>
+      <p class="a">
+        يضمن التحقق مستوى الثقة على المنصة والامتثال القانوني. لا يستطيع المستخدمون غير المُتحقَّق منهم إنشاء قوائم عقارات أو إبرام عقود إيجار.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما المستندات المطلوبة للتحقق؟</p>
+      <ul class="a">
+        <li><strong>المستأجرون:</strong> وثيقة هوية قانونية سارية المفعول (مثل بطاقة الرقم القومي)</li>
+        <li><strong>الملّاك:</strong> بطاقة الرقم القومي إضافةً إلى مستندات إثبات ملكية العقار</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف تسير عملية التحقق؟</p>
+      <ol class="a steps">
+        <li>ارفع مستنداتك من قسم إعدادات الملف الشخصي أو قسم التحقق</li>
+        <li>يتحقق النظام من صيغة الملف ويحفظ المستندات بشكل آمن</li>
+        <li>تُرسَل المستندات للمراجعة الإدارية</li>
+        <li>ستتلقى إشعاراً فور اتخاذ قرار بالموافقة أو الرفض</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">كم يستغرق التحقق؟</p>
+      <p class="a">
+        يراجع مديرو <span class="en">MARN</span> طلبات التحقق، وستتلقى إشعاراً بمجرد البت في الطلب.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يحدث إذا رُفض طلب التحقق الخاص بي؟</p>
+      <p class="a">
+        ستُبلَّغ بالرفض، ويمكنك إعادة رفع المستندات المصحَّحة وإعادة تقديمها للمراجعة.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 4 ═══════════ -->
+  <section class="faq-section" id="s4">
+    <h2><span class="num">٤</span> البحث عن عقارات</h2>
+
+    <div class="qa">
+      <p class="q">كيف أبحث عن عقار؟</p>
+      <p class="a">من شاشة البحث عن العقارات، يمكنك البحث بحسب:</p>
+      <ul class="a">
+        <li>الموقع (المدينة أو المنطقة داخل أي من المحافظات الـ 27)</li>
+        <li>الكلمات الرئيسية</li>
+        <li>نوع العقار (شقة، غرفة، سرير)</li>
+        <li>نطاق السعر</li>
+        <li>مدة الإيجار</li>
+        <li>عدد الساكنين</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني عرض مواقع العقارات على خريطة؟</p>
+      <p class="a">
+        نعم. تدمج <span class="en">MARN</span> عرضاً جغرافياً للعقارات على الخريطة لتتمكن من رؤية القوائم بصورة مكانية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما المعلومات الظاهرة على قائمة العقار؟</p>
+      <p class="a">
+        تعرض كل قائمة: الصور، والوصف، والمرافق، وقواعد المنزل، والأسعار، والإتاحة، ومعلومات المالك، والموقع، وتقييمات ومراجعات المستخدمين.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني حفظ العقارات أو وضع إشارة مرجعية عليها؟</p>
+      <p class="a">
+        نعم. يستطيع المستخدمون المسجلون حفظ العقارات أو وضع إشارات مرجعية عليها لمراجعتها لاحقاً.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل جميع القوائم الظاهرة مُعتمَدة؟</p>
+      <p class="a">
+        نعم. تظهر للمستأجرين فقط القوائم التي وافق عليها مديرو <span class="en">MARN</span>؛ لا تظهر القوائم المعلقة أو المرفوضة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا لو لم تتطابق نتائج البحث مع ما أبحث عنه؟</p>
+      <p class="a">
+        سيعرض النظام رسالة «لا توجد قوائم متاحة»، ويمكنك تعديل عوامل التصفية أو تجربة مصطلحات بحث مختلفة.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 5 ═══════════ -->
+  <section class="faq-section" id="s5">
+    <h2><span class="num">٥</span> إدراج عقار (الملّاك)</h2>
+
+    <div class="qa">
+      <p class="q">كيف أُدرج عقاري على <span class="en">MARN</span>؟</p>
+      <p class="a">
+        بعد التحقق من هويتك كمالك، انتقل إلى لوحة تحكم المالك واختر «إضافة عقار»، ثم أكمل تفاصيل العقار عبر المراحل التالية:
+      </p>
+      <ol class="a steps">
+        <li><strong>المرحلة الأولى:</strong> البيانات الأساسية — العنوان، النوع، العنوان، المدينة، السعر، والطاقة الاستيعابية</li>
+        <li><strong>المرحلة الثانية:</strong> المرافق — اختر المميزات كالواي‌فاي ومواقف السيارات والتكييف</li>
+        <li><strong>المرحلة الثالثة:</strong> الوسائط — ارفع صوراً عالية الجودة للعقار</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما أنواع العقارات التي يمكنني إدراجها؟</p>
+      <p class="a">
+        يمكنك إدراج <strong>شقة كاملة</strong>، أو <strong>غرفة</strong>، أو <strong>سرير مشترك</strong>.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما التفاصيل التي يمكنني تحديدها في قائمتي؟</p>
+      <p class="a">
+        يمكنك تحديد السعر، ومدة الإيجار، وقواعد الإشغال، والمرافق، وقواعد المنزل، ورفع الصور والمقاطع المرئية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يحدث بعد تقديم قائمة العقار؟</p>
+      <p class="a">
+        تُحفَظ قائمتك بحالة <span class="badge">قيد الانتظار</span> وتُرسَل للمراجعة الإدارية، ولن تُنشر وتظهر للمستأجرين إلا بعد الموافقة عليها.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني تعديل قائمة أو حذفها بعد نشرها؟</p>
+      <p class="a">
+        نعم. من لوحة تحكم المالك يمكنك تعديل قوائمك أو إلغاء تنشيطها أو حذفها في أي وقت.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني إخفاء قائمتي مؤقتاً دون حذفها؟</p>
+      <p class="a">
+        نعم. يمكنك إلغاء تنشيط القائمة لإخفائها من نتائج البحث دون إزالتها نهائياً.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 6 ═══════════ -->
+  <section class="faq-section" id="s6">
+    <h2><span class="num">٦</span> الحجز والطلبات</h2>
+
+    <div class="qa">
+      <p class="q">كيف أحجز عقاراً؟</p>
+      <p class="a">
+        افتح صفحة العقار واضغط على <strong>«احجز الآن»</strong>، وسيُرسَل طلب الحجز إلى المالك الذي سيتلقى إشعاراً ويستطيع قبوله أو رفضه.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني جدولة زيارة للعقار قبل الحجز؟</p>
+      <p class="a">
+        نعم. تتيح <span class="en">MARN</span> للمستأجرين جدولة زيارات للعقار كجزء من سير عملية الطلب.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يحدث بعد قبول طلب الحجز؟</p>
+      <p class="a">
+        بمجرد قبول المالك، ينتقل النظام إلى مرحلة العقد الرقمي حيث يراجع كلا الطرفين بنود الاتفاقية ويوقعان عليها.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني إلغاء طلب حجز؟</p>
+      <p class="a">
+        نعم. يستطيع المستأجر إلغاء طلب الحجز قبل قبوله.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف يُبلَّغ الملّاك بالطلبات الجديدة؟</p>
+      <p class="a">
+        يُرسل النظام إشعارات فورية إلى الملّاك عند وصول أي طلب حجز جديد.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 7 ═══════════ -->
+  <section class="faq-section" id="s7">
+    <h2><span class="num">٧</span> مطابقة الشركاء في السكن</h2>
+
+    <div class="qa">
+      <p class="q">كيف يعمل نظام مطابقة الشركاء في السكن؟</p>
+      <p class="a">
+        تستخدم <span class="en">MARN</span> نموذجاً خوارزمياً للتوافق؛ يُدخل المستخدمون تفضيلات أسلوب حياتهم ويُطابقهم النظام مع شركاء متوافقين بناءً على تلك المدخلات.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما التفضيلات التي يمكنني تحديدها لمطابقة الشركاء؟</p>
+      <ul class="a">
+        <li>جدول النوم والعادات اليومية</li>
+        <li>تفضيلات التدخين</li>
+        <li>امتلاك حيوانات أليفة</li>
+        <li>تفضيلات الجنس</li>
+        <li>الخلفية التعليمية ومجال الدراسة</li>
+        <li>نطاق الميزانية</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">أين أُحدِّد تفضيلات الشركاء؟</p>
+      <p class="a">
+        انتقل إلى <strong>إعدادات الملف الشخصي ← تفضيلات الشريك في السكن</strong> لتحديد ملفك الشخصي وتحديثه.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف يُحسَب مستوى التوافق؟</p>
+      <p class="a">
+        يحسب النظام درجة توافق بناءً على مدى تطابق تفضيلات كل مستخدم مع المطابقات المحتملة، وتُرتَّب النتائج مع ملخص للسمات المتطابقة وغير المتطابقة (مثل التدخين والحيوانات الأليفة وأوقات النوم).
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني التواصل مع شريك سكن مقترح؟</p>
+      <p class="a">
+        نعم. من شاشة مطابقات الشركاء يمكنك الاطلاع على الملف الأساسي للمطابقة وبدء التواصل.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 8 ═══════════ -->
+  <section class="faq-section" id="s8">
+    <h2><span class="num">٨</span> التوصيات الذكية والشاتبوت</h2>
+
+    <div class="qa">
+      <p class="q">كيف توصي <span class="en">MARN</span> بعقارات لي؟</p>
+      <p class="a">يحلّل محرك التوصيات نشاطك على المنصة — بما يشمل البحث والقوائم المُشاهَدة والعقارات المحفوظة والحجوزات — ويعتمد على ثلاثة أساليب:</p>
+      <ul class="a">
+        <li><strong>البحث بالمعايير:</strong> عند تطبيق الفلاتر، يستخدم المحرك بحث <span class="en">FAISS</span> المتجهي على متجهات سمات ذات 58 بُعداً لاستخراج أكثر القوائم ملاءمةً.</li>
+        <li><strong>التخصيص بناءً على السلوك:</strong> بناءً على نشاطك السابق، يحدد تجميع <span class="en">DBSCAN</span> الجغرافي مناطق اهتمامك، ثم يسترجع <span class="en">FAISS</span> اقتراحات مُخصَّصة مع إعطاء وزن أكبر للتفاعلات الأحدث.</li>
+        <li><strong>اكتشاف القوائم المتشابهة:</strong> على أي صفحة عقار يمكنك رؤية قوائم مشابهة مرتبة بحسب تشابه جيب التمام (<span class="en">cosine similarity</span>).</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل تتحسن التوصيات مع الوقت؟</p>
+      <p class="a">
+        نعم. كلما تفاعلت أكثر مع المنصة (بحث، مشاهدة، حفظ، حجز)، كانت توصياتك المخصصة أكثر دقة. تحمل التفاعلات الأحدث وزناً أكبر بفضل نموذج التراجع الزمني.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما هو شاتبوت <span class="en">MARN</span> الذكي؟</p>
+      <p class="a">
+        الشاتبوت مساعد مُدمَج يساعدك في اكتشاف العقارات وفهم ميزات المنصة والتنقل خلال عملية الإيجار عبر محادثة طبيعية، وهو متاح على مدار الساعة طوال أيام الأسبوع ويدعم العربية والإنجليزية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">بمَ يمكن للشاتبوت مساعدتي؟</p>
+      <ul class="a">
+        <li>البحث عن العقارات وتصفيتها</li>
+        <li>الإجابة على الأسئلة المتعلقة بآلية عمل <span class="en">MARN</span></li>
+        <li>الإرشاد خلال عملية الحجز والعقد</li>
+        <li>تقديم اقتراحات سياقية أثناء جلسة استخدامك</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل الشاتبوت متاح على التطبيق والموقع معاً؟</p>
+      <p class="a">
+        نعم. الشاتبوت متاح عبر تطبيق الجوال المبني بـ<span class="en">Flutter</span> وعبر تطبيق الويب المبني بـ<span class="en">React.js</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 9 ═══════════ -->
+  <section class="faq-section" id="s9">
+    <h2><span class="num">٩</span> العقود الرقمية والبلوك‌تشين</h2>
+
+    <div class="qa">
+      <p class="q">كيف يعمل العقد الرقمي؟</p>
+      <p class="a">بمجرد قبول الحجز، يُنشئ النظام تلقائياً عقد إيجار رقمياً، يراجع كلٌّ من المستأجر والمالك بنوده. وعندما يوافق المستأجر:</p>
+      <ol class="a steps">
+        <li>يُولَّد ملف <span class="en">PDF</span> مع بصمة تشفيرية (<span class="en">hash</span>)</li>
+        <li>يُرسَّخ العقد على بلوك‌تشين <span class="en">Bitcoin</span> عبر <span class="en">OpenTimestamps</span></li>
+        <li>يُنشَأ طابع زمني محمي من التلاعب (ملف إثبات <span class="en">OTS</span>)</li>
+        <li>يُخزَّن العقد وجداول الدفع بشكل آمن</li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يعني ترسيخ العقد على البلوك‌تشين؟</p>
+      <p class="a">
+        تُسجَّل البصمة التشفيرية للعقد على بلوك‌تشين <span class="en">Bitcoin</span>، مما يوفر إثباتاً مستقلاً ودائماً وقابلاً للتحقق بمحتوى العقد وتاريخ توقيعه. لا يمكن تعديل هذا الإثبات أو تزويره.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل يمكنني تنزيل عقدي؟</p>
+      <p class="a">
+        نعم. يستطيع المستخدمون المصرح لهم تنزيل العقود المُعتمَدة مباشرةً من المنصة، كما يمكنك تنزيل ملف إثبات <span class="en">.ots</span> للتحقق المستقل.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما هو ملف <span class="en">OTS</span>؟</p>
+      <p class="a">
+        ملف <span class="en">OTS</span> (<span class="en">OpenTimestamps</span>) هو إيصال إثبات بلوك‌تشيني يحتوي على البيانات اللازمة للتحقق المستقل من أن عقدك كان موجوداً وتم توقيعه في نقطة زمنية محددة مرتبطة بشبكة <span class="en">Bitcoin</span>.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل العقود الرقمية لـ<span class="en">MARN</span> متوافقة قانونياً؟</p>
+      <p class="a">
+        صُمِّمت <span class="en">MARN</span> لتتوافق مع القوانين المصرية المتعلقة بالمعاملات الإلكترونية والعقود الرقمية، وتضمن المراجعة الإدارية استيفاء العقود لمعايير المنصة والمتطلبات القانونية قبل تفعيلها.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يحدث إذا رفض أحد الطرفين العقد؟</p>
+      <p class="a">
+        إذا رفض المستأجر العقد، يُلغى ولا يُستكمل الحجز، ولا تنشأ أي التزامات مالية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما الحالات المحتملة لعقد الإيجار؟</p>
+      <p class="a">يمر العقد بالحالات التالية:</p>
+      <div class="status-flow">
+        <span class="st">مُنشَأ</span>
+        <span class="arr">→</span>
+        <span class="st">قيد الانتظار</span>
+        <span class="arr">→</span>
+        <span class="st">موقَّع</span>
+        <span class="arr">→</span>
+        <span class="st">مُتحقَّق منه</span>
+        <span class="arr">→</span>
+        <span class="st">مُلغى / منتهي الصلاحية</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 10 ═══════════ -->
+  <section class="faq-section" id="s10">
+    <h2><span class="num">١٠</span> المدفوعات</h2>
+
+    <div class="qa">
+      <p class="q">كيف أدفع الإيجار على <span class="en">MARN</span>؟</p>
+      <p class="a">
+        من شاشة المدفوعات، اختر <strong>«دفع الإيجار»</strong>، وسيُنشئ النظام جلسة دفع عبر بوابة الدفع الإلكتروني المدمجة. الوسائل المدعومة تشمل بطاقات الائتمان والخصم والمحافظ الإلكترونية.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل تدعم <span class="en">MARN</span> الجدولة الشهرية للمدفوعات؟</p>
+      <p class="a">
+        نعم. بعد تفعيل العقد، تُجدوَل أقساط الإيجار الشهرية مع تواريخ استحقاق محددة، ويتتبع النظام حالة كل قسط ويُرسل تذكيرات آلية للمدفوعات الوشيكة أو المتأخرة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل سأتلقى إشعارات بالمدفوعات القادمة؟</p>
+      <p class="a">
+        نعم. ترسل <span class="en">MARN</span> تذكيرات قبل مواعيد الاستحقاق وإشعارات عند نجاح أو فشل المعاملات.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">أين يمكنني عرض سجل مدفوعاتي؟</p>
+      <p class="a">
+        سجل المدفوعات متاح من شاشة المدفوعات للمستأجرين، ومن لوحة تحكم المالك (الأرباح وحالة المدفوعات) للملّاك.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف يستلم الملّاك دخل الإيجار؟</p>
+      <p class="a">
+        يمكن للملّاك ربط حساب دفع وبدء سحب رصيدهم من خلال لوحة تحكم المالك.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ماذا يحدث إذا فشلت عملية الدفع؟</p>
+      <p class="a">
+        يوفر النظام خيارات لإعادة المحاولة، وستتلقى إشعاراً بالفشل ويمكنك إعادة الدفع مجدداً.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 11 ═══════════ -->
+  <section class="faq-section" id="s11">
+    <h2><span class="num">١١</span> التواصل والإشعارات</h2>
+
+    <div class="qa">
+      <p class="q">كيف أتواصل مع مالك أو مستأجر؟</p>
+      <p class="a">
+        تمتلك <span class="en">MARN</span> دردشة فورية مدمجة مدعومة بتقنية <span class="en">SignalR</span>. يمكنك مراسلة الملّاك أو المستأجرين مباشرةً داخل المنصة، ويقتصر وصول الدردشة على المستخدمين المرتبطين بقائمة عقار أو طلب حجز ذي صلة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل تُخزَّن رسائلي؟</p>
+      <p class="a">
+        نعم. تُحفَظ رسائل الدردشة ويمكن استرجاعها لاحقاً من شاشة الدردشة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما أنواع الإشعارات التي ترسلها <span class="en">MARN</span>؟</p>
+      <p class="a">ستتلقى إشعارات بشأن:</p>
+      <ul class="a">
+        <li>طلبات الحجز والردود عليها</li>
+        <li>موافقة أو رفض التحقق من الهوية</li>
+        <li>تغييرات حالة العقد</li>
+        <li>تذكيرات الدفع ونتائج المعاملات</li>
+        <li>موافقة أو رفض القوائم (للملّاك)</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل الإشعارات فورية؟</p>
+      <p class="a">
+        نعم. تدعم <span class="en">MARN</span> الإشعارات الفورية (عبر <span class="en">SignalR</span>) والإشعارات الدفعية غير المتزامنة (عبر <span class="en">Firebase Cloud Messaging / FCM</span>).
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 12 ═══════════ -->
+  <section class="faq-section" id="s12">
+    <h2><span class="num">١٢</span> التقييمات والمراجعات والإبلاغ</h2>
+
+    <div class="qa">
+      <p class="q">هل يمكنني تقييم عقار بعد الإيجار؟</p>
+      <p class="a">
+        نعم. بعد انتهاء فترة الإيجار، يمكنك تقديم تقييم بالنجوم ومراجعة مكتوبة للعقار.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">أين تظهر التقييمات؟</p>
+      <p class="a">
+        تظهر التقييمات المتوسطة والمراجعات الفردية على صفحات تفاصيل العقارات، مما يساعد المستأجرين الآخرين على اتخاذ قرارات مستنيرة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف أُبلِّغ عن قائمة أو مستخدم غير لائق؟</p>
+      <p class="a">
+        استخدم وظيفة <strong>الإبلاغ</strong> على صفحة القائمة أو الملف الشخصي للمستخدم، وتُحال التقارير إلى مديري <span class="en">MARN</span> للمراجعة والإشراف.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 13 ═══════════ -->
+  <section class="faq-section" id="s13">
+    <h2><span class="num">١٣</span> الإدارة وحوكمة المنصة</h2>
+
+    <div class="qa">
+      <p class="q">ما مهام فريق إدارة <span class="en">MARN</span>؟</p>
+      <p class="a">يتولى المديرون إدارة صحة المنصة وسلامتها عبر لوحة تحكم إدارية شاملة، وتشمل مسؤولياتهم:</p>
+      <ul class="a">
+        <li>مراجعة وثائق هوية المستخدمين والموافقة عليها</li>
+        <li>الموافقة على قوائم العقارات أو رفضها</li>
+        <li>مراجعة العقود الرقمية والتحقق منها</li>
+        <li>إدارة المستخدمين (بما في ذلك الإيقاف المؤقت أو الحظر)</li>
+        <li>معالجة البلاغات واتخاذ إجراءات الإشراف</li>
+        <li>إنشاء تقارير التحليلات</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">هل تُراجَع القوائم قبل نشرها؟</p>
+      <p class="a">
+        نعم. تخضع كل قائمة مُقدَّمة حديثاً لمراجعة إدارية قبل أن تصبح مرئيةً للعموم، مما يضمن الدقة والامتثال والجودة.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف تُحافَظ على ثقة المستخدمين في المنصة؟</p>
+      <p class="a">
+        من خلال مزيج من التحقق من الهوية، ومراجعة المستندات، والقوائم المُعتمَدة إدارياً، وتقييمات المستخدمين، ونظام الإبلاغ، وسجلات التدقيق لجميع العمليات الحيوية.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 14 ═══════════ -->
+  <section class="faq-section" id="s14">
+    <h2><span class="num">١٤</span> التقنيات والبنية</h2>
+
+    <div class="qa">
+      <p class="q">ما التقنيات التي تعمل بها <span class="en">MARN</span>؟</p>
+      <table class="tech-table">
+        <thead>
+          <tr><th>الطبقة</th><th>التقنية</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>واجهة برمجة التطبيقات الخلفية</td><td>ASP.NET Core Web API</td></tr>
+          <tr><td>الخدمة المصغرة للذكاء الاصطناعي</td><td>FastAPI (Python)</td></tr>
+          <tr><td>تطبيق الجوال</td><td>Flutter (Android &amp; iOS)</td></tr>
+          <tr><td>تطبيق الويب</td><td>React.js</td></tr>
+          <tr><td>قاعدة البيانات</td><td>Microsoft SQL Server + Entity Framework Core</td></tr>
+          <tr><td>التواصل الفوري</td><td>SignalR</td></tr>
+          <tr><td>محرك التوصية الذكية</td><td>FAISS, KNN (Ball-Tree), DBSCAN, TF-IDF</td></tr>
+          <tr><td>الشاتبوت الذكي</td><td>LangGraph ReAct + Qwen LLM</td></tr>
+          <tr><td>التوقيت على البلوك‌تشين</td><td>OpenTimestamps (Bitcoin network)</td></tr>
+          <tr><td>الإشعارات الدفعية</td><td>Firebase Cloud Messaging (FCM)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف يعمل محرك التوصية على المستوى التقني؟</p>
+      <p class="a">
+        يُمثَّل كل عقار كمتجه سمات ذي <strong>58 بُعداً</strong> يجمع 8 سمات رقمية موزونة (السعر، المساحة، غرف النوم، الحمامات، الأسرّة، أقصى عدد ساكنين، خطوط الطول والعرض) وتشفير عنوان <span class="en">TF-IDF</span> ذي 50 بُعداً. تُفهرَس هذه المتجهات في مؤشر <span class="en">FAISS</span> (تشابه جيب التمام عبر الضرب الداخلي المُوحَّد). يستخدم التخصيص السلوكي تجميعَ <span class="en">DBSCAN</span> الجغرافي لتحديد مناطق اهتمام المستخدم، ثم يُجري بحث <span class="en">FAISS</span> لكل مجموعة مع درجات تفاعل موزونة وتراجع زمني.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما بنية الشاتبوت؟</p>
+      <p class="a">
+        يعتمد الشاتبوت على بنية وكيل <span class="en">LangGraph ReAct</span> (الاستدلال + التصرف) مع نموذج لغوي محلي <span class="en">Qwen3.5-4B</span> يعمل عبر <span class="en">LM Studio</span>. يحتفظ الشاتبوت بسجل المحادثات في قاعدة البيانات (جداول <span class="en">AssistantSessions / AssistantMessages</span>) لضمان استمرارية المحادثة بين الجلسات.
+      </p>
+    </div>
+
+    <div class="qa">
+      <p class="q">كيف تُؤمَّن البيانات على <span class="en">MARN</span>؟</p>
+      <ul class="a">
+        <li>التحكم في الوصول بناءً على الأدوار (مستأجر، مالك، مدير)</li>
+        <li>مصادقة <span class="en">JWT</span> مع دعم المصادقة الثنائية <span class="en">2FA</span></li>
+        <li>تخزين مشفَّر للوثائق القانونية والعقود</li>
+        <li>بروتوكول <span class="en">HTTPS</span> لجميع اتصالات العميل بالخادم</li>
+        <li>سجلات تدقيق للعمليات الحيوية في النظام</li>
+      </ul>
+    </div>
+
+    <div class="qa">
+      <p class="q">ما منهجية التطوير المُتَّبعة؟</p>
+      <p class="a">
+        طُوِّرت <span class="en">MARN</span> باتباع <strong>منهجية أجايل (<span class="en">Agile</span>)</strong>، مع سبرنتات تكرارية تغطي تحليل المتطلبات، وتصميم البنية، ونمذجة واجهة المستخدم، وتطوير الواجهة الخلفية، وتكامل الواجهة الأمامية، والاختبار والتحسين.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 15 ═══════════ -->
+  <section class="faq-section" id="s15">
+    <h2><span class="num">١٥</span> التحسينات المستقبلية</h2>
+
+    <div class="qa">
+      <p class="q">ما الميزات المخطط إضافتها في الإصدارات المستقبلية من <span class="en">MARN</span>؟</p>
+      <ul class="a">
+        <li><strong>التحقق المدعوم بالذكاء الاصطناعي:</strong> مراجعة آلية لوثائق الهوية والملكية لتسريع عملية التحقق واكتشاف التناقضات</li>
+        <li><strong>تقدير الأسعار بالذكاء الاصطناعي:</strong> نموذج تسعير يساعد الملّاك على تحديد أسعار إيجار عادلة ويساعد المستأجرين على تقييم العروض بناءً على بيانات السوق</li>
+        <li><strong>التوسع الجغرافي:</strong> توسيع المنصة خارج مصر لتشمل دولاً أخرى وعملات ولغات إضافية</li>
+        <li><strong>دعم التوقيع الرقمي بالكتابة اليدوية:</strong> تمكين المستخدمين من التوقيع على العقود بأسلوب يدوي لتجربة أكثر طبيعية</li>
+        <li><strong>مساعد صوتي:</strong> إضافة تفاعل صوتي مع الشاتبوت لتحسين إمكانية الوصول</li>
+        <li><strong>الإبلاغ وكشف المخالفات بالذكاء الاصطناعي:</strong> استخدام الذكاء الاصطناعي للكشف عن الرسائل المسيئة والقوائم المضللة وتكرار انتهاكات السياسة</li>
+        <li><strong>دعم بيع العقارات:</strong> توسيع <span class="en">MARN</span> لتشمل عمليات شراء العقارات الكاملة بالإضافة إلى الإيجار</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer>
+    <p>للحصول على دعم إضافي، استخدم صفحة <strong>«اتصل بنا»</strong> داخل المنصة أو تفاعل مع شاتبوت الذكاء الاصطناعي المتاح في التطبيق.</p>
+    <br>
+    <p><strong>MARN</strong> — نُحوِّل طريقة الوصول إلى السكن في مصر.</p>
+  </footer>
+
+</div>
+</body>
+</html>

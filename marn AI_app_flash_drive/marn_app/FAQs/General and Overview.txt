@@ -1,0 +1,36 @@
+## General & Overview
+
+**What is MARN?**
+MARN (Modern Accommodation Rent Network) is a centralized, Egypt-wide digital platform that connects property owners with renters. It supports the entire rental lifecycle — from searching and booking to digital contracts, blockchain-anchored signatures, and online payments — all within a single, user-friendly application.
+
+**Who is MARN designed for?**
+MARN serves a wide range of users: students, young professionals, families, workers, and expatriates. It equally serves property owners who want to list and manage their rentals digitally.
+
+**What types of accommodation does MARN support?**
+MARN supports three accommodation types:
+- Full apartments — for families or groups seeking an entire unit
+- Private rooms — for individuals wanting a dedicated space
+- Shared beds — for students or budget-conscious renters in co-living setups
+
+**What makes MARN different from other platforms like Roomster, Aqarmap, or Airbnb?**
+MARN is the only platform that combines all of the following in one place:
+- Full end-to-end rental management (search → booking → contract → payment)
+- AI-powered personalized property recommendations
+- Lifestyle-based roommate matching
+- Blockchain-anchored digital contracts (unique in Egypt)
+- Integrated online payments with monthly scheduling
+- AI chatbot support in both Arabic and English
+- Nationwide coverage across all Egyptian governorates
+
+**Is MARN available across all of Egypt?**
+Yes. MARN covers all 27 Egyptian governorates, including cities and smaller towns often underrepresented on global platforms.
+
+**What platforms can I access MARN on?**
+MARN is available as:
+- A Flutter mobile application (Android and iOS)
+- A React.js web application accessible via browser
+
+The platform is deployed and accessible at marn.runasp.net and marn-six.vercel.app.
+
+**What languages does MARN support?**
+MARN fully supports both Arabic and English, including the AI chatbot and all user interface elements.

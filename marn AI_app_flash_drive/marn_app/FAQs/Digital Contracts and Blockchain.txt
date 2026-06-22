@@ -1,0 +1,26 @@
+## Digital Contracts & Blockchain
+
+**How does the digital contract work?**
+Once a booking is accepted, the system automatically generates a digital rental contract. Both the renter and owner review the contract terms. When the renter approves:
+1. A PDF is generated with a cryptographic hash
+2. The contract is anchored to the Bitcoin blockchain via OpenTimestamps
+3. A tamper-proof timestamp (OTS proof file) is created
+4. The contract and payment schedules are stored securely
+
+**What does blockchain anchoring mean for my contract?**
+The contract's cryptographic fingerprint is recorded on the Bitcoin blockchain, providing an independent, permanent, and verifiable proof of the contract's content and the date it was signed. This cannot be altered or forged.
+
+**Can I download my contract?**
+Yes. Approved contracts can be downloaded by authorized users directly from the platform. You can also download your .ots proof file for independent verification.
+
+**What is an OTS file?**
+An OTS (OpenTimestamps) file is a blockchain proof receipt. It contains the data needed to independently verify that your contract existed and was signed at a specific point in time, linked to the Bitcoin network.
+
+**Is MARN's digital contract legally compliant?**
+MARN is built to comply with applicable Egyptian laws related to electronic transactions and digital contracts. Admin review ensures contracts meet platform and legal standards before activation.
+
+**What happens if one party rejects the contract?**
+If the renter rejects the contract, it is cancelled. The booking will not proceed, and no financial obligations are created.
+
+**What are the possible contract statuses?**
+A contract can be in one of the following states: Created → Pending → Signed → Verified → Cancelled / Expired.

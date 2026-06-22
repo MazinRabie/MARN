@@ -1,0 +1,16 @@
+## Admin & Platform Governance
+
+**What does the MARN admin team do?**
+Administrators manage the health and integrity of the platform through a comprehensive Admin Dashboard. Their responsibilities include:
+- Reviewing and approving user identity documents
+- Approving or rejecting property listings
+- Reviewing and verifying digital contracts
+- Managing users (including suspension or banning)
+- Handling reports and moderation actions
+- Generating analytics reports
+
+**Are listings reviewed before going live?**
+Yes. Every newly submitted listing is reviewed by an administrator before it becomes publicly visible. This ensures accuracy, compliance, and quality.
+
+**How is user trust maintained on the platform?**
+Through a combination of identity verification, document review, admin-approved listings, user ratings, a reporting system, and audit logging of all critical operations.

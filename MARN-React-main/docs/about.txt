@@ -1,0 +1,22 @@
+About MARN
+We're revolutionizing the rental experience by connecting people with their perfect homes and compatible roommates.
+
+Our Mission
+At MARN, we believe everyone deserves a place they can call home. Our mission is to make the rental process transparent, efficient, and enjoyable for both tenants and property owners.
+Founded in 2020, we've grown from a small startup to a trusted platform serving over 50,000 happy tenants across 100+ cities. We combine cutting-edge technology with a human touch to create meaningful connections.
+
+Our Values
+The principles that guide everything we do:
+Trust & Safety: Every property and user is verified to ensure a secure experience for all our community members.
+Customer First: We prioritize your needs and provide 24/7 support to make your rental journey seamless.
+Innovation: Leveraging the latest technology to provide the best rental and roommate matching experience.
+Excellence: Committed to delivering exceptional quality in every property listing and user interaction.
+
+Meet Our Team
+Passionate people dedicated to transforming the rental experience:
+Abd Alrahman Eissa - AI Developer
+Fares Eldagen - Team leader & Back-end Developer
+Mazin Rabie - Back-end Developer
+Mahmoud Elshiha - Front-end Developer
+Kareem Foda - Front-end Developer & UI Designer
+Ahmed Makled - Mobile App Developer

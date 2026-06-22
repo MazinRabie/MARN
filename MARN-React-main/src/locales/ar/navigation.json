@@ -1,0 +1,49 @@
+{
+  "searchPlaceholder": "ابحث بالموقع أو نوع العقار...",
+  "explore": "استكشف",
+  "becomeHost": "كن مضيفاً",
+  "pleaseWait": "يرجى الانتظار…",
+  "menu": {
+    "home": "الرئيسية",
+    "exploreProperties": "استكشف العقارات",
+    "findRoommates": "البحث عن شركاء سكن",
+    "chats": "المحادثات",
+    "chatSupport": "دعم المحادثة",
+    "faq": "الأسئلة الشائعة",
+    "contact": "تواصل معنا",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "dashboard": "لوحة التحكم",
+    "logout": "تسجيل الخروج",
+    "loginSignUp": "تسجيل الدخول / إنشاء حساب"
+  },
+  "drawer": {
+    "tagline": "شبكتك الحديثة للإيجار",
+    "needHelp": "هل تحتاج مساعدة؟",
+    "supportAvailable": "فريق الدعم متاح على مدار الساعة",
+    "contactSupport": "تواصل مع الدعم"
+  },
+  "dashboards": {
+    "ownerDashboard": "لوحة المالك",
+    "tenantDashboard": "لوحة المستأجر",
+    "adminDashboard": "لوحة الإدارة"
+  },
+  "footer": {
+    "tagline": "منصتك الموثوقة للعثور على العقار المثالي وشركاء السكن.",
+    "quickLinks": "روابط سريعة",
+    "searchProperties": "البحث عن عقارات",
+    "listYourProperty": "أضف عقارك",
+    "aboutUs": "عنّا",
+    "howItWorks": "كيف يعمل؟",
+    "pricing": "الأسعار",
+    "support": "الدعم",
+    "faq": "الأسئلة الشائعة",
+    "contactUs": "تواصل معنا",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "copyright": "© 2026 MARN. جميع الحقوق محفوظة.",
+    "address": "بجوار جامعة دمياط الجديدة\nدمياط الجديدة، مصر",
+    "phoneNumber": "01012345678"
+  },
+  "logoAlt": "شعار MARN"
+}

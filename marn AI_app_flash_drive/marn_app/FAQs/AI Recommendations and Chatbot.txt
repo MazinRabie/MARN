@@ -1,0 +1,22 @@
+## AI Recommendations & Chatbot
+
+**How does MARN recommend properties to me?**
+The recommendation engine analyzes your activity on the platform — including searches, viewed listings, saved properties, and bookings — and uses three strategies:
+- Criteria-Based Search: When you apply filters, the engine uses FAISS vector search on 58-dimensional feature vectors to surface the most relevant listings.
+- Behavior-Based Personalization: Based on your past activity, DBSCAN geographic clustering identifies your interest zones and FAISS search retrieves tailored suggestions, with more recent interactions given greater influence.
+- Similar Listing Discovery: On any property page, you can see similar listings ranked by cosine similarity.
+
+**Do recommendations get better over time?**
+Yes. The more you interact with the platform (search, view, save, book), the more accurate your personalized recommendations become. Recent interactions carry more weight than older ones through a recency decay model.
+
+**What is the MARN AI chatbot?**
+The AI chatbot is a built-in assistant that helps you discover properties, understand platform features, and navigate the rental process through natural language conversation. It is available 24/7 and supports both Arabic and English.
+
+**What can the chatbot help me with?**
+- Searching and filtering properties
+- Answering questions about how MARN works
+- Guiding you through the booking and contract process
+- Providing context-aware suggestions during your session
+
+**Is the chatbot available on both the mobile app and the website?**
+Yes. The chatbot is available through both the Flutter mobile app and the React.js web application.

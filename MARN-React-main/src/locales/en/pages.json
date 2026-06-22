@@ -1,0 +1,812 @@
+{
+  "about": {
+    "title": "About MARN",
+    "subtitle": "We're revolutionizing the rental experience by connecting people with their perfect homes and compatible roommates.",
+    "mission": {
+      "title": "Our Mission",
+      "body": "At MARN, we believe everyone deserves a place they can call home. Our mission is to make the rental process transparent, efficient, and enjoyable for both tenants and property owners."
+    },
+    "story": {
+      "title": "Our Story",
+      "body": "Founded in 2020, we've grown from a small startup to a trusted platform serving thousands of users across Egypt."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "trust": "Trust & Safety",
+      "trustDesc": "Every property and user is verified to ensure a secure experience for all our community members.",
+      "customer": "Customer First",
+      "customerDesc": "We prioritize your needs and provide 24/7 support to make your rental journey seamless.",
+      "innovation": "Innovation",
+      "innovationDesc": "Leveraging the latest technology to provide the best rental and roommate matching experience.",
+      "excellence": "Excellence",
+      "excellenceDesc": "Committed to delivering exceptional quality in every property listing and user interaction."
+    },
+    "stats": {
+      "tenants": "50K+ Happy Tenants",
+      "properties": "10K+ Properties",
+      "cities": "100+ Cities",
+      "happyTenants": "Happy Tenants"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Passionate people dedicated to transforming the rental experience"
+    },
+    "cta": {
+      "title": "Join Our Growing Community",
+      "subtitle": "Whether you're looking for a home or listing a property, we're here to help you succeed.",
+      "findHome": "Find a Home",
+      "listProperty": "List Your Property"
+    }
+  },
+  "howItWorks": {
+    "title": "How MARN Works",
+    "subtitle": "Your complete guide to finding the perfect rental or listing your property",
+    "forTenants": {
+      "title": "For Tenants",
+      "subtitle": "Find your perfect home in four simple steps",
+      "startSearching": "Start Searching",
+      "steps": {
+        "search": "Search & Filter",
+        "searchDesc": "Browse thousands of verified listings with advanced filters for location, price, amenities, and roommate preferences.",
+        "tours": "Book Requests",
+        "toursDesc": "Send booking requests for properties you want to rent and track their status easily.",
+        "connect": "Connect & Chat",
+        "connectDesc": "Message property owners and potential roommates directly. Get answers to all your questions instantly.",
+        "book": "Book & Move In",
+        "bookDesc": "Complete your application online, sign the lease digitally, and pay securely. Move into your new home!"
+      }
+    },
+    "forOwners": {
+      "title": "For Property Owners",
+      "subtitle": "List and manage your properties with ease",
+      "listProperty": "List Your Property",
+      "steps": {
+        "list": "List Your Property",
+        "listDesc": "Create a detailed listing with photos, descriptions, and amenities. Set your price and availability.",
+        "screen": "Screen Tenants",
+        "screenDesc": "Review verified tenant profiles, background checks, and references. Choose the best match for your property.",
+        "communicate": "Communicate",
+        "communicateDesc": "Chat with interested tenants, schedule tours, and answer questions through our secure messaging platform.",
+        "manage": "Manage & Earn",
+        "manageDesc": "Accept payments, and track your earnings all from one dashboard."
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose MARN?",
+      "subtitle": "Features that make your rental experience seamless"
+    },
+    "features": {
+      "verifiedListings": "Verified Listings",
+      "verifiedListingsDesc": "All properties are verified for authenticity and accuracy.",
+      "securePayments": "Secure Payments",
+      "securePaymentsDesc": "End-to-end encrypted payment processing for your safety.",
+      "compatibility": "Compatibility Matching",
+      "compatibilityDesc": "Smart algorithm matches you with compatible roommates.",
+      "insights": "Market Insights",
+      "insightsDesc": "Access real-time market data and pricing analytics."
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of happy users who found their perfect rental match",
+      "createAccount": "Create Account",
+      "contactUs": "Contact Us"
+    },
+    "learnMore": "Learn More"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "email": "Email Us",
+    "phone": "Call Us",
+    "visit": "Visit Us",
+    "hours": "Business Hours",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Ahmed Hassan",
+      "emailAddress": "Email Address",
+      "emailPlaceholder": "ahmed@example.com",
+      "phoneNumber": "Phone Number",
+      "phonePlaceholder": "01012345678",
+      "subject": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "send": "Send Message",
+      "subjects": {
+        "general": "General Inquiry",
+        "tenantSupport": "Tenant Support",
+        "ownerSupport": "Property Owner Support",
+        "technical": "Technical Issue",
+        "billing": "Billing Question",
+        "feedback": "Feedback"
+      }
+    },
+    "sendMessage": "Send us a Message",
+    "selectSubjectPlaceholder": "Select a subject",
+    "sendButton": "Send Message",
+    "faqNote": {
+      "title": "Looking for Quick Answers?",
+      "subtitle": "Check out our FAQ page",
+      "visitFaq": "Visit FAQ Page",
+      "fullSubtitle": "Check out our FAQ page for answers to commonly asked questions"
+    },
+    "location": {
+      "title": "Our Location",
+      "address1": "Besides Damietta University",
+      "address2": "New Damietta, Egypt"
+    },
+    "methods": {
+      "emailDetails": "support@marn.com",
+      "emailDesc": "We'll respond within 24 hours",
+      "phoneDetails": "010-1234-5678",
+      "phoneDesc": "Mon-Fri from 8am to 6pm EGY",
+      "visitDetails": "Besides Damietta University, New Damietta, Egypt",
+      "visitDesc": "New Damietta, Egypt 11511",
+      "hoursDetails": "Monday - Friday: 8am - 6pm",
+      "hoursDesc": "Saturday - Sunday: Closed"
+    },
+    "toast": {
+      "success": "Your message has been sent successfully!",
+      "error": "Failed to send message. Please try again later."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about using MARN",
+    "searchPlaceholder": "Search for answers...",
+    "categories": {
+      "cat1": "General & Overview",
+      "cat2": "Account & Registration",
+      "cat3": "Identity Verification",
+      "cat4": "Searching for Properties",
+      "cat5": "Listing a Property (Owners)",
+      "cat6": "Booking & Requests",
+      "cat7": "Roommate Matching",
+      "cat8": "AI Recommendations & Chatbot",
+      "cat9": "Digital Contracts & Blockchain",
+      "cat10": "Payments",
+      "cat11": "Communication & Notifications",
+      "cat12": "Ratings, Reviews & Reporting",
+      "cat13": "Admin & Platform Governance",
+      "cat14": "Technical Stack & Architecture",
+      "cat15": "Future Improvements"
+    },
+    "noResults": "No results found for",
+    "clearSearch": "Clear Search",
+    "stillHaveQuestions": {
+      "title": "Still Have Questions?",
+      "subtitle": "Our support team is here to help you 24/7",
+      "contactSupport": "Contact Support",
+      "liveChat": "Live Chat"
+    },
+    "questions": {
+      "q1": {
+        "question": "What is MARN?",
+        "answer": "MARN (Modern Accommodation Rent Network) is a centralized, Egypt-wide digital platform that connects property owners with renters. It supports the entire rental lifecycle — from searching and booking to digital contracts, blockchain-anchored signatures, and online payments — all within a single, user-friendly application."
+      },
+      "q2": {
+        "question": "Who is MARN designed for?",
+        "answer": "MARN serves a wide range of users: students, young professionals, families, workers, and expatriates. It equally serves property owners who want to list and manage their rentals digitally."
+      },
+      "q3": {
+        "question": "What types of accommodation does MARN support?",
+        "answer": "MARN supports three accommodation types:\n\n      \n        \n• Full apartments — for families or groups seeking an entire unit\n        \n• Private rooms — for individuals wanting a dedicated space\n        \n• Shared beds — for students or budget-conscious renters in co-living setups"
+      },
+      "q4": {
+        "question": "What makes MARN different from other platforms like Roomster, Aqarmap, or Airbnb?",
+        "answer": "MARN is the only platform that combines all of the following in one place:\n\n      \n        \n• Full end-to-end rental management (search → booking → contract → payment)\n        \n• AI-powered personalized property recommendations\n        \n• Lifestyle-based roommate matching\n        \n• Blockchain-anchored digital contracts (unique in Egypt)\n        \n• Integrated online payments with monthly scheduling\n        \n• AI chatbot support in both Arabic and English\n        \n• Nationwide coverage across all Egyptian governorates"
+      },
+      "q5": {
+        "question": "Is MARN available across all of Egypt?",
+        "answer": "Yes. MARN covers all 27 Egyptian governorates, including cities and smaller towns often underrepresented on global platforms."
+      },
+      "q6": {
+        "question": "What platforms can I access MARN on?",
+        "answer": "MARN is available as:\n\n      \n        \n• A Flutter mobile application (Android and iOS)\n        \n• A React.js web application accessible via browser\n      \n      \n        The platform is deployed and accessible at marn.runasp.net and marn-six.vercel.app."
+      },
+      "q7": {
+        "question": "What languages does MARN support?",
+        "answer": "MARN fully supports both Arabic and English, including the AI chatbot and all user interface elements."
+      },
+      "q8": {
+        "question": "How do I create a MARN account?",
+        "answer": "You can register using your email address. After submitting your details, the system sends a confirmation link to verify your account before it is activated."
+      },
+      "q9": {
+        "question": "Can I be both an owner and a renter on the same account?",
+        "answer": "Yes. MARN allows users to select and update their roles. You can act as a renter, an owner, or both from the same account."
+      },
+      "q10": {
+        "question": "How do I reset my password?",
+        "answer": "Use the \"Forgot Password\" option on the login screen. The system will send you a verification link to reset your password securely."
+      },
+      "q11": {
+        "question": "Does MARN support two-factor authentication (2FA)?",
+        "answer": "Yes. MARN supports optional two-factor authentication (2FA), which can be toggled on or off from your profile settings."
+      },
+      "q12": {
+        "question": "Can I sign in using Google?",
+        "answer": "Yes. MARN supports Google Login as an alternative to email-based registration."
+      },
+      "q13": {
+        "question": "How do I update my profile information?",
+        "answer": "Go to your Profile Settings screen, where you can edit personal information, upload a profile picture, change your password, and adjust language or notification preferences."
+      },
+      "q14": {
+        "question": "Why do I need to verify my identity?",
+        "answer": "Verification ensures platform trust and legal compliance. Unverified users cannot create property listings or enter into rental contracts."
+      },
+      "q15": {
+        "question": "What documents are required for verification?",
+        "answer": "• Renters: A valid legal identification document (e.g., National ID)\n        \n• Owners: National ID plus proof of property ownership documents"
+      },
+      "q16": {
+        "question": "How does the verification process work?",
+        "answer": "• Upload your documents from the Profile Settings or verification section\n        \n• The system validates the file format and stores documents securely\n        \n• Documents are submitted for administrative review\n        \n• You will be notified once your verification is approved or rejected"
+      },
+      "q17": {
+        "question": "How long does verification take?",
+        "answer": "Verification is reviewed by MARN administrators. You will receive a notification as soon as a decision is made."
+      },
+      "q18": {
+        "question": "What happens if my verification is rejected?",
+        "answer": "You will be notified of the rejection. You can re-upload corrected documents and resubmit for review."
+      },
+      "q19": {
+        "question": "How can I search for a property?",
+        "answer": "From the Property Search screen, you can search by:\n\n      \n        \n• Location (city or area within any of the 27 governorates)\n        \n• Keywords\n        \n• Property type (apartment, room, bed)\n        \n• Price range\n        \n• Rental duration\n        \n• Number of occupants"
+      },
+      "q20": {
+        "question": "Can I view property locations on a map?",
+        "answer": "Yes. MARN integrates map-based property visualization so you can see listings geographically."
+      },
+      "q21": {
+        "question": "What information is shown on a property listing?",
+        "answer": "Each listing shows photos, description, amenities, house rules, pricing, availability, owner information, location, and user ratings and reviews."
+      },
+      "q22": {
+        "question": "Can I save or bookmark properties?",
+        "answer": "Yes. Authenticated users can save or bookmark properties to revisit them later."
+      },
+      "q23": {
+        "question": "Are all visible listings verified?",
+        "answer": "Yes. Only listings that have been approved by MARN administrators appear publicly. Pending or rejected listings are not visible to renters."
+      },
+      "q24": {
+        "question": "What if no results match my search?",
+        "answer": "The system will display a \"No listings available\" message. You can adjust your filters or try different search terms."
+      },
+      "q25": {
+        "question": "How do I list my property on MARN?",
+        "answer": "After becoming a verified owner, go to the Owner Dashboard and select \"Add Property.\" Fill in your property details across the following stages:\n      \n\n      \n        \n• Stage 1: Basic details — title, type, address, city, price, and capacity\n        \n• Stage 2: Amenities — select features like Wi-Fi, parking, and AC\n        \n• Stage 3: Media — upload high-quality photos of the property"
+      },
+      "q26": {
+        "question": "What property types can I list?",
+        "answer": "You can list an entire apartment, a room, or a shared bed."
+      },
+      "q27": {
+        "question": "What details can I define for my listing?",
+        "answer": "You can set the price, rental duration, occupancy rules, amenities, house rules, and upload images and videos."
+      },
+      "q28": {
+        "question": "What happens after I submit a listing?",
+        "answer": "Your listing is saved with a Pending status and sent for administrative review. It will only be published and made visible to renters after approval."
+      },
+      "q29": {
+        "question": "Can I edit or remove a listing after publishing it?",
+        "answer": "Yes. From the Owner Dashboard you can edit, deactivate, or delete your listings at any time."
+      },
+      "q30": {
+        "question": "Can I temporarily make my listing unavailable without deleting it?",
+        "answer": "Yes. You can deactivate a listing to hide it from search results without permanently removing it."
+      },
+      "q31": {
+        "question": "How do I book a property?",
+        "answer": "Open the property page and click \"Book Now.\" A booking request will be sent to the owner, who will be notified and can accept or reject it."
+      },
+      "q32": {
+        "question": "Can I schedule a property visit before booking?",
+        "answer": "Yes. MARN allows renters to schedule property visits as part of the request workflow."
+      },
+      "q33": {
+        "question": "What happens after my booking request is accepted?",
+        "answer": "Once the owner accepts, the system moves to the digital contract stage, where both parties review and sign the agreement."
+      },
+      "q34": {
+        "question": "Can I cancel a booking request?",
+        "answer": "Yes. Renters can cancel a booking request before it is accepted."
+      },
+      "q35": {
+        "question": "How are owners notified of new requests?",
+        "answer": "The system sends real-time notifications to owners when a new booking request arrives."
+      },
+      "q36": {
+        "question": "How does the roommate matching system work?",
+        "answer": "MARN uses an algorithmic compatibility model. Users fill in their lifestyle preferences, and the system matches them with compatible roommates based on those inputs."
+      },
+      "q37": {
+        "question": "What preferences can I set for roommate matching?",
+        "answer": "• Sleep schedule and daily habits\n        \n• Smoking preferences\n        \n• Pet ownership\n        \n• Gender preferences\n        \n• Educational background and field of study\n        \n• Budget range"
+      },
+      "q38": {
+        "question": "Where do I set my roommate preferences?",
+        "answer": "Go to Profile Settings → Roommate Preferences to define and update your lifestyle profile."
+      },
+      "q39": {
+        "question": "How is compatibility calculated?",
+        "answer": "The system computes a compatibility score based on how closely each user's preferences align with potential matches. Matches are ranked and presented with a summary of matching and non-matching traits (e.g., smoking, pets, sleep habits)."
+      },
+      "q40": {
+        "question": "Can I contact a suggested roommate?",
+        "answer": "Yes. From the Roommate Matches screen, you can view a match's basic profile and initiate communication."
+      },
+      "q41": {
+        "question": "How does MARN recommend properties to me?",
+        "answer": "The recommendation engine analyzes your activity on the platform — including searches, viewed listings, saved properties, and bookings — and uses three strategies:\n\n      \n        \n• Criteria-Based Search: When you apply filters, the engine uses FAISS vector search on 58-dimensional feature vectors to surface the most relevant listings.\n        \n• Behavior-Based Personalization: Based on your past activity, DBSCAN geographic clustering identifies your interest zones and FAISS search retrieves tailored suggestions, with more recent interactions given greater influence.\n        \n• Similar Listing Discovery: On any property page, you can see similar listings ranked by cosine similarity."
+      },
+      "q42": {
+        "question": "Do recommendations get better over time?",
+        "answer": "Yes. The more you interact with the platform (search, view, save, book), the more accurate your personalized recommendations become. Recent interactions carry more weight than older ones through a recency decay model."
+      },
+      "q43": {
+        "question": "What is the MARN AI chatbot?",
+        "answer": "The AI chatbot is a built-in assistant that helps you discover properties, understand platform features, and navigate the rental process through natural language conversation. It is available 24/7 and supports both Arabic and English."
+      },
+      "q44": {
+        "question": "What can the chatbot help me with?",
+        "answer": "• Searching and filtering properties\n        \n• Answering questions about how MARN works\n        \n• Guiding you through the booking and contract process\n        \n• Providing context-aware suggestions during your session"
+      },
+      "q45": {
+        "question": "Is the chatbot available on both the mobile app and the website?",
+        "answer": "Yes. The chatbot is available through both the Flutter mobile app and the React.js web application."
+      },
+      "q46": {
+        "question": "How does the digital contract work?",
+        "answer": "Once a booking is accepted, the system automatically generates a digital rental contract. Both the renter and owner review the contract terms. When the renter approves:\n\n      \n        \n• A PDF is generated with a cryptographic hash\n        \n• The contract is anchored to the Bitcoin blockchain via OpenTimestamps\n        \n• A tamper-proof timestamp (OTS proof file) is created\n        \n• The contract and payment schedules are stored securely"
+      },
+      "q47": {
+        "question": "What does blockchain anchoring mean for my contract?",
+        "answer": "The contract's cryptographic fingerprint is recorded on the Bitcoin blockchain, providing an independent, permanent, and verifiable proof of the contract's content and the date it was signed. This cannot be altered or forged."
+      },
+      "q48": {
+        "question": "Can I download my contract?",
+        "answer": "Yes. Approved contracts can be downloaded by authorized users directly from the platform. You can also download your .ots proof file for independent verification."
+      },
+      "q49": {
+        "question": "What is an OTS file?",
+        "answer": "An OTS (OpenTimestamps) file is a blockchain proof receipt. It contains the data needed to independently verify that your contract existed and was signed at a specific point in time, linked to the Bitcoin network."
+      },
+      "q50": {
+        "question": "Is MARN's digital contract legally compliant?",
+        "answer": "MARN is built to comply with applicable Egyptian laws related to electronic transactions and digital contracts. Admin review ensures contracts meet platform and legal standards before activation."
+      },
+      "q51": {
+        "question": "What happens if one party rejects the contract?",
+        "answer": "If the renter rejects the contract, it is cancelled. The booking will not proceed, and no financial obligations are created."
+      },
+      "q52": {
+        "question": "What are the possible contract statuses?",
+        "answer": "A contract can be in one of the following states:\n\n      \n        Created\n        →\n        Pending\n        →\n        Signed\n        →\n        Verified\n        →\n        Cancelled / Expired"
+      },
+      "q53": {
+        "question": "How do I pay rent on MARN?",
+        "answer": "From the Payment screen, select \"Pay Rent.\" The system creates a payment session through an integrated online payment gateway. Supported methods include credit/debit cards and mobile wallets."
+      },
+      "q54": {
+        "question": "Does MARN support monthly payment scheduling?",
+        "answer": "Yes. After a contract is activated, monthly rent installments are scheduled with defined due dates. The system tracks each installment's status and sends automated reminders for upcoming or overdue payments."
+      },
+      "q55": {
+        "question": "Will I be notified about upcoming payments?",
+        "answer": "Yes. MARN sends reminders before payment due dates and notifications for successful or failed transactions."
+      },
+      "q56": {
+        "question": "Where can I view my payment history?",
+        "answer": "Payment history is available from the Payment screen for renters and from the Owner Dashboard (earnings and payment status) for owners."
+      },
+      "q57": {
+        "question": "How do owners receive their rental income?",
+        "answer": "Owners can connect a payment account and initiate withdrawals of their balance through the Owner Dashboard."
+      },
+      "q58": {
+        "question": "What happens if a payment fails?",
+        "answer": "The system provides retry options. You will be notified of the failure and can attempt the payment again."
+      },
+      "q59": {
+        "question": "How can I communicate with an owner or renter?",
+        "answer": "MARN has a built-in real-time chat powered by SignalR. You can message owners or renters directly within the platform. Chat access is restricted to users associated with a relevant listing or booking request."
+      },
+      "q60": {
+        "question": "Are my messages stored?",
+        "answer": "Yes. Chat messages are stored and can be retrieved later from the Chat screen."
+      },
+      "q61": {
+        "question": "What types of notifications does MARN send?",
+        "answer": "You will receive notifications for:\n\n      \n        \n• Booking requests and responses\n        \n• Verification approval or rejection\n        \n• Contract status changes\n        \n• Payment reminders and transaction outcomes\n        \n• Listing approval or rejection (owners)"
+      },
+      "q62": {
+        "question": "Are notifications real-time?",
+        "answer": "Yes. MARN supports both real-time notifications (via SignalR) and asynchronous push notifications (via Firebase Cloud Messaging / FCM)."
+      },
+      "q63": {
+        "question": "Can I rate a property after renting it?",
+        "answer": "Yes. After a completed rental, you can submit a star rating and a written review for the property."
+      },
+      "q64": {
+        "question": "Where are ratings displayed?",
+        "answer": "Average ratings and individual reviews appear on property detail pages, helping other renters make informed decisions."
+      },
+      "q65": {
+        "question": "How do I report an inappropriate listing or user?",
+        "answer": "Use the Report function on the listing or user profile. Submitted reports are forwarded to MARN administrators for review and moderation."
+      },
+      "q66": {
+        "question": "What does the MARN admin team do?",
+        "answer": "Administrators manage the health and integrity of the platform through a comprehensive Admin Dashboard. Their responsibilities include:\n\n      \n        \n• Reviewing and approving user identity documents\n        \n• Approving or rejecting property listings\n        \n• Reviewing and verifying digital contracts\n        \n• Managing users (including suspension or banning)\n        \n• Handling reports and moderation actions\n        \n• Generating analytics reports"
+      },
+      "q67": {
+        "question": "Are listings reviewed before going live?",
+        "answer": "Yes. Every newly submitted listing is reviewed by an administrator before it becomes publicly visible. This ensures accuracy, compliance, and quality."
+      },
+      "q68": {
+        "question": "How is user trust maintained on the platform?",
+        "answer": "Through a combination of identity verification, document review, admin-approved listings, user ratings, a reporting system, and audit logging of all critical operations."
+      },
+      "q69": {
+        "question": "What technologies power MARN?",
+        "answer": "LayerTechnology\n        \n        \n          Backend APIASP.NET Core Web API\n          AI MicroserviceFastAPI (Python)\n          Mobile AppFlutter (Android & iOS)\n          Web AppReact.js\n          DatabaseMicrosoft SQL Server + Entity Framework Core\n          Real-Time CommunicationSignalR\n          AI Recommendation EngineFAISS, KNN (Ball-Tree), DBSCAN, TF-IDF\n          AI ChatbotLangGraph ReAct + Qwen LLM\n          Blockchain TimestampingOpenTimestamps (Bitcoin network)\n          Push NotificationsFirebase Cloud Messaging (FCM)"
+      },
+      "q70": {
+        "question": "How does the recommendation engine work at a technical level?",
+        "answer": "Each property is represented as a 58-dimensional feature vector combining 8 weighted numeric features (price, area, bedrooms, bathrooms, beds, max occupants, latitude, longitude) and a 50-dimensional TF-IDF title encoding. These are indexed in a FAISS index (cosine similarity via L2-normalized inner product). Behavior-based personalization uses DBSCAN geographic clustering to identify user interest zones, then performs FAISS search per cluster with weighted interaction scores and recency decay."
+      },
+      "q71": {
+        "question": "What is the chatbot's architecture?",
+        "answer": "The chatbot uses a LangGraph ReAct (Reasoning + Acting) agent architecture with a local Qwen3.5-4B large language model served via LM Studio. It maintains conversation history in the database (AssistantSessions / AssistantMessages tables) for chat persistence across sessions."
+      },
+      "q72": {
+        "question": "How is data secured on MARN?",
+        "answer": "• Role-based access control (renter, owner, admin)\n        \n• JWT-based authentication with 2FA support\n        \n• Encrypted storage for legal documents and contracts\n        \n• HTTPS for all client-server communication\n        \n• Audit logs for critical system operations"
+      },
+      "q73": {
+        "question": "What development methodology was used?",
+        "answer": "MARN was developed using the Agile methodology, with iterative sprints covering requirements analysis, architecture design, UI/UX prototyping, backend development, frontend integration, and testing & refinement."
+      },
+      "q74": {
+        "question": "What features are planned for future versions of MARN?",
+        "answer": "• AI-Assisted Verification: Automated review of identity and ownership documents to speed up the verification process and detect inconsistencies\n        \n• AI-Based Price Estimation: A pricing model to help owners set fair rental prices and help renters evaluate offers based on market data\n        \n• Geographical Expansion: Extending the platform beyond Egypt to support other countries, currencies, and languages\n        \n• Handwritten Digital Signature Support: Allowing users to sign contracts with a handwritten-style signature for a more natural experience\n        \n• Voice-Enabled Assistant: Adding voice interaction to the chatbot for improved accessibility\n        \n• AI-Assisted Reporting & Violation Detection: Using AI to help detect abusive messages, misleading listings, and repeated policy violations\n        \n• Property Sales Support: Expanding MARN beyond rentals to support full property purchases\n      \n    \n  \n\n  \n  \n    For additional support, use the Contact Us page within the platform or interact with the AI chatbot available in the app.\n\n    \n\n    MARN — Transforming accommodation access in Egypt."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: February 12, 2026",
+    "intro": "Please read these terms carefully before using our platform",
+    "importantNotice": {
+      "title": "Important Notice",
+      "body": "These Terms of Service contain important information about your legal rights, remedies, and obligations. By using MARN, you agree to be bound by these terms."
+    },
+    "cta": {
+      "title": "Questions About Our Terms?",
+      "subtitle": "Our legal team is here to help clarify any questions you may have",
+      "contactLegal": "Contact Legal Team"
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using MARN's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform. We reserve the right to modify these terms at any time, and your continued use of the service constitutes acceptance of those changes."
+      },
+      "s2": {
+        "title": "2. User Accounts",
+        "content": "You must create an account to access certain features of our platform. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must be at least 18 years old to create an account. You agree to provide accurate, current, and complete information during registration and to update such information to keep it accurate, current, and complete."
+      },
+      "s3": {
+        "title": "3. Property Listings",
+        "content": "Property owners must ensure that all listing information is accurate, complete, and up-to-date. You must have legal authority to list and rent the property. Photos and descriptions must accurately represent the property. You are responsible for setting pricing, availability, and rental terms. MARN reserves the right to remove listings that violate our policies or applicable laws."
+      },
+      "s4": {
+        "title": "4. Tenant Responsibilities",
+        "content": "Tenants agree to provide truthful information in rental applications. You are responsible for paying rent on time as agreed with the property owner. You must maintain the property in good condition and report any damages or maintenance issues promptly. You agree to comply with all lease terms and local laws and regulations."
+      },
+      "s5": {
+        "title": "5. Payments and Fees",
+        "content": "All payments are processed securely through our platform. Property owners agree to pay applicable listing fees and service charges. Tenants may be required to pay application fees, security deposits, and rent through the platform. All fees are non-refundable except as explicitly stated in our refund policy. MARN is not responsible for any disputes regarding payments between property owners and tenants."
+      },
+      "s6": {
+        "title": "6. Cancellation and Refunds",
+        "content": "Cancellation policies are set by individual property owners and must be clearly stated in the listing. Tenants should review cancellation policies before booking. Refunds, if applicable, will be processed according to the property's specific policy. MARN reserves the right to cancel bookings in cases of fraud, violation of terms, or safety concerns."
+      },
+      "s7": {
+        "title": "7. Prohibited Conduct",
+        "content": "Users must not engage in fraudulent activities, provide false information, or misrepresent themselves. Harassment, discrimination, or abusive behavior toward other users is strictly prohibited. You may not use the platform for any illegal purposes or to violate any laws. Attempting to circumvent platform fees or conduct transactions outside the platform is forbidden. Posting misleading listings, spam, or unauthorized commercial content is not allowed."
+      },
+      "s8": {
+        "title": "8. Verification and Background Checks",
+        "content": "MARN may conduct identity verification and background checks on users. By using our services, you authorize us to obtain such information. While we strive to verify users, MARN does not guarantee the accuracy or completeness of verification information and is not responsible for any issues arising from user interactions."
+      },
+      "s9": {
+        "title": "9. Intellectual Property",
+        "content": "All content on the MARN platform, including logos, text, graphics, and software, is the property of MARN or its licensors. You may not copy, reproduce, distribute, or create derivative works from our content without explicit written permission. User-generated content (listings, reviews, photos) remains the property of the user but grants MARN a license to use such content for platform operations."
+      },
+      "s10": {
+        "title": "10. Limitation of Liability",
+        "content": "MARN acts as a platform connecting property owners and tenants and is not a party to rental agreements. We are not responsible for the accuracy of listings, the conduct of users, or the condition of properties. MARN is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the platform. Our total liability shall not exceed the amount paid by you to MARN in the twelve months preceding the claim."
+      },
+      "s11": {
+        "title": "11. Indemnification",
+        "content": "You agree to indemnify and hold harmless MARN, its affiliates, and their respective officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses arising out of your use of the platform, violation of these terms, or infringement of any third-party rights."
+      },
+      "s12": {
+        "title": "12. Dispute Resolution",
+        "content": "Any disputes arising from these terms or use of the platform shall be resolved through binding arbitration in accordance with the rules of the Cairo Regional Centre for International Commercial Arbitration (CRCICA). The arbitration shall take place in Cairo, Egypt. You waive your right to participate in class action lawsuits or class-wide arbitration."
+      },
+      "s13": {
+        "title": "13. Governing Law",
+        "content": "These Terms of Service are governed by the laws of the Arab Republic of Egypt, without regard to its conflict of law provisions. Any legal action or proceeding shall be brought exclusively in the courts located in Cairo, Egypt."
+      },
+      "s14": {
+        "title": "14. Contact Information",
+        "content": "If you have questions about these Terms of Service, please contact us at: Email: legal@marn.com, Phone: 01012345678, Address: Besides new Damietta University, New Damietta, Egypt"
+      }
+    }
+  },
+  "privacy": {
+    "title": "MARN Privacy Policy",
+    "lastUpdated": "Last Updated: June 13, 2026",
+    "intro": "Your privacy is important to us. This policy explains how we collect, use, and protect your information.",
+    "importantNotice": {
+      "title": "Your Privacy Matters",
+      "body": "We are committed to protecting your personal information and being transparent about our data practices. This policy describes how MARN collects, uses, shares, and protects your information."
+    },
+    "cta": {
+      "title": "Questions About Your Privacy?",
+      "subtitle": "Our privacy team is here to address your concerns",
+      "emailPrivacy": "Email Privacy Team",
+      "contactUs": "Contact Us"
+    },
+    "sections": {
+      "s1": {
+        "title": "1. What information do we collect?",
+        "content": "We collect personal information such as your name, email address, phone number, national ID and photographs of identification documents (for legal identity verification/KYC), roommate preferences, payment details (for owners, processed securely via Stripe), chat history, and queries sent to our AI Assistant Chatbot, as well as usage data like searches, favorites, and system interactions to improve your experience."
+      },
+      "s2": {
+        "title": "2. How do we protect your data?",
+        "content": "MARN uses industry-standard encryption (SSL/TLS) for data transmission. Your passwords are hashed, and we regularly audit our systems to prevent unauthorized access. Personal data is stored on secure servers, and payment details are handled entirely by Stripe, meaning we do not store your raw financial information."
+      },
+      "s3": {
+        "title": "3. Do we share your information with third parties?",
+        "content": "We only share your data with property owners when you apply for a listing, or with verified service providers who help us operate (e.g., Stripe for payments, Firebase for push notifications, and Google for analytics). When you sign a contract, a SHA-256 cryptographic hash of the document is anchored to the Bitcoin blockchain using OpenTimestamps to verify its integrity. This hash contains no readable personal data. We never sell your personal information."
+      },
+      "s4": {
+        "title": "4. Do we use cookies?",
+        "content": "Yes, we use cookies to remember your login status, save preferences, and analyze site traffic. You can disable cookies in your browser settings, but some features may not work properly."
+      },
+      "s5": {
+        "title": "5. How can you delete your account?",
+        "content": "Go to Settings > Edit Profile > Delete Profile within the app, or email support@marn.com. Once deleted, your personal data will be removed from our active databases within 30 days, except where we are required to retain records for legal, tax, or regulatory compliance."
+      },
+      "s6": {
+        "title": "6. How often is this policy updated?",
+        "content": "We update this policy whenever we change how we handle data. The 'Last Updated' date at the top will always reflect the latest version. We'll notify you via email or in-app notification for significant changes."
+      },
+      "s7": {
+        "title": "7. How can you contact us about privacy?",
+        "content": "Email our Support Team at support@marn.com or write to: MARN, 123 Rental St., Suite 400, Cairo, Egypt. We respond to all privacy-related inquiries within 7 business days."
+      },
+      "s8": {
+        "title": "8. Do we collect location data?",
+        "content": "With your permission, we collect your device's approximate location to show nearby properties and roommate matches. You can disable this anytime in your device settings."
+      },
+      "s9": {
+        "title": "9. Do we access your camera or gallery?",
+        "content": "When you upload profile pictures, property photos, or ID documents for identity verification, we request camera/gallery access. We never access these without your action, and images are stored securely."
+      },
+      "s10": {
+        "title": "10. How do we use push notifications?",
+        "content": "We send notifications for new messages, booking requests, contract status changes, payment schedules, and roommate matches. You can customize or disable these in Settings > Notifications."
+      },
+      "s11": {
+        "title": "11. Do we use analytics tools?",
+        "content": "We use Google Analytics and Firebase Analytics to understand how users interact with MARN. This helps us improve features and fix bugs. All analytics data is anonymized."
+      },
+      "s12": {
+        "title": "12. What are our policies for minors under 18?",
+        "content": "MARN is strictly intended for users who are 18 years of age or older. We do not knowingly collect personal data from minors under 18. If we learn that we have collected data from a minor under 18, we will take steps to delete the information and terminate the account as soon as possible."
+      },
+      "s13": {
+        "title": "13. How long do we retain your data?",
+        "content": "We keep your personal data as long as your account is active. After deletion, most data is purged within 30 days. Financial and transaction records for owners and renters may be kept for up to 7 years for tax and legal compliance."
+      },
+      "s14": {
+        "title": "14. What happens in case of a data breach?",
+        "content": "We have an incident response plan. If a breach affects your personal data, we will notify you within 72 hours via email and post a notice on our platform. We will also report to relevant authorities as required by law."
+      },
+      "s15": {
+        "title": "15. Is this policy available in other languages?",
+        "content": "Our privacy policy is available in both English and Arabic. In the event of any discrepancies or conflict between the English and Arabic versions, the English version shall prevail and be the legally binding document."
+      }
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page Not Found",
+    "subtitle": "Oops! The page you're looking for seems to have moved out. Let's help you find a new place.",
+    "goHome": "Go Home",
+    "searchProperties": "Search Properties",
+    "popularPages": "Popular Pages",
+    "goBack": "Go back to previous page",
+    "links": {
+      "search": "Search",
+      "aboutUs": "About Us",
+      "howItWorks": "How It Works",
+      "contact": "Contact"
+    }
+  },
+  "viewOwnerProfile": {
+    "verified": "Verified",
+    "verifiedOwner": "Verified Owner",
+    "propertyOwner": "Property Owner",
+    "properties": "Properties",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "responseTime": "Response Time",
+    "joinDate": "Member since",
+    "about": "About",
+    "ownerStatistics": "Owner Statistics",
+    "totalProperties": "Total Properties",
+    "averageRating": "Average Rating",
+    "chatWithOwner": "Chat with Owner",
+    "reportOwner": "Report Owner",
+    "back": "Back",
+    "notFound": "Owner not found",
+    "goBack": "Go Back",
+    "new": "New",
+    "noBio": "No bio provided by this owner.",
+    "noProperties": "No properties found for this owner.",
+    "showMore": "Show More",
+    "showAll": "Show All",
+    "egp": "EGP",
+    "reportDialogDesc": "Please provide details about why you're reporting this owner. Our team will review your report.",
+    "reasonForReporting": "Reason for Reporting",
+    "report": {
+      "button": "Report",
+      "title": "Report User",
+      "reasonForReporting": "Reason for Reporting",
+      "reasonPlaceholder": "Enter reason for report...",
+      "minCharsWithCount": "Please enter at least 5 characters. ({{current}}/5)",
+      "submit": "Submit Report",
+      "cancel": "Cancel"
+    },
+    "toasts": {
+      "reportSubmitted": "Report submitted successfully. We will review it shortly.",
+      "reportReasonRequired": "Please provide a reason for reporting",
+      "reportFailed": "Failed to submit report. Please try again.",
+      "openingChat": "Opening chat with owner..."
+    }
+  },
+  "viewUserProfile": {
+    "verifiedUser": "Verified User",
+    "lifestyle": "Lifestyle Preferences",
+    "education": "Education",
+    "about": "About",
+    "roommateStatus": "Roommate Status",
+    "acceptsRoommates": "Accepts Roommates",
+    "acceptsRoommatesDesc": "This user is open to sharing accommodation",
+    "doesNotAcceptRoommates": "Does Not Accept Roommates",
+    "doesNotAcceptRoommatesDesc": "This user prefers to live alone",
+    "back": "Back",
+    "reportUser": "Report User",
+    "reportDialogDesc": "Please provide details about why you're reporting this user. Our team will review your report.",
+    "reasonForReporting": "Reason for Reporting",
+    "memberSince": "Member since",
+    "yearsOld": "years old",
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "notFound": "User not found",
+    "goBack": "Go Back",
+    "noBio": "No bio provided.",
+    "ratings": "Ratings",
+    "properties": "Properties",
+    "message": "Message",
+    "notAvailable": "N/A",
+    "joinedYear": "Joined {{year}}",
+    "budgetRangeValue": "{{min}} EGP – {{max}} EGP",
+    "compatibility": {
+      "title": "Compatibility Analysis",
+      "match": "Match",
+      "topMatches": "Top Matches",
+      "differences": "Differences",
+      "dealbreakers": "Dealbreakers"
+    },
+    "lifestyle_fields": {
+      "smoking": "Smoking",
+      "pets": "Pets",
+      "sleepSchedule": "Sleep Schedule",
+      "noiseTolerance": "Noise Tolerance",
+      "guestsFrequency": "Guests Frequency",
+      "workSchedule": "Work Schedule",
+      "sharingLevel": "Sharing Level",
+      "budgetRange": "Budget Range",
+      "unspecified": "Unspecified",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "education_fields": {
+      "educationLevel": "Education Level",
+      "fieldOfStudy": "Field of Study"
+    },
+    "report": {
+      "button": "Report",
+      "title": "Report User",
+      "reasonPlaceholder": "Describe the issue...",
+      "minChars": "Please enter at least 5 characters.",
+      "submit": "Submit Report",
+      "cancel": "Cancel"
+    },
+    "toasts": {
+      "reportSubmitted": "Report submitted successfully. We will review it shortly.",
+      "reportReasonRequired": "Please provide a reason of at least 5 characters for reporting"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unreadCount_zero": "You have no unread messages",
+    "unreadCount_one": "You have {{count}} unread message",
+    "unreadCount_other": "You have {{count}} unread messages",
+    "markAllAsRead": "Mark all as read",
+    "unread": "Unread",
+    "read": "Read",
+    "allCaughtUp": "All caught up!",
+    "noNewNotifications": "You don't have any new notifications at the moment. Check back later for updates.",
+    "backToHome": "Back to Home",
+    "viewDetails": "View Details",
+    "markAsRead": "Mark as read",
+    "close": "Close",
+    "accepting": "Accepting...",
+    "acceptRequest": "Accept Request",
+    "declining": "Declining...",
+    "decline": "Decline",
+    "signing": "Signing...",
+    "signContract": "Sign Contract",
+    "replyToMessage": "Reply to Message",
+    "contactSupport": "Contact Support",
+    "markAsReadError": "Failed to mark notification as read",
+    "markAllAsReadError": "Failed to mark all notifications as read"
+  },
+  "roommateMatching": {
+    "hero": {
+      "title": "Find Your Perfect Roommate",
+      "subtitle": "Discover compatible roommates based on your lifestyle, preferences, and habits. We use your profile settings to find the best matches for you.",
+      "updatePreferences": "Update Preferences"
+    },
+    "disabled": {
+      "title": "Roommate Matching is Disabled",
+      "description": "To start finding compatible roommates, you need to enable your roommate preferences and fill out your lifestyle details. This helps us find the best matches for you.",
+      "cta": "Set Up Roommate Preferences"
+    },
+    "matches": {
+      "heading": "Your Top Matches",
+      "count": "{{count}} matches found",
+      "topMatches": "Top Matches",
+      "differences": "Differences",
+      "dealbreakers": "Dealbreakers",
+      "viewProfile": "View Profile",
+      "message": "Message"
+    },
+    "empty": {
+      "title": "No matches found yet",
+      "description": "We couldn't find any close matches right now. Try expanding your budget range or making your preferences less strict.",
+      "tweakPreferences": "Tweak Preferences"
+    },
+    "errors": {
+      "authRequired": "Authentication is required to find roommates.",
+      "loadFailed": "Failed to load roommate matches.",
+      "unexpected": "An unexpected error occurred while loading matches."
+    },
+    "traits": {
+      "bothNonSmokers": "You're both non-smokers",
+      "bothPrefer": "You both prefer",
+      "bothAre": "You both are"
+    }
+  }
+}

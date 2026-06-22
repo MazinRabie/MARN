@@ -1,0 +1,22 @@
+## Roommate Matching
+
+**How does the roommate matching system work?**
+MARN uses an algorithmic compatibility model. Users fill in their lifestyle preferences, and the system matches them with compatible roommates based on those inputs.
+
+**What preferences can I set for roommate matching?**
+You can specify:
+- Sleep schedule and daily habits
+- Smoking preferences
+- Pet ownership
+- Gender preferences
+- Educational background and field of study
+- Budget range
+
+**Where do I set my roommate preferences?**
+Go to Profile Settings → Roommate Preferences to define and update your lifestyle profile.
+
+**How is compatibility calculated?**
+The system computes a compatibility score based on how closely each user's preferences align with potential matches. Matches are ranked and presented with a summary of matching and non-matching traits (e.g., smoking, pets, sleep habits).
+
+**Can I contact a suggested roommate?**
+Yes. From the Roommate Matches screen, you can view a match's basic profile and initiate communication.

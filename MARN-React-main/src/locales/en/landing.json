@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Find Your Perfect",
+    "titleHighlight": "Home & Roommate",
+    "subtitle": "Discover verified rental properties and connect with compatible roommates in your area. Your journey to comfortable living starts here.",
+    "locationPlaceholder": "Enter location...",
+    "searchButton": "Search Properties",
+    "stats": {
+      "activeListings": "Active Listings",
+      "happyTenants": "Happy Tenants",
+      "citiesCovered": "Cities Covered"
+    }
+  },
+  "featured": {
+    "title": "Featured Properties",
+    "subtitle": "Handpicked properties that offer the best value and comfort",
+    "viewAll": "View All Properties"
+  },
+  "benefits": {
+    "title": "Why Choose MARN?",
+    "subtitle": "We provide everything you need for a seamless rental experience",
+    "securePayments": {
+      "title": "Secure Payments",
+      "description": "All transactions are encrypted and protected with industry-leading security."
+    },
+    "verifiedListings": {
+      "title": "Verified Listings",
+      "description": "Every property is verified and inspected to ensure quality and authenticity."
+    },
+    "roommateMatching": {
+      "title": "Roommate Matching",
+      "description": "Find compatible roommates with our AI-powered matching algorithm."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "subtitle": "Join thousands of satisfied users who found their perfect home",
+    "roles": {
+      "tenant": "Tenant",
+      "propertyOwner": "Property Owner",
+      "roommateSeeker": "Roommate Seeker"
+    }
+  },
+  "cta": {
+    "title": "Ready to Find Your Perfect Home?",
+    "subtitle": "Join thousands of happy tenants and property owners on MARN today",
+    "browseProperties": "Browse Properties",
+    "listYourProperty": "List Your Property"
+  }
+}

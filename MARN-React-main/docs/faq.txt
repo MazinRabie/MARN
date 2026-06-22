@@ -1,0 +1,60 @@
+Frequently Asked Questions
+Find answers to common questions about using MARN
+
+For Tenants
+How do I search for properties?
+Use our advanced search feature to filter properties by location, price range, number of bedrooms, amenities, and more. You can also save your searches for quick access later.
+
+Is there a fee to use MARN as a tenant?
+No, MARN is completely free for tenants. You can search, browse, and message property owners at no cost.
+
+How do I schedule a property tour?
+Click the "Schedule Tour" button on any property listing, select your preferred date and time, and the property owner will confirm your appointment.
+
+What is the roommate matching feature?
+Our smart algorithm matches you with potential roommates based on lifestyle preferences, work schedules, cleanliness habits, and more. You can filter and chat with matches before making a decision.
+
+How do I apply for a property?
+Once you find a property you like, click "Apply Now" and complete the online application form. You'll need to provide personal information, employment details, and references.
+
+For Property Owners
+How much does it cost to list a property?
+We offer flexible pricing plans starting from $29/month for basic listings. Premium plans include featured placement, professional photography, and advanced analytics.
+
+How do I create a property listing?
+Click "Become a Host" in the navigation menu, fill out the property details form, upload photos, set your pricing and availability, and publish. Your listing will go live within 24 hours after verification.
+
+How are tenants verified?
+All tenants go through identity verification, employment verification, and background checks. You can review their full profiles before accepting applications.
+
+Can I manage multiple properties?
+Yes! Our owner dashboard allows you to manage unlimited properties, track all bookings, handle maintenance requests, and view analytics for each property separately.
+
+How do I receive rent payments?
+Tenants pay through our secure platform, and funds are automatically deposited to your bank account on your chosen schedule (weekly, bi-weekly, or monthly).
+
+Safety & Security
+How does MARN verify property listings?
+Our team manually reviews each listing, verifies ownership documents, and may conduct property inspections. All listings display a "Verified" badge once approved.
+
+Is my payment information secure?
+Yes, we use bank-level 256-bit SSL encryption for all transactions. We never store your full payment details on our servers and comply with PCI DSS standards.
+
+What if I encounter a scam or fraud?
+Report suspicious activity immediately through our platform. We have a dedicated trust and safety team that investigates all reports within 24 hours and takes appropriate action.
+
+Are background checks mandatory?
+For tenants, background checks are optional but highly recommended and increase your chances of approval. Property owners can require them as part of their application process.
+
+Payments & Billing
+What payment methods do you accept?
+We accept credit cards, debit cards, bank transfers (ACH), and digital wallets including PayPal and Apple Pay.
+
+When is rent due?
+Rent due dates are set by individual property owners, typically on the 1st of each month. You'll receive reminders 5 days before the due date.
+
+Is there a security deposit?
+Security deposit amounts vary by property and are determined by the property owner. Deposits are held securely and returned within 30 days of move-out, minus any deductions for damages.
+
+What are the cancellation policies?
+Cancellation policies vary by property. Most require 30-60 days notice. Check the specific policy on each property listing before booking.

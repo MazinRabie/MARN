@@ -1,0 +1,137 @@
+{
+  "title": "إعدادات الحساب",
+  "subtitle": "أدر إعدادات حسابك وتفضيلاتك",
+  "tabs": {
+    "profile": "الملف الشخصي",
+    "security": "الأمان",
+    "documents": "المستندات",
+    "roommate": "إعدادات الشريك"
+  },
+  "profileTab": {
+    "uploadPhoto": "رفع صورة جديدة",
+    "cardTitle": "المعلومات الشخصية",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "emailAddress": "البريد الإلكتروني",
+    "emailCannotChange": "لا يمكن تغيير البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "dateOfBirth": "تاريخ الميلاد",
+    "country": "الدولة",
+    "gender": "الجنس",
+    "language": "اللغة",
+    "bio": "نبذة عني",
+    "bioPlaceholder": "أخبرنا عن نفسك...",
+    "saveChanges": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "toasts": {
+      "updated": "تم تحديث الملف الشخصي بنجاح!",
+      "failed": "فشل تحديث الملف الشخصي."
+    }
+  },
+  "securityTab": {
+    "title": "إعدادات الأمان",
+    "changePassword": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "updatePassword": "تحديث كلمة المرور",
+    "twoFactor": "التحقق بخطوتين",
+    "enable2FA": "تفعيل التحقق بخطوتين",
+    "protectedWith2FA": "حسابك محمي بالتحقق بخطوتين",
+    "add2FALayer": "أضف طبقة أمان إضافية لحسابك",
+    "disable2FATitle": "تعطيل التحقق بخطوتين",
+    "enable2FATitle": "تفعيل التحقق بخطوتين",
+    "enterPasswordToConfirm": "أدخل كلمة مرور حسابك للتأكيد",
+    "enterPassword": "أدخل كلمة المرور",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "toasts": {
+      "passwordUpdated": "تم تحديث كلمة المرور بنجاح!",
+      "passwordFailed": "فشل تحديث كلمة المرور.",
+      "passwordRequired": "كلمة المرور مطلوبة.",
+      "twoFactorEnabled": "تم تفعيل التحقق بخطوتين بنجاح.",
+      "twoFactorDisabled": "تم تعطيل التحقق بخطوتين بنجاح.",
+      "incorrectPassword": "كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى.",
+      "accountDeleted": "تم حذف الحساب بنجاح."
+    },
+    "deleteAccount": {
+      "title": "حذف الحساب",
+      "description": "بمجرد حذف حسابك، لا يمكنك التراجع. يرجى التأكد.",
+      "button": "حذف الحساب",
+      "confirmTitle": "تأكيد الحذف",
+      "confirmMessage": "هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "نعم، احذف حسابي",
+      "processing": "جاري المعالجة..."
+    }
+  },
+  "documentsTab": {
+    "title": "التحقق من الهوية",
+    "subtitle": "ارفع وثائق الهوية للتحقق من حسابك",
+    "frontId": "الوجه الأمامي لبطاقة الهوية",
+    "backId": "الوجه الخلفي لبطاقة الهوية",
+    "nameInArabic": "الاسم بالعربية",
+    "nameInArabicPlaceholder": "أدخل اسمك بالعربية",
+    "addressInArabic": "العنوان بالعربية",
+    "addressInArabicPlaceholder": "أدخل عنوانك بالعربية",
+    "nationalId": "رقم الهوية الوطنية",
+    "nationalIdPlaceholder": "أدخل رقم هويتك الوطنية",
+    "cancel": "إلغاء",
+    "submit": "إرسال للمراجعة",
+    "toasts": {
+      "submitted": "تم إرسال وثائق الهوية للمراجعة",
+      "failed": "فشل إرسال الوثائق."
+    }
+  },
+  "roommateTab": {
+    "title": "تفضيلات الشريك وأسلوب الحياة",
+    "subtitle": "ساعد الشركاء المحتملين على فهم أسلوب حياتك ومدى التوافق.",
+    "sections": {
+      "locationSearch": "الموقع والبحث",
+      "lifestylePreferences": "أسلوب الحياة والتفضيلات",
+      "education": "التعليم",
+      "socialWork": "الاجتماعي والعمل",
+      "budgetRange": "نطاق الميزانية",
+      "visibilitySettings": "إعدادات الظهور"
+    },
+    "fields": {
+      "governorate": "المحافظة",
+      "searchStatus": "حالة البحث",
+      "searchStatusPlaceholder": "هل تبحث بنشاط؟",
+      "smoking": "التدخين",
+      "pets": "الحيوانات الأليفة",
+      "petType": "نوع الحيوان",
+      "petTypePlaceholder": "مثال: كلب، قطة، طائر",
+      "sleepSchedule": "جدول النوم",
+      "educationLevel": "المستوى التعليمي",
+      "fieldOfStudy": "مجال الدراسة (اختياري)",
+      "noiseTolerance": "تحمل الضوضاء",
+      "guestsFrequency": "تكرار الضيوف",
+      "guestsFrequencyPlaceholder": "كم مرة تستقبل ضيوفاً؟",
+      "workSchedule": "جدول العمل",
+      "sharingLevel": "مستوى المشاركة",
+      "budgetMin": "الحد الأدنى",
+      "budgetMax": "الحد الأقصى",
+      "perMonth": "(شهرياً)",
+      "profileVisibility": "ظهور الملف للشركاء المحتملين",
+      "profileVisibilityOn": "مرئي للمستخدمين الذين يبحثون عن شريك سكن.",
+      "profileVisibilityOff": "أنت فقط من يمكنه رؤية هذه المعلومات.",
+      "importance": "الأهمية:",
+      "yes": "نعم",
+      "no": "لا",
+      "noiseLow": "منخفض",
+      "noiseMedium": "متوسط",
+      "noiseHigh": "مرتفع"
+    },
+    "visibility": {
+      "hiddenNote": "تفضيلات الشريك محفوظة لكنها مخفية عن المستخدمين الآخرين. فعّل الظهور لمساعدة الشركاء المحتملين على العثور عليك."
+    },
+    "unsavedBanner": "لديك تغييرات غير محفوظة. لا تنسَ حفظ تفضيلاتك!",
+    "savePreferences": "حفظ التفضيلات",
+    "cancel": "إلغاء",
+    "toasts": {
+      "saved": "تم حفظ التفضيلات بنجاح!",
+      "failed": "فشل حفظ التفضيلات."
+    }
+  }
+}

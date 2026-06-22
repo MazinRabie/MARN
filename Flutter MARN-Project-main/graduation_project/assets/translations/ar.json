@@ -1,0 +1,909 @@
+{
+  "find_your_perfect_home": "اعثر على منزل أحلامك",
+  "common": {
+    "please_wait": "يرجى الانتظار...",
+    "something_went_wrong": "حدث خطأ ما",
+    "select": "اختيار",
+    "copyright": "حقوق النشر © 2026 MARN. جميع الحقوق محفوظة.",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "enable": "تفعيل",
+    "disable": "تعطيل",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "yesterday_time": "أمس {}",
+    "price_million": "{} مليون",
+    "price_thousand": "{} ألف"
+  },
+  "errors": {
+    "empty_image_url": "رابط الصورة فارغ",
+    "failed_to_download_image": "فشل تحميل الصورة: {}"
+  },
+  "api_errors": {
+    "connection_timeout": "انتهت مهلة الاتصال بالخادم",
+    "send_timeout": "فشل إرسال الطلب إلى الخادم",
+    "receive_timeout": "فشل استقبال الاستجابة من الخادم",
+    "bad_certificate": "تم استلام شهادة غير صالحة",
+    "no_response": "لا توجد استجابة من الخادم",
+    "request_cancelled": "تم إلغاء الطلب، يرجى المحاولة مرة أخرى",
+    "no_internet": "لا يوجد اتصال بالإنترنت، يرجى المحاولة مرة أخرى",
+    "unexpected_error": "حدث خطأ غير متوقع، يرجى المحاولة مرة أخرى",
+    "request_not_found": "لم يتم العثور على الطلب، يرجى المحاولة لاحقاً",
+    "server_error": "خطأ في الخادم، يرجى المحاولة لاحقاً",
+    "server_update": "يتم تحديث الخادم الآن، يرجى المحاولة لاحقاً",
+    "unexpected_failure": "فشل غير متوقع"
+  },
+  "validation": {
+    "required_field": "هذا الحقل مطلوب",
+    "invalid_email": "البريد الإلكتروني غير صالح",
+    "name_required": "الاسم مطلوب",
+    "name_length": "يجب أن يتكون الاسم من 3 أحرف على الأقل",
+    "password_uppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل",
+    "password_lowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل",
+    "password_number": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+    "invalid_number": "رقم غير صالح",
+    "front_of_id_card_required": "صورة وجه الهوية مطلوبة",
+    "back_of_id_card_required": "صورة ظهر الهوية مطلوبة",
+    "national_id_required": "الرقم القومي مطلوب",
+    "national_id_must_be_14_digits": "الرقم القومي يجب أن يتكون من 14 رقماً",
+    "id_card_image_required": "صورة الهوية مطلوبة",
+    "email_required": "البريد الإلكتروني مطلوب",
+    "password_required": "كلمة المرور مطلوبة",
+    "password_min_length": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+    "field_is_required": "{} مطلوب",
+    "field_length_between_2_and_50": "يجب أن يتكون {} من 2 إلى 50 حرفاً"
+  },
+  "report": {
+    "inaccurate_listing": "تفاصيل العقار غير دقيقة",
+    "fraudulent_listing": "إعلان احتيالي أو مضلل",
+    "suspicious_host": "مضيف غير مستجيب أو مشبوه",
+    "other": "أخرى",
+    "harassment": "مضايقة أو تنمر",
+    "spam": "رسائل غير مرغوب فيها أو احتيال",
+    "hate_speech": "خطاب كراهية أو رموز غير لائقة",
+    "inappropriate_content": "محتوى غير لائق",
+    "please_select_reason": "يرجى اختيار سبب أو كتابة سبب",
+    "failed_with_status": "فشل مع الحالة: {}",
+    "report_target": "إبلاغ عن {}"
+  },
+  "static": {
+    "about_marn": "حول MARN",
+    "how_it_works": "كيف يعمل",
+    "faq": "الأسئلة الشائعة",
+    "privacy_policy": "سياسة الخصوصية",
+    "terms_of_use": "شروط الاستخدام",
+    "contact_us": "اتصل بنا"
+  },
+  "auth": {
+    "login": {
+      "headerTitle": "مرحباً بك مجدداً!",
+      "headerSubtitle": "الوصول إلى لوحة التحكم وإدارة العقارات الخاصة بك",
+      "formTitle": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟ ",
+      "forgotPasswordLink": "هل نسيت كلمة المرور؟",
+      "rememberMe": "تذكرني لمدة 30 يوماً",
+      "orContinueWith": "أو الاستمرار باستخدام"
+    },
+    "signUp": {
+      "headerTitle": "انضم إلى MARN",
+      "headerSubtitle": "ابدأ إدارة عقاراتك اليوم",
+      "formTitle": "إنشاء حساب",
+      "alreadyHaveAccount": "لديك حساب بالفعل؟ ",
+      "male": "ذكر",
+      "female": "أنثى",
+      "agreeTo": "أنا أوافق على ",
+      "termsOfService": "شروط الخدمة",
+      "and": " و ",
+      "privacyPolicy": "سياسة الخصوصية"
+    },
+    "forgotPassword": {
+      "headerTitle": "هل نسيت كلمة المرور؟",
+      "headerSubtitle": "لا تقلق! سنرسل لك تعليمات إعادة التعيين",
+      "formTitle": "إعادة تعيين كلمة المرور",
+      "formSubtitle": "أدخل بريدك الإلكتروني لتلقي تعليمات إعادة التعيين",
+      "infoValidity": "● رابط إعادة التعيين صالح لمدة 24 ساعة",
+      "infoSecure": "● استرداد آمن لكلمة المرور",
+      "infoAccess": "● استعادة الوصول في دقائق",
+      "rememberPassword": "هل تتذكر كلمة المرور؟ "
+    },
+    "resetPassword": {
+      "title": "تعيين كلمة مرور جديدة",
+      "subtitle": "إعادة تعيين كلمة المرور لـ {}"
+    },
+    "otp": {
+      "title": "تأكيد بريدك الإلكتروني",
+      "subtitle": "تم إرسال رمز التحقق إلى بريدك الإلكتروني",
+      "enterCode": "أدخل الرمز المكون من 6 أرقام",
+      "didNotReceiveCode": "لم تستلم الرمز؟ ",
+      "contactSupport": "اتصل بالدعم",
+      "resendTimer": "إعادة إرسال الرمز خلال {} ثانية",
+      "resendButton": "إعادة إرسال الرمز"
+    },
+    "buttons": {
+      "signIn": "تسجيل الدخول",
+      "signUp": "إنشاء حساب",
+      "sendResetLink": "إرسال رابط إعادة التعيين",
+      "resetPassword": "إعادة تعيين كلمة المرور",
+      "verifyAndContinue": "التحقق والمتابعة"
+    },
+    "placeholders": {
+      "emailAddress": "البريد الإلكتروني",
+      "emailHint": "you@example.com",
+      "password": "كلمة المرور",
+      "passwordHint": "أدخل كلمة المرور",
+      "firstName": "الاسم الأول",
+      "firstNameHint": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "lastNameHint": "الاسم الأخير",
+      "createPasswordHint": "أنشئ كلمة مرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmPasswordHint": "تأكيد كلمة المرور الخاصة بك",
+      "gender": "الجنس",
+      "birthDate": "تاريخ الميلاد",
+      "birthDateHint": "اختر تاريخ ميلادك"
+    },
+    "validation": {
+      "passwordHelper": "يجب أن تتكون من 8 أحرف على الأقل مع مزيج من الحروف والأرقام",
+      "confirmPasswordRequired": "تأكيد كلمة المرور مطلوب",
+      "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+      "genderRequired": "يرجى اختيار الجنس.",
+      "birthDateRequired": "يرجى اختيار تاريخ الميلاد.",
+      "acceptTermsRequired": "يرجى قبول الشروط للمتابعة."
+    },
+    "errors": {
+      "twoFactorRequired": "مطلوب المصادقة الثنائية",
+      "googleSignInFailed": "فشل تسجيل الدخول باستخدام جوجل",
+      "googleSignInCancelled": "تم إلغاء تسجيل الدخول باستخدام جوجل"
+    },
+    "success": {
+      "registration": "تم التسجيل بنجاح. يرجى التحقق من بريدك الإلكتروني.",
+      "login": "تم تسجيل الدخول بنجاح.",
+      "resendConfirmation": "تم إعادة إرسال بريد التأكيد بنجاح.",
+      "passwordResetEmailSent": "تم إرسال بريد إعادة تعيين كلمة المرور بنجاح.",
+      "emailConfirmed": "تم تأكيد البريد الإلكتروني بنجاح.",
+      "googleSignIn": "تم تسجيل الدخول باستخدام جوجل بنجاح.",
+      "loggedOut": "تم تسجيل الخروج بنجاح.",
+      "accountDeleted": "تم حذف الحساب بنجاح.",
+      "passwordReset": "تم إعادة تعيين كلمة المرور بنجاح."
+    },
+    "snackbar": {
+      "checkEmailToConfirm": "يرجى التحقق من بريدك الإلكتروني لتأكيد حسابك. لم تستلمه؟",
+      "resendAction": "إعادة إرسال"
+    },
+    "social": {
+      "google": "جوجل"
+    },
+    "confirmEmail": {
+      "pleaseLoginAgain": "يرجى تسجيل الدخول مرة أخرى"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "editTitle": "تعديل الملف الشخصي",
+    "changePassword": {
+      "title": "تعيين كلمة مرور جديدة",
+      "subtitle": "تغيير كلمة المرور",
+      "currentPassword": "كلمة المرور الحالية",
+      "currentPasswordHint": "أدخل كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "newPasswordHint": "أنشئ كلمة مرور جديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmPasswordHint": "تأكيد كلمة المرور الخاصة بك"
+    },
+    "toggle2fa": {
+      "securityLayer": "إضافة طبقة حماية إضافية لحسابك",
+      "enabledSubtitle": "المصادقة الثنائية مفعّلة. أدخل كلمة المرور لتعطيلها",
+      "disabledSubtitle": "المصادقة الثنائية معطّلة. أدخل كلمة المرور لتفعيلها",
+      "passwordLabel": "كلمة المرور",
+      "passwordHint": "أدخل كلمة المرور الخاصة بك"
+    },
+    "placeholders": {
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "phone": "الهاتف",
+      "phoneHint": "رقم الهاتف",
+      "bio": "نبذة عني",
+      "bioHint": "نبذة عني",
+      "gender": "الجنس",
+      "language": "اللغة",
+      "country": "البلد"
+    },
+    "validation": {
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "dobRequired": "تاريخ الميلاد مطلوب",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordUppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل",
+      "passwordLowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل",
+      "passwordNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+      "passwordMinLength": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+      "passwordSameAsCurrent": "لا يمكن أن تكون كلمة المرور الجديدة مطابقة لكلمة المرور الحالية",
+      "confirmPasswordRequired": "تأكيد كلمة المرور مطلوب",
+      "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+      "minBudgetRequired": "يرجى إدخال الحد الأدنى للميزانية",
+      "maxBudgetRequired": "يرجى إدخال الحد الأقصى للميزانية"
+    },
+    "errors": {
+      "noUserData": "لم يتم العثور على بيانات المستخدم",
+      "noSettingsData": "لم يتم العثور على بيانات إعدادات الملف الشخصي"
+    },
+    "buttons": {
+      "changePasswordButton": "تغيير كلمة المرور",
+      "enable": "تفعيل",
+      "disable": "تعطيل"
+    },
+    "menu": {
+      "chat": "محادثة",
+      "report": "إبلاغ"
+    },
+    "statistics": {
+      "reviewsCount": "{} ({}) تقييمات",
+      "propertiesCount": "{} عقارات"
+    },
+    "sections": {
+      "aboutMe": "نبذة عني",
+      "generalInfo": "معلومات عامة",
+      "roommatePreferences": "تفضيلات شريك السكن",
+      "properties": "العقارات"
+    },
+    "info": {
+      "dob": "تاريخ الميلاد",
+      "gender": "الجنس",
+      "country": "البلد",
+      "memberSince": "عضو منذ",
+      "smoking": "التدخين",
+      "pets": "الحيوانات الأليفة",
+      "sleepSchedule": "جدول النوم",
+      "educationLevel": "المستوى التعليمي",
+      "fieldOfStudy": "مجال الدراسة",
+      "noiseTolerance": "تحمل الضوضاء",
+      "guestsFrequency": "تردد استقبال الضيوف",
+      "workSchedule": "جدول العمل",
+      "sharingLevel": "مستوى المشاركة",
+      "budgetRange": "نطاق الميزانية",
+      "yes": "نعم",
+      "no": "لا",
+      "na": "غير متوفر"
+    },
+    "roommate": {
+      "visibilityTitle": "رؤية تفضيلات شريك السكن",
+      "visibilitySubtitle": "تفعيل الرؤية لمساعدة شركاء السكن المحتملين في العثور عليك.",
+      "budgetRange": "نطاق الميزانية",
+      "minBudget": "الحد الأدنى للميزانية",
+      "maxBudget": "الحد الأقصى للميزانية",
+      "importance": "الأهمية",
+      "budgetValue": "{} - {} ج.م",
+      "preferencesLifestyle": "التفضيلات وأسلوب الحياة",
+      "smokingLabel": "التدخين",
+      "iSmoke": "أنا أدخن",
+      "nonSmoker": "غير مدخن",
+      "petsLabel": "الحيوانات الأليفة",
+      "petFriendly": "أليف مع الحيوانات",
+      "notPetFriendly": "غير أليف مع الحيوانات",
+      "education": "التعليم",
+      "educationLevel": "المستوى التعليمي",
+      "fieldOfStudy": "مجال الدراسة",
+      "socialWork": "العمل والتواصل الاجتماعي",
+      "noiseTolerance": "تحمل الضوضاء",
+      "guestsFrequency": "تردد استقبال الضيوف",
+      "sharingLevel": "مستوى المشاركة",
+      "workSchedule": "جدول العمل"
+    },
+    "verification": {
+      "frontIdCard": "وجه بطاقة الهوية",
+      "frontIdRequired": "صورة وجه الهوية مطلوبة",
+      "backIdCard": "ظهر بطاقة الهوية",
+      "backIdRequired": "صورة ظهر الهوية مطلوبة",
+      "arabicAddress": "العنوان باللغة العربية",
+      "arabicFullName": "الاسم الكامل باللغة العربية",
+      "nationalId": "الرقم القومي",
+      "nationalIdRequired": "يرجى إدخال الرقم القومي الخاص بك",
+      "nationalIdLength": "يجب أن يتكون الرقم القومي من 14 رقماً"
+    }
+  },
+  "property": {
+    "emptyState": "لم يتم العثور على عقارات",
+    "months": {
+      "jan": "يناير",
+      "feb": "فبراير",
+      "mar": "مارس",
+      "apr": "أبريل",
+      "may": "مايو",
+      "jun": "يونيو",
+      "jul": "يوليو",
+      "aug": "أغسطس",
+      "sep": "سبتمبر",
+      "oct": "أكتوبر",
+      "nov": "نوفمبر",
+      "dec": "ديسمبر"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "available": "متاح",
+      "notAvailable": "غير متاح",
+      "shared": "عقار مشترك",
+      "notShared": "عقار غير مشترك",
+      "sharedSubtitle": "يمكن استخدام العقار من قبل عدة أشخاص",
+      "notSharedSubtitle": "يمكن استخدام العقار من قبل شخص واحد أو عائلة"
+    },
+    "buttons": {
+      "bookNow": "احجز الآن",
+      "back": "رجوع",
+      "next": "التالي",
+      "submit": "إرسال",
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "view": "عرض"
+    },
+    "dialogs": {
+      "toggleActiveTitle": "تغيير حالة نشاط العقار",
+      "toggleActiveContent": "هل أنت متأكد من تغيير حالة نشاط العقار؟",
+      "activate": "تفعيل",
+      "deactivate": "تعطيل",
+      "deleteTitle": "حذف العقار",
+      "deleteContent": "هل أنت متأكد من حذف العقار؟"
+    },
+    "booking": {
+      "priceEgp": "السعر: {price} ج.م",
+      "startRequired": "يرجى تحديد تاريخ البدء",
+      "endRequired": "يرجى تحديد تاريخ الانتهاء",
+      "selectPaymentFrequency": "اختر طريقة الدفع المفضلة",
+      "selectEndMonthYear": "اختر شهر وسنة الانتهاء",
+      "selectEndYear": "اختر سنة الانتهاء",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "day": "اليوم",
+      "month": "الشهر",
+      "year": "السنة",
+      "statusBooking": "جاري الحجز...",
+      "confirmBooking": "تأكيد الحجز",
+      "cancel": "إلغاء"
+    },
+    "details": {
+      "aboutProperty": "عن هذا العقار",
+      "amenities": "التسهيلات",
+      "hostedBy": "المستضيف",
+      "activeRenters": "المستأجرين الحاليين",
+      "matching": "نسبة التوافق: {percentage}%",
+      "rules": "القواعد",
+      "paymentFrequency": "دورية الدفع: {frequency}",
+      "dates": "التواريخ: من {start} إلى {end}",
+      "ownerWorkspace": "مساحة عمل المالك",
+      "propertyStatus": "حالة العقار",
+      "pendingRequests": "الطلبات المعلقة ({count})",
+      "accept": "قبول",
+      "decline": "رفض",
+      "contractsHistory": "سجل العقود ({count})",
+      "expiryDate": "تاريخ الانتهاء: {date}",
+      "contract": "العقد",
+      "bedrooms": "غرف نوم",
+      "baths": "حمامات",
+      "area": "المساحة",
+      "areaValue": "{area} متر مربع",
+      "beds": "أسرة",
+      "maxOccupants": "الحد الأقصى للمقيمين",
+      "sharedProperty": "عقار مشترك",
+      "listedOn": "تاريخ الإدراج",
+      "rating": "التقييم ⭐: {rating}",
+      "propertiesCount": "العقارات 🏠: {count}",
+      "yes": "نعم",
+      "no": "لا",
+      "rentLabel": "إيجار {unit}",
+      "ratingLabel": "التقييم",
+      "reviewsCount": "{count} تقييمات",
+      "yourRating": "تقييمك",
+      "tapStarsToRate": "اضغط على النجوم بالأسفل للتقييم!",
+      "noRatingSubmitted": "لم يتم تقديم أي تقييم بعد.",
+      "noReviewsYet": "لا توجد مراجعات بعد.",
+      "rateShareThoughts": "قيم وشاركنا رأيك",
+      "shareExperience": "شارك تجربتك",
+      "yourRatingLabel": "تقييمك:",
+      "writeReviewHere": "اكتب مراجعتك هنا...",
+      "submitReview": "إرسال المراجعة",
+      "deleteCommentTitle": "حذف التعليق",
+      "deleteCommentConfirm": "هل أنت متأكد من رغبتك في حذف هذا التعليق؟",
+      "delete": "حذف",
+      "cancel": "إلغاء",
+      "updateCommentHint": "تحديث تعليقك...",
+      "save": "حفظ",
+      "stayFrom": "من: {date}",
+      "stayTo": "إلى: {date}",
+      "activeTenant": "مستأجر نشط",
+      "feedbackSuccess": "تم تقديم مراجعتك بنجاح!",
+      "ratingRequired": "من فضلك اختر تقييماً بالنجوم.",
+      "commentRequired": "من فضلك اكتب تعليقاً.",
+      "reportComment": "إبلاغ عن تعليق"
+    },
+    "card": {
+      "views": "{count} مشاهدة",
+      "viewsLabel": "المشاهدات",
+      "occupied": "مشغول: {occupied} / {total}",
+      "activeContracts": "العقود النشطة"
+    },
+    "filters": {
+      "title": "الفلاتر",
+      "sorting": "الترتيب",
+      "sortBy": "ترتيب حسب",
+      "order": "الاتجاه",
+      "ascending": "تصاعدي",
+      "descending": "تنازلي",
+      "location": "الموقع",
+      "governorate": "المحافظة",
+      "city": "المدينة",
+      "mapSearch": "البحث على الخريطة",
+      "selectOnMap": "تحديد على الخريطة",
+      "change": "تغيير",
+      "selectedCoords": "المحدد: {lat}، {lng}",
+      "radius": "نطاق البحث (كم): ",
+      "radiusValue": "{km} كم",
+      "details": "تفاصيل العقار",
+      "type": "نوع العقار",
+      "rentalUnit": "وحدة الإيجار",
+      "isShared": "هل العقار مشترك؟",
+      "pricingRating": "الأسعار والتقييم",
+      "minPrice": "الحد الأدنى للسعر",
+      "maxPrice": "الحد الأقصى للسعر",
+      "minRating": "الحد الأدنى للتقييم: ",
+      "any": "الكل",
+      "capacitySpace": "السعة والمساحة",
+      "minBedrooms": "أقل عدد غرف",
+      "minBeds": "أقل عدد أسرة",
+      "minBathrooms": "أقل عدد حمامات",
+      "maxOccupants": "أقصى عدد مقيمين",
+      "minSqMeters": "أقل مساحة بالمتر",
+      "maxSqMeters": "أكبر مساحة بالمتر",
+      "amenities": "التسهيلات",
+      "clearAll": "مسح الكل",
+      "apply": "تطبيق الفلاتر"
+    },
+    "form": {
+      "title": "العنوان",
+      "titleHint": "أدخل عنوان العقار",
+      "titleRequired": "يرجى إدخال العنوان",
+      "titleLength": "يجب أن يتكون العنوان من 10 إلى 100 حرف",
+      "address": "اسم الشارع والمنطقة",
+      "addressHint": "أدخل اسم الشارع والمنطقة",
+      "addressRequired": "يرجى إدخال اسم الشارع والمنطقة",
+      "stateLabel": "المنطقة / المحافظة",
+      "stateHint": "أدخل المنطقة / المحافظة",
+      "stateRequired": "يرجى إدخال المنطقة / المحافظة",
+      "zip": "الرمز البريدي",
+      "zipHint": "أدخل الرمز البريدي",
+      "zipRequired": "يرجى إدخال الرمز البريدي",
+      "noLocationSelected": "لم يتم تحديد موقع",
+      "changeLocation": "تغيير الموقع",
+      "bedrooms": "عدد الغرف",
+      "bedroomsHint": "أدخل عدد الغرف",
+      "bedroomsRequired": "يرجى إدخال عدد الغرف",
+      "bedroomsLength": "يجب أن يكون عدد الغرف بين 0 و 50",
+      "beds": "عدد الأسرة",
+      "bedsHint": "أدخل عدد الأسرة",
+      "bedsRequired": "يرجى إدخال عدد الأسرة",
+      "bedsLength": "يجب أن يكون عدد الأسرة بين 0 و 50",
+      "bathrooms": "عدد الحمامات",
+      "bathroomsHint": "أدخل عدد الحمامات",
+      "bathroomsRequired": "يرجى إدخال عدد الحمامات",
+      "bathroomsLength": "يجب أن يكون عدد الحمامات بين 0 و 50",
+      "sqMeters": "المساحة بالمتر المربع",
+      "sqMetersHint": "أدخل المساحة بالمتر المربع",
+      "sqMetersRequired": "يرجى إدخال المساحة بالمتر المربع",
+      "description": "الوصف",
+      "descriptionHint": "أدخل وصفاً تفصيلياً للعقار",
+      "descriptionRequired": "يرجى إدخال الوصف",
+      "descriptionLength": "يجب أن يتكون الوصف من 20 إلى 2000 حرف",
+      "maxOccupants": "عدد الأشخاص المسموح بهم",
+      "maxOccupantsHint": "أدخل عدد الأشخاص",
+      "maxOccupantsRequired": "يرجى إدخال عدد الأشخاص المسموح بهم",
+      "maxOccupantsLength": "يجب أن يكون عدد الأشخاص بين 1 و 50",
+      "legal": {
+        "proofRequired": "إثبات الملكية مطلوب",
+        "proofLabel": "إثبات الملكية"
+      },
+      "photos": {
+        "primaryRequired": "الصورة الرئيسية مطلوبة",
+        "primaryLabel": "الصورة الرئيسية",
+        "alreadyAdded": "هذه الصورة مضافة بالفعل"
+      },
+      "pricing": {
+        "billingCycle": "دورة الفوترة / الدفع",
+        "priceLabel": "السعر (ج.م)",
+        "priceHint": "مثال: 3000",
+        "priceRequired": "مطلب",
+        "priceInvalid": "أدخل رقماً صالحاً"
+      },
+      "rules": {
+        "addRule": "إضافة قاعدة",
+        "ruleHint": "أدخل قاعدة من قواعد المنزل",
+        "ruleIndex": "القاعدة {index}"
+      },
+      "steps": {
+        "details": "التفاصيل",
+        "amenities": "التسهيلات",
+        "photos": "الصور",
+        "pricing": "الأسعار",
+        "rules": "القواعد",
+        "legal": "الأوراق القانونية"
+      }
+    },
+    "share": {
+      "preparing": "جاري تحضير المشاركة...",
+      "subject": "عقار مميز على منصة MARN 🏘️",
+      "textTemplate": "شاهد هذا العقار المميز على منصة MARN 🏘️✨\n\n🏠 العنوان: {}\n📍 الموقع: {}، {}\n💰 السعر: {} {}\n🛌 الغرف: {} | 🛏️ الأسرّة: {} | 🚿 الحمامات: {}\n\n🔗 تفاصيل أكثر وصور العقار هنا:\nhttps://marn-six.vercel.app/property/{}"
+    }
+  },
+  "dashboard": {
+    "ownerDashboard": "لوحة تحكم المالك",
+    "myDashboard": "لوحة تحكمي",
+    "activeRentals": "الإيجارات النشطة",
+    "myContractsAsOwner": "عقودي كمالك",
+    "myContractsAsRenter": "عقودي كمستأجر",
+    "recentReceivedPayments": "المدفوعات المستلمة مؤخراً",
+    "recentPaidPayments": "المدفوعات المدفوعة مؤخراً",
+    "stripeSetupLaunchError": "تعذر فتح رابط إعداد Stripe",
+    "stripeSetupError": "خطأ أثناء فتح رابط الإعداد: {error}",
+    "status": {
+      "accountStatus": "الحالة: {status}",
+      "yes": "نعم",
+      "no": "لا",
+      "succeeded": "ناجحة",
+      "pending": "معلقة",
+      "failed": "فاشلة",
+      "refunded": "مستردة"
+    },
+    "buttons": {
+      "showProperty": "عرض العقار",
+      "decline": "رفض",
+      "cancel": "إلغاء",
+      "accept": "قبول",
+      "sign": "توقيع",
+      "contractDetails": "تفاصيل العقد",
+      "viewContract": "عرض العقد",
+      "withdrawEarnings": "سحب الأرباح",
+      "setupStripe": "إعداد / إكمال التسجيل"
+    },
+    "statistics": {
+      "nextPaymentRent": "إيجار الدفعة القادمة",
+      "activeRentals": "الإيجارات النشطة",
+      "savedProperties": "العقارات المحفوظة",
+      "totalRevenue": "إجمالي الإيرادات",
+      "onHoldAmount": "قيد الانتظار: {amount} ج.م",
+      "myProperties": "عقاراتي",
+      "occupied": "مؤجرة: {count}",
+      "pendingRequests": "الطلبات المعلقة",
+      "totalViews": "إجمالي المشاهدات"
+    },
+    "reports": {
+      "receivedOn": "تم الاستلام في {date}",
+      "paidOn": "تم الدفع في {date}",
+      "availableOn": "متاح في {date}",
+      "amountEgp": "{amount} ج.م",
+      "due": "مستحق في: {date}",
+      "earningsOverview": "نظرة عامة على الأرباح",
+      "showingMonthlyGrowth": "عرض النمو الشهري",
+      "showingYearlyGrowth": "عرض النمو السنوي",
+      "earningsLegend": "الأرباح (ج.م)",
+      "noData": "لا توجد بيانات",
+      "monthlyToggle": "ش",
+      "yearlyToggle": "س",
+      "jan": "يناير",
+      "feb": "فبراير",
+      "mar": "مارس",
+      "apr": "أبريل",
+      "may": "مايو",
+      "jun": "يونيو",
+      "jul": "يوليو",
+      "aug": "أغسطس",
+      "sep": "سبتمبر",
+      "oct": "أكتوبر",
+      "nov": "نوفمبر",
+      "dec": "ديسمبر"
+    },
+    "management": {
+      "paymentFrequency": "دورية الدفع: {frequency}",
+      "bookingRequestsCount": "طلبات الحجز المعلقة ({count})",
+      "propertiesBookedCount": "طلبات الحجز المعلقة ({count})",
+      "renterLabel": "المستأجر: {name}",
+      "ownerLabel": "المالك: {name}",
+      "expiryDate": "تاريخ الانتهاء: {date}",
+      "paymentOnlyAvailableSevenDays": "الدفع متاح فقط قبل 7 أيام من تاريخ الاستحقاق (بدءاً من {date})",
+      "chatWithOwner": "دردش مع المالك",
+      "ownerProfileStripe": "ملف المالك ولوحة تحكم Stripe",
+      "vacantPlaces": "الأماكن الشاغرة",
+      "rating": "التقييم",
+      "stripeLinked": "مربوط بـ Stripe",
+      "withdrawableEarnings": "أرباح قابلة للسحب",
+      "onHoldEarnings": "أرباح قيد الانتظار",
+      "paymentFrequencyLabel": "دورية الدفع",
+      "nextPayment": "الدفعة القادمة",
+      "noSchedule": "لا يوجد جدول",
+      "paymentStatusLabel": "حالة الدفع",
+      "unknown": "غير معروف",
+      "contract": "العقد",
+      "payment": "الدفع",
+      "datesRange": "🗓 {start} إلى {end}"
+    }
+  },
+  "chat": {
+    "validation": {},
+    "errors": {},
+    "buttons": {
+      "show_profile": "عرض الملف الشخصي",
+      "report_user": "الإبلاغ عن المستخدم"
+    },
+    "placeholders": {
+      "search_users": "البحث عن مستخدمين",
+      "no_chats_yet": "لا توجد محادثات بعد",
+      "recent_chats": "المحادثات الأخيرة",
+      "no_recent_chats": "لا توجد محادثات أخيرة",
+      "other_users": "مستخدمون آخرون",
+      "no_other_users": "لا يوجد مستخدمون آخرون",
+      "type_message": "اكتب رسالة..."
+    },
+    "dialogs": {},
+    "snackbar": {
+      "failed_to_send_message": "فشل إرسال الرسالة"
+    },
+    "messages": {
+      "you_prefix": "أنت: ",
+      "copy": "نسخ",
+      "report": "إبلاغ"
+    },
+    "attachments": {},
+    "permissions": {},
+    "status": {
+      "online": "نشط الآن",
+      "offline": "غير متصل",
+      "user_deleted_notice": "تم حذف هذا المستخدم. يمكنك فقط عرض سجل المحادثة."
+    },
+    "notifications": {}
+  },
+  "chatbot": {
+    "errors": {},
+    "buttons": {},
+    "placeholders": {},
+    "dialogs": {},
+    "messages": {
+      "welcome_greeting": "مرحباً! أنا المساعد الافتراضي لـ MARN. كيف يمكنني مساعدتك اليوم؟",
+      "help_header": "كيف يمكنني مساعدتك اليوم؟",
+      "help_desc": "اسألني عن أي شيء يخص العثور على عقارات أو استخدام MARN"
+    },
+    "prompts": {
+      "what_can_you_do": "تقدر تعمل إيه؟",
+      "getting_started": "أبدأ إزاي؟",
+      "find_properties": "البحث عن عقارات"
+    },
+    "status": {
+      "bot_name": "مساعد MARN",
+      "always_here": "مستعد للمساعدة دائماً"
+    }
+  },
+  "contracts": {
+    "blockchain": {
+      "title": "التحقق عبر البلوكشين (Blockchain)",
+      "status": "حالة التوثيق",
+      "txId": "معرف المعاملة (TxID)",
+      "merkleRoot": "جذر ميركل (Merkle Root)",
+      "anchored": "موثق ومؤمن على البلوكشين ⛓️",
+      "notAnchored": "غير موثق / قيد المعالجة ⏳",
+      "copied": "تم نسخ النص إلى الحافظة!"
+    },
+    "placeholders": {
+      "instructions": "قم بتحميل، توقيع، ورفع عقد الإيجار الخاص بك",
+      "details_title": "تفاصيل العقد",
+      "id_label": "معرف العقد",
+      "duration_label": "المدة",
+      "property_label": "العقار",
+      "price_per_duration": "{price} ج.م/{duration}",
+      "tenant_label": "المستأجر",
+      "owner_label": "المالك",
+      "rental_period_label": "فترة الإيجار",
+      "start_date_label": "تاريخ البدء",
+      "end_date_label": "تاريخ الانتهاء",
+      "total_value_label": "إجمالي قيمة العقد",
+      "total_value_amount": "{amount} ج.م",
+      "rental_agreement_pdf": "اتفاقية الإيجار.PDF",
+      "download_desc": "قم بتحميل عقد الإيجار ومراجعة كافة الشروط بدقة.",
+      "proof_file": "ملف إثبات OpenTimestamps",
+      "proof_desc": "قم بتحميل ملف إثبات OpenTimestamps المرتبط بهذا العقد. يمكن استخدام هذا الملف للتحقق من الطابع الزمني وسلامة العقد على البلوكشين.",
+      "upload_desc": "قم برفع العقد الموقع للتحقق منه على البلوكشين.",
+      "selected_file": "تم اختيار: {fileName}",
+      "click_to_upload": "اضغط لرفع العقد الموقع",
+      "pdf_format": "صيغة PDF",
+      "pdf_format_only": "صيغة PDF فقط",
+      "important_notes_title": "ملاحظات هامة",
+      "note_read_carefully": "يرجى قراءة العقد بالكامل بعناية قبل التوقيع",
+      "note_both_parties": "يجب على كلا الطرفين توقيع العقد ليكون صالحاً",
+      "note_keep_copy": "احتفظ بنسخة من العقد الموقع لسجلاتك الخاصة",
+      "note_contact_support": "اتصل بالدعم الفني إذا كان لديك أي أسئلة أو استفسارات",
+      "note_effective_date": "يصبح العقد سارياً في تاريخ البدء المحدد"
+    },
+    "status": {
+      "title": "حالة العقد",
+      "awaiting_signatures": "في انتظار التوقيعات",
+      "download_disabled_pending": "لا يمكنك تحميل العقد أثناء كونه قيد الانتظار.",
+      "proof_disabled_pending": "لا يمكنك تحميل ملف الإثبات أثناء كون العقد قيد الانتظار.",
+      "upload_disabled_pending": "لا يمكنك رفع أو التحقق من العقد أثناء كونه قيد الانتظار.",
+      "pending_anchoring": "العقد قيد التوثيق حالياً على البلوكشين. يرجى الانتظار.",
+      "upload_disabled_label": "الرفع غير متاح (العقد قيد الانتظار)",
+      "pdf_download_success": "تم تحميل وفتح ملف عقد PDF بنجاح!",
+      "proof_download_success": "تم تحميل وفتح وثيقة إثبات OTS بنجاح!",
+      "matched": "متطابق",
+      "not_matched": "غير متطابق"
+    },
+    "buttons": {
+      "download_contract_title": "تحميل العقد",
+      "download_contract": "تحميل العقد",
+      "download_proof_title": "تحميل وثيقة الإثبات",
+      "download_proof": "تحميل الإثبات",
+      "verify_contract_title": "التحقق من العقد",
+      "submit_contract": "إرسال العقد"
+    },
+    "dialogs": {
+      "verification_result": "نتيجة التحقق: {match}\nالحالة: {status}\nالرسالة: {message}"
+    }
+  },
+  "payments": {
+    "checkout": {
+      "merchant_display_name": "دفع إيجار MARN"
+    },
+    "errors": {
+      "payment_cancelled": "تم إلغاء عملية الدفع"
+    }
+  },
+  "roommate": {
+    "title": "شركاء السكن المتوافقين",
+    "compatibility": "نسبة التوافق",
+    "noMatchesFound": "لم يتم العثور على شركاء سكن متوافقين بناءً على تفضيلاتك الحالية.",
+    "updatePreferences": "تحديث تفضيلات السكن",
+    "matchingTraits": "الصفات المتوافقة",
+    "mismatchedTraits": "الصفات غير المتوافقة",
+    "dealbreakers": "الشروط المرفوضة تماماً",
+    "chatWith": "دردشة",
+    "searchStatus": "الحالة: {status}",
+    "compatibilityHigh": "توافق عالي جداً في أسلوب الحياة والتفضيلات.",
+    "compatibilityMedium": "توافق متوسط، بعض الاختلافات البسيطة موجودة.",
+    "compatibilityLow": "توافق منخفض، يرجى مراجعة تفاصيل التوافق بدقة."
+  },
+  "mainLayout": {
+    "home": {
+      "searchProperties": "البحث عن عقارات",
+      "searchResult": "نتائج البحث",
+      "recommendedForYou": "موصى به لك"
+    },
+    "nav": {
+      "dashboard": "لوحة التحكم",
+      "home": "الرئيسية",
+      "chat": "المحادثات",
+      "roommate": "شريك السكن"
+    },
+    "drawer": {
+      "showProfile": "عرض الملف الشخصي",
+      "myProperties": "عقاراتي",
+      "ownerDashboard": "لوحة تحكم المالك",
+      "favorites": "المفضلة",
+      "addProperty": "إضافة عقار",
+      "settings": "الإعدادات"
+    },
+    "settings": {
+      "account": "الحساب",
+      "editProfile": "تعديل الملف الشخصي",
+      "changePassword": "تغيير كلمة المرور",
+      "preferences": "التفضيلات",
+      "roommatePreferences": "تفضيلات وأسلوب حياة السكن المشترك",
+      "security": "الأمان",
+      "twoFactorAuth": "المصادقة ثنائية العامل",
+      "identityVerification": "توثيق الهوية",
+      "language": "اللغة",
+      "arabicLanguage": "اللغة العربية",
+      "helpSupport": "المساعدة والدعم",
+      "aboutMarn": "حول MARN",
+      "howItWorks": "كيف يعمل",
+      "faq": "الأسئلة الشائعة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsOfUse": "شروط الاستخدام",
+      "contact": "الاتصال بنا",
+      "logout": "تسجيل الخروج",
+      "deleteAccount": "حذف الحساب",
+      "deleteAccountConfirmTitle": "حذف الحساب",
+      "deleteAccountConfirmContent": "هل أنت متأكد من رغبتك في حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+      "delete": "حذف"
+    },
+    "notifications": {
+      "markAsRead": "مقروء",
+      "action": "الإجراء",
+      "viewProperty": "عرض العقار",
+      "chatNow": "تواصل الآن",
+      "editProfile": "تعديل الحساب",
+      "renterDashboard": "لوحة تحكم المستأجر",
+      "ownerDashboard": "لوحة تحكم المالك",
+      "viewContract": "عرض العقد",
+      "payNow": "ادفع الآن"
+    }
+  },
+  "staticScreens": {
+    "titles": {
+      "aboutMarn": "عن MARN",
+      "howItWorks": "كيف يعمل MARN",
+      "faq": "الأسئلة الشائعة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsOfUse": "شروط الاستخدام",
+      "contactUs": "اتصل بنا",
+      "pageNotFound": "الصفحة غير موجودة",
+      "ourMission": "مهمتنا",
+      "ourValues": "قيمنا",
+      "meetOurTeam": "فريق العمل",
+      "stillHaveQuestions": "هل ما زال لديك أسئلة؟",
+      "questionsAboutPrivacy": "هل لديك أسئلة حول سياسة الخصوصية؟",
+      "questionsAboutTerms": "هل لديك أسئلة حول شروط الاستخدام؟",
+      "faqForTenants": "للمستأجرين",
+      "faqForPropertyOwners": "لمالكي العقارات",
+      "faqSafetyAndSecurity": "الأمان والحماية",
+      "faqPaymentsAndBilling": "المدفوعات والفواتير",
+      "faqGeneralOverview": "عام ونظرة عامة",
+      "faqAccountAndRegistration": "الحساب والتسجيل",
+      "faqIdentityVerification": "التحقق من الهوية",
+      "faqSearchingForProperties": "البحث عن العقارات",
+      "faqListingAPropertyOwners": "إدراج عقار (الملّاك)",
+      "faqBookingAndRequests": "الحجز والطلبات",
+      "faqRoommateMatching": "مطابقة الشركاء في السكن",
+      "faqAiRecommendationsAndChatbot": "التوصيات الذكية والشاتبوت",
+      "faqDigitalContractsAndBlockchain": "العقود الرقمية والبلوك تشين",
+      "faqPayments": "المدفوعات",
+      "faqCommunicationAndNotifications": "التواصل والإشعارات",
+      "faqRatingsReviewsAndReporting": "التقييمات والمراجعات والإبلاغ",
+      "faqAdminAndPlatformGovernance": "الإدارة وحوكمة المنصة",
+      "faqTechnicalStackAndArchitecture": "التقنيات والبنية",
+      "faqFutureImprovements": "التحسينات المستقبلية",
+      "whyChooseUs": "لماذا تختار MARN؟"
+    },
+    "subtitles": {
+      "aboutMarn": "تعرف على المزيد حول MARN ومهمتنا لتبسيط عملية الإيجار.",
+      "howItWorks": "دليلك الكامل للعثور على المسكن المثالي أو إدراج عقارك",
+      "faq": "ابحث عن إجابات للأسئلة الشائعة حول استخدام MARN",
+      "contactUs": "تواصل معنا لأي استفسارات أو دعم.",
+      "pageNotFound": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+      "ourValues": "المبادئ التي توجه كل ما نقوم به",
+      "meetOurTeam": "تعرف على الأفراد الموهوبين خلف MARN",
+      "stillHaveQuestions": "فريق الدعم لدينا هنا لمساعدتك",
+      "questionsAboutPrivacy": "اتصل بنا لأي أسئلة أو مخاوف بشأن سياسة الخصوصية الخاصة بنا",
+      "questionsAboutTerms": "اتصل بنا لأي أسئلة أو مخاوف بشأن شروط الاستخدام الخاصة بنا",
+      "privacyPolicy": "خصوصيتك مهمة بالنسبة لنا.",
+      "termsOfUse": "يرجى قراءة هذه الشروط بعناية قبل استخدام MARN."
+    },
+    "placeholders": {
+      "searchFaq": "البحث في الأسئلة الشائعة",
+      "fullName": "الاسم الكامل",
+      "emailAddress": "البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "subject": "الموضوع",
+      "message": "الرسالة"
+    },
+    "validation": {
+      "fullNameRequired": "يرجى إدخال اسمك الكامل",
+      "emailRequired": "يرجى إدخال بريدك الإلكتروني",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+      "phoneNumberRequired": "يرجى إدخال رقم هاتفك",
+      "subjectRequired": "يرجى إدخال الموضوع",
+      "messageRequired": "يرجى إدخال رسالتك"
+    },
+    "buttons": {
+      "backToHome": "العودة للرئيسية",
+      "contactSupport": "الاتصال بالدعم",
+      "sendMessage": "إرسال الرسالة"
+    },
+    "messages": {
+      "messageSentSuccess": "تم إرسال رسالتك بنجاح!",
+      "messageSentError": "فشل إرسال الرسالة. يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "labels": {
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "location": "الموقع",
+      "whatsapp": "واتساب",
+      "locationValue": "مصر، دمياط"
+    },
+    "lastUpdated": "آخر تحديث: {}"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "عقد الإيجار",
+  "subtitle": "حمّل العقد ووقّعه وارفعه مرة أخرى",
+  "download": "تحميل العقد",
+  "upload": "رفع العقد الموقّع",
+  "submit": "إرسال العقد",
+  "status": {
+    "active": "نشط",
+    "expired": "منتهٍ",
+    "pending": "معلق"
+  },
+  "tenant": "المستأجر",
+  "owner": "المالك",
+  "property": "العقار",
+  "startDate": "تاريخ البدء",
+  "endDate": "تاريخ الانتهاء",
+  "monthlyRent": "الإيجار الشهري",
+  "noContract": "لم يتم العثور على عقد.",
+  "back": "رجوع",
+  "notFound": "لم يتم العثور على عقد.",
+  "contractStatus": "حالة العقد",
+  "contractDetails": "تفاصيل العقد",
+  "contractId": "معرف العقد",
+  "rentalPeriod": "فترة الإيجار",
+  "rentalAgreementPdf": "ملف PDF لعقد الإيجار",
+  "rentalAgreementDesc": "حمّل عقد الإيجار، راجع جميع الشروط بعناية، وقّعه ثم ارفع النسخة الموقّعة أدناه.",
+  "uploadSignedDoc": "رفع الوثيقة الموقّعة (PDF فقط)",
+  "clickToUpload": "انقر لرفع العقد الموقّع",
+  "pdfFormatOnly": "صيغة PDF فقط",
+  "contractUploadedSuccess": "تم رفع العقد بنجاح",
+  "importantNotes": {
+    "title": "ملاحظات مهمة",
+    "readCarefully": "يرجى قراءة العقد كاملاً بعناية قبل التوقيع",
+    "bothParties": "يجب أن يوقّع الطرفان على العقد لكي يصبح ساري المفعول",
+    "keepCopy": "احتفظ بنسخة من العقد الموقّع لسجلاتك",
+    "contactSupport": "تواصل مع الدعم إذا كانت لديك أي أسئلة أو استفسارات",
+    "effectiveDate": "يصبح العقد سارياً في تاريخ البدء المحدد"
+  },
+  "statusText": {
+    "awaitingSignatures": "في انتظار التوقيعات",
+    "fullyExecuted": "مُنفَّذ بالكامل",
+    "expired": "العقد منتهٍ",
+    "terminated": "العقد مُنهى"
+  },
+  "cancel": "إلغاء",
+  "toasts": {
+    "downloaded": "تم تحميل العقد بنجاح",
+    "uploaded": "تم رفع العقد الموقّع بنجاح",
+    "pdfOnly": "يرجى رفع ملف PDF",
+    "submitted": "تم إرسال العقد للمراجعة. سيتم إخطارك بعد الموافقة.",
+    "uploadFirst": "يرجى رفع العقد الموقّع أولاً"
+  }
+}

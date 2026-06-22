@@ -1,0 +1,137 @@
+{
+  "title": "Account Settings",
+  "subtitle": "Manage your account settings and preferences",
+  "tabs": {
+    "profile": "Profile",
+    "security": "Security",
+    "documents": "Documents",
+    "roommate": "Roommate Settings"
+  },
+  "profileTab": {
+    "uploadPhoto": "Upload New Photo",
+    "cardTitle": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "emailAddress": "Email Address",
+    "emailCannotChange": "Email cannot be changed",
+    "phoneNumber": "Phone Number",
+    "dateOfBirth": "Date of Birth",
+    "country": "Country",
+    "gender": "Gender",
+    "language": "Language",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell us about yourself...",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "toasts": {
+      "updated": "Profile updated successfully!",
+      "failed": "Failed to update profile."
+    }
+  },
+  "securityTab": {
+    "title": "Security Settings",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "updatePassword": "Update Password",
+    "twoFactor": "Two-Factor Authentication",
+    "enable2FA": "Enable 2FA",
+    "protectedWith2FA": "Your account is protected with 2FA",
+    "add2FALayer": "Add an extra layer of security to your account",
+    "disable2FATitle": "Disable Two-Factor Authentication",
+    "enable2FATitle": "Enable Two-Factor Authentication",
+    "enterPasswordToConfirm": "Enter your account password to confirm",
+    "enterPassword": "Enter your password",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "toasts": {
+      "passwordUpdated": "Password updated successfully!",
+      "passwordFailed": "Failed to update password.",
+      "passwordRequired": "Password is required.",
+      "twoFactorEnabled": "Two-factor authentication enabled successfully.",
+      "twoFactorDisabled": "Two-factor authentication disabled successfully.",
+      "incorrectPassword": "Incorrect password. Please try again.",
+      "accountDeleted": "Account deleted successfully."
+    },
+    "deleteAccount": {
+      "title": "Delete Account",
+      "description": "Once you delete your account, there is no going back. Please be certain.",
+      "button": "Delete Account",
+      "confirmTitle": "Confirm Deletion",
+      "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Yes, delete my account",
+      "processing": "Processing..."
+    }
+  },
+  "documentsTab": {
+    "title": "Identity Verification",
+    "subtitle": "Upload your identification documents for account verification",
+    "frontId": "Front Side of ID Card",
+    "backId": "Back Side of ID Card",
+    "nameInArabic": "Name in Arabic",
+    "nameInArabicPlaceholder": "أدخل اسمك بالعربية",
+    "addressInArabic": "Address in Arabic",
+    "addressInArabicPlaceholder": "أدخل عنوانك بالعربية",
+    "nationalId": "National ID Number",
+    "nationalIdPlaceholder": "Enter your national ID number",
+    "cancel": "Cancel",
+    "submit": "Submit for Verification",
+    "toasts": {
+      "submitted": "Identity documents submitted for review",
+      "failed": "Failed to submit documents."
+    }
+  },
+  "roommateTab": {
+    "title": "Roommate Preferences & Lifestyle",
+    "subtitle": "Help potential roommates understand your lifestyle and compatibility.",
+    "sections": {
+      "locationSearch": "Location & Search",
+      "lifestylePreferences": "Lifestyle & Preferences",
+      "education": "Education",
+      "socialWork": "Social & Work",
+      "budgetRange": "Budget Range",
+      "visibilitySettings": "Visibility Settings"
+    },
+    "fields": {
+      "governorate": "Governorate",
+      "searchStatus": "Search Status",
+      "searchStatusPlaceholder": "Are you actively searching?",
+      "smoking": "Smoking",
+      "pets": "Pets",
+      "petType": "Type of Pet",
+      "petTypePlaceholder": "e.g., Dog, Cat, Bird",
+      "sleepSchedule": "Sleep Schedule",
+      "educationLevel": "Education Level",
+      "fieldOfStudy": "Field of Study (Optional)",
+      "noiseTolerance": "Noise Tolerance",
+      "guestsFrequency": "Guests Frequency",
+      "guestsFrequencyPlaceholder": "How often do you have guests?",
+      "workSchedule": "Work Schedule",
+      "sharingLevel": "Sharing Level",
+      "budgetMin": "Minimum",
+      "budgetMax": "Maximum",
+      "perMonth": "(per month)",
+      "profileVisibility": "Profile Visibility for Roommates",
+      "profileVisibilityOn": "Visible to users browsing for roommates.",
+      "profileVisibilityOff": "Only you can see this information.",
+      "importance": "Importance:",
+      "yes": "Yes",
+      "no": "No",
+      "noiseLow": "Low",
+      "noiseMedium": "Medium",
+      "noiseHigh": "High"
+    },
+    "visibility": {
+      "hiddenNote": "Your roommate preferences are stored but hidden from other users. Enable visibility to help potential roommates find you."
+    },
+    "unsavedBanner": "You have unsaved changes. Don't forget to save your preferences!",
+    "savePreferences": "Save Preferences",
+    "cancel": "Cancel",
+    "toasts": {
+      "saved": "Preferences saved successfully!",
+      "failed": "Failed to save preferences."
+    }
+  }
+}

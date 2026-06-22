@@ -1,0 +1,18 @@
+## Communication & Notifications
+
+**How can I communicate with an owner or renter?**
+MARN has a built-in real-time chat powered by SignalR. You can message owners or renters directly within the platform. Chat access is restricted to users associated with a relevant listing or booking request.
+
+**Are my messages stored?**
+Yes. Chat messages are stored and can be retrieved later from the Chat screen.
+
+**What types of notifications does MARN send?**
+You will receive notifications for:
+- Booking requests and responses
+- Verification approval or rejection
+- Contract status changes
+- Payment reminders and transaction outcomes
+- Listing approval or rejection (owners)
+
+**Are notifications real-time?**
+Yes. MARN supports both real-time notifications (via SignalR) and asynchronous push notifications (via Firebase Cloud Messaging / FCM).

@@ -1,0 +1,791 @@
+class LocaleKeys {
+  const LocaleKeys._();
+  static const findYourPerfectHome = 'find_your_perfect_home';
+  static const commonPleaseWait = 'common.please_wait';
+  static const commonSomethingWentWrong = 'common.something_went_wrong';
+  static const commonSelect = 'common.select';
+  static const commonCopyright = 'common.copyright';
+  static const commonSave = 'common.save';
+  static const commonEdit = 'common.edit';
+  static const commonEnable = 'common.enable';
+  static const commonDisable = 'common.disable';
+  static const commonRetry = 'common.retry';
+  static const commonCancel = 'common.cancel';
+  static const commonYesterdayTime = 'common.yesterday_time';
+  static const commonPriceMillion = 'common.price_million';
+  static const commonPriceThousand = 'common.price_thousand';
+
+  static const errorsEmptyImageUrl = 'errors.empty_image_url';
+  static const errorsFailedToDownloadImage = 'errors.failed_to_download_image';
+
+  static const apiErrorsConnectionTimeout = 'api_errors.connection_timeout';
+  static const apiErrorsSendTimeout = 'api_errors.send_timeout';
+  static const apiErrorsReceiveTimeout = 'api_errors.receive_timeout';
+  static const apiErrorsBadCertificate = 'api_errors.bad_certificate';
+  static const apiErrorsNoResponse = 'api_errors.no_response';
+  static const apiErrorsRequestCancelled = 'api_errors.request_cancelled';
+  static const apiErrorsNoInternet = 'api_errors.no_internet';
+  static const apiErrorsUnexpectedError = 'api_errors.unexpected_error';
+  static const apiErrorsRequestNotFound = 'api_errors.request_not_found';
+  static const apiErrorsServerError = 'api_errors.server_error';
+  static const apiErrorsServerUpdate = 'api_errors.server_update';
+  static const apiErrorsUnexpectedFailure = 'api_errors.unexpected_failure';
+
+  static const validationRequiredField = 'validation.required_field';
+  static const validationIdCardImageRequired =
+      'validation.id_card_image_required';
+  static const validationEmailRequired = 'validation.email_required';
+  static const validationInvalidEmail = 'validation.invalid_email';
+  static const validationPasswordRequired = 'validation.password_required';
+  static const validationPasswordMinLength = 'validation.password_min_length';
+  static const validationPasswordUppercase = 'validation.password_uppercase';
+  static const validationPasswordLowercase = 'validation.password_lowercase';
+  static const validationPasswordNumber = 'validation.password_number';
+
+  static const reportInaccurateListing = 'report.inaccurate_listing';
+  static const reportFraudulentListing = 'report.fraudulent_listing';
+  static const reportSuspiciousHost = 'report.suspicious_host';
+  static const reportOther = 'report.other';
+  static const reportHarassment = 'report.harassment';
+  static const reportSpam = 'report.spam';
+  static const reportHateSpeech = 'report.hate_speech';
+  static const reportInappropriateContent = 'report.inappropriate_content';
+  static const reportPleaseSelectReason = 'report.please_select_reason';
+  static const reportFailedWithStatus = 'report.failed_with_status';
+  static const reportReportTarget = 'report.report_target';
+
+  static const validationFieldIsRequired = 'validation.field_is_required';
+  static const validationFieldLengthBetween2And50 = 'validation.field_length_between_2_and_50';
+
+  static const staticAboutMarn = 'static.about_marn';
+  static const staticHowItWorks = 'static.how_it_works';
+  static const staticFaq = 'static.faq';
+  static const staticPrivacyPolicy = 'static.privacy_policy';
+  static const staticTermsOfUse = 'static.terms_of_use';
+  static const staticContactUs = 'static.contact_us';
+
+  static const authLoginHeaderTitle = 'auth.login.headerTitle';
+  static const authLoginHeaderSubtitle = 'auth.login.headerSubtitle';
+  static const authLoginFormTitle = 'auth.login.formTitle';
+  static const authLoginNoAccount = 'auth.login.noAccount';
+  static const authLoginForgotPasswordLink = 'auth.login.forgotPasswordLink';
+  static const authLoginRememberMe = 'auth.login.rememberMe';
+  static const authLoginOrContinueWith = 'auth.login.orContinueWith';
+
+  static const authSignUpHeaderTitle = 'auth.signUp.headerTitle';
+  static const authSignUpHeaderSubtitle = 'auth.signUp.headerSubtitle';
+  static const authSignUpFormTitle = 'auth.signUp.formTitle';
+  static const authSignUpAlreadyHaveAccount = 'auth.signUp.alreadyHaveAccount';
+  static const authSignUpMale = 'auth.signUp.male';
+  static const authSignUpFemale = 'auth.signUp.female';
+  static const authSignUpAgreeTo = 'auth.signUp.agreeTo';
+  static const authSignUpTermsOfService = 'auth.signUp.termsOfService';
+  static const authSignUpAnd = 'auth.signUp.and';
+  static const authSignUpPrivacyPolicy = 'auth.signUp.privacyPolicy';
+
+  static const authForgotPasswordHeaderTitle = 'auth.forgotPassword.headerTitle';
+  static const authForgotPasswordHeaderSubtitle = 'auth.forgotPassword.headerSubtitle';
+  static const authForgotPasswordFormTitle = 'auth.forgotPassword.formTitle';
+  static const authForgotPasswordFormSubtitle = 'auth.forgotPassword.formSubtitle';
+  static const authForgotPasswordInfoValidity = 'auth.forgotPassword.infoValidity';
+  static const authForgotPasswordInfoSecure = 'auth.forgotPassword.infoSecure';
+  static const authForgotPasswordInfoAccess = 'auth.forgotPassword.infoAccess';
+  static const authForgotPasswordRememberPassword = 'auth.forgotPassword.rememberPassword';
+
+  static const authResetPasswordTitle = 'auth.resetPassword.title';
+  static const authResetPasswordSubtitle = 'auth.resetPassword.subtitle';
+
+  static const authOtpTitle = 'auth.otp.title';
+  static const authOtpSubtitle = 'auth.otp.subtitle';
+  static const authOtpEnterCode = 'auth.otp.enterCode';
+  static const authOtpDidNotReceiveCode = 'auth.otp.didNotReceiveCode';
+  static const authOtpContactSupport = 'auth.otp.contactSupport';
+  static const authOtpResendTimer = 'auth.otp.resendTimer';
+  static const authOtpResendButton = 'auth.otp.resendButton';
+
+  static const authButtonsSignIn = 'auth.buttons.signIn';
+  static const authButtonsSignUp = 'auth.buttons.signUp';
+  static const authButtonsSendResetLink = 'auth.buttons.sendResetLink';
+  static const authButtonsResetPassword = 'auth.buttons.resetPassword';
+  static const authButtonsVerifyAndContinue = 'auth.buttons.verifyAndContinue';
+
+  static const authPlaceholdersEmailAddress = 'auth.placeholders.emailAddress';
+  static const authPlaceholdersEmailHint = 'auth.placeholders.emailHint';
+  static const authPlaceholdersPassword = 'auth.placeholders.password';
+  static const authPlaceholdersPasswordHint = 'auth.placeholders.passwordHint';
+  static const authPlaceholdersFirstName = 'auth.placeholders.firstName';
+  static const authPlaceholdersFirstNameHint = 'auth.placeholders.firstNameHint';
+  static const authPlaceholdersLastName = 'auth.placeholders.lastName';
+  static const authPlaceholdersLastNameHint = 'auth.placeholders.lastNameHint';
+  static const authPlaceholdersCreatePasswordHint = 'auth.placeholders.createPasswordHint';
+  static const authPlaceholdersConfirmPassword = 'auth.placeholders.confirmPassword';
+  static const authPlaceholdersConfirmPasswordHint = 'auth.placeholders.confirmPasswordHint';
+  static const authPlaceholdersGender = 'auth.placeholders.gender';
+  static const authPlaceholdersBirthDate = 'auth.placeholders.birthDate';
+  static const authPlaceholdersBirthDateHint = 'auth.placeholders.birthDateHint';
+
+  static const authValidationPasswordHelper = 'auth.validation.passwordHelper';
+  static const authValidationConfirmPasswordRequired = 'auth.validation.confirmPasswordRequired';
+  static const authValidationPasswordsDoNotMatch = 'auth.validation.passwordsDoNotMatch';
+  static const authValidationGenderRequired = 'auth.validation.genderRequired';
+  static const authValidationBirthDateRequired = 'auth.validation.birthDateRequired';
+  static const authValidationAcceptTermsRequired = 'auth.validation.acceptTermsRequired';
+
+  static const authErrorsTwoFactorRequired = 'auth.errors.twoFactorRequired';
+  static const authErrorsGoogleSignInFailed = 'auth.errors.googleSignInFailed';
+  static const authErrorsGoogleSignInCancelled = 'auth.errors.googleSignInCancelled';
+
+  static const authSuccessRegistration = 'auth.success.registration';
+  static const authSuccessLogin = 'auth.success.login';
+  static const authSuccessResendConfirmation = 'auth.success.resendConfirmation';
+  static const authSuccessPasswordResetEmailSent = 'auth.success.passwordResetEmailSent';
+  static const authSuccessEmailConfirmed = 'auth.success.emailConfirmed';
+  static const authSuccessGoogleSignIn = 'auth.success.googleSignIn';
+  static const authSuccessLoggedOut = 'auth.success.loggedOut';
+  static const authSuccessAccountDeleted = 'auth.success.accountDeleted';
+  static const authSuccessPasswordReset = 'auth.success.passwordReset';
+
+  static const authSnackbarCheckEmailToConfirm = 'auth.snackbar.checkEmailToConfirm';
+  static const authSnackbarResendAction = 'auth.snackbar.resendAction';
+
+  static const authSocialGoogle = 'auth.social.google';
+
+  static const authConfirmEmailPleaseLoginAgain = 'auth.confirmEmail.pleaseLoginAgain';
+
+  static const profileTitle = 'profile.title';
+  static const profileEditTitle = 'profile.editTitle';
+
+  static const profileChangePasswordTitle = 'profile.changePassword.title';
+  static const profileChangePasswordSubtitle = 'profile.changePassword.subtitle';
+  static const profileChangePasswordCurrentPassword = 'profile.changePassword.currentPassword';
+  static const profileChangePasswordCurrentPasswordHint = 'profile.changePassword.currentPasswordHint';
+  static const profileChangePasswordNewPassword = 'profile.changePassword.newPassword';
+  static const profileChangePasswordNewPasswordHint = 'profile.changePassword.newPasswordHint';
+  static const profileChangePasswordConfirmPassword = 'profile.changePassword.confirmPassword';
+  static const profileChangePasswordConfirmPasswordHint = 'profile.changePassword.confirmPasswordHint';
+
+  static const profileToggle2faSecurityLayer = 'profile.toggle2fa.securityLayer';
+  static const profileToggle2faEnabledSubtitle = 'profile.toggle2fa.enabledSubtitle';
+  static const profileToggle2faDisabledSubtitle = 'profile.toggle2fa.disabledSubtitle';
+  static const profileToggle2faPasswordLabel = 'profile.toggle2fa.passwordLabel';
+  static const profileToggle2faPasswordHint = 'profile.toggle2fa.passwordHint';
+
+  static const profilePlaceholdersFirstName = 'profile.placeholders.firstName';
+  static const profilePlaceholdersLastName = 'profile.placeholders.lastName';
+  static const profilePlaceholdersPhone = 'profile.placeholders.phone';
+  static const profilePlaceholdersPhoneHint = 'profile.placeholders.phoneHint';
+  static const profilePlaceholdersBio = 'profile.placeholders.bio';
+  static const profilePlaceholdersBioHint = 'profile.placeholders.bioHint';
+  static const profilePlaceholdersGender = 'profile.placeholders.gender';
+  static const profilePlaceholdersLanguage = 'profile.placeholders.language';
+  static const profilePlaceholdersCountry = 'profile.placeholders.country';
+
+  static const profileValidationPhoneRequired = 'profile.validation.phoneRequired';
+  static const profileValidationDobRequired = 'profile.validation.dobRequired';
+  static const profileValidationPasswordRequired = 'profile.validation.passwordRequired';
+  static const profileValidationPasswordUppercase = 'profile.validation.passwordUppercase';
+  static const profileValidationPasswordLowercase = 'profile.validation.passwordLowercase';
+  static const profileValidationPasswordNumber = 'profile.validation.passwordNumber';
+  static const profileValidationPasswordMinLength = 'profile.validation.passwordMinLength';
+  static const profileValidationPasswordSameAsCurrent = 'profile.validation.passwordSameAsCurrent';
+  static const profileValidationConfirmPasswordRequired = 'profile.validation.confirmPasswordRequired';
+  static const profileValidationPasswordsDoNotMatch = 'profile.validation.passwordsDoNotMatch';
+  static const profileValidationMinBudgetRequired = 'profile.validation.minBudgetRequired';
+  static const profileValidationMaxBudgetRequired = 'profile.validation.maxBudgetRequired';
+
+  static const profileErrorsNoUserData = 'profile.errors.noUserData';
+  static const profileErrorsNoSettingsData = 'profile.errors.noSettingsData';
+
+  static const profileButtonsChangePasswordButton = 'profile.buttons.changePasswordButton';
+  static const profileButtonsEnable = 'profile.buttons.enable';
+  static const profileButtonsDisable = 'profile.buttons.disable';
+
+  static const profileMenuChat = 'profile.menu.chat';
+  static const profileMenuReport = 'profile.menu.report';
+
+  static const profileStatisticsReviewsCount = 'profile.statistics.reviewsCount';
+  static const profileStatisticsPropertiesCount = 'profile.statistics.propertiesCount';
+
+  static const profileSectionsAboutMe = 'profile.sections.aboutMe';
+  static const profileSectionsGeneralInfo = 'profile.sections.generalInfo';
+  static const profileSectionsRoommatePreferences = 'profile.sections.roommatePreferences';
+  static const profileSectionsProperties = 'profile.sections.properties';
+
+  static const profileInfoDob = 'profile.info.dob';
+  static const profileInfoGender = 'profile.info.gender';
+  static const profileInfoCountry = 'profile.info.country';
+  static const profileInfoMemberSince = 'profile.info.memberSince';
+  static const profileInfoSmoking = 'profile.info.smoking';
+  static const profileInfoPets = 'profile.info.pets';
+  static const profileInfoSleepSchedule = 'profile.info.sleepSchedule';
+  static const profileInfoEducationLevel = 'profile.info.educationLevel';
+  static const profileInfoFieldOfStudy = 'profile.info.fieldOfStudy';
+  static const profileInfoNoiseTolerance = 'profile.info.noiseTolerance';
+  static const profileInfoGuestsFrequency = 'profile.info.guestsFrequency';
+  static const profileInfoWorkSchedule = 'profile.info.workSchedule';
+  static const profileInfoSharingLevel = 'profile.info.sharingLevel';
+  static const profileInfoBudgetRange = 'profile.info.budgetRange';
+  static const profileInfoYes = 'profile.info.yes';
+  static const profileInfoNo = 'profile.info.no';
+  static const profileInfoNa = 'profile.info.na';
+
+  static const profileRoommateVisibilityTitle = 'profile.roommate.visibilityTitle';
+  static const profileRoommateVisibilitySubtitle = 'profile.roommate.visibilitySubtitle';
+  static const profileRoommateBudgetRange = 'profile.roommate.budgetRange';
+  static const profileRoommateMinBudget = 'profile.roommate.minBudget';
+  static const profileRoommateMaxBudget = 'profile.roommate.maxBudget';
+  static const profileRoommateImportance = 'profile.roommate.importance';
+  static const profileRoommateBudgetValue = 'profile.roommate.budgetValue';
+  static const profileRoommatePreferencesLifestyle = 'profile.roommate.preferencesLifestyle';
+  static const profileRoommateSmokingLabel = 'profile.roommate.smokingLabel';
+  static const profileRoommateISmoke = 'profile.roommate.iSmoke';
+  static const profileRoommateNonSmoker = 'profile.roommate.nonSmoker';
+  static const profileRoommatePetsLabel = 'profile.roommate.petsLabel';
+  static const profileRoommatePetFriendly = 'profile.roommate.petFriendly';
+  static const profileRoommateNotPetFriendly = 'profile.roommate.notPetFriendly';
+  static const profileRoommateEducation = 'profile.roommate.education';
+  static const profileRoommateEducationLevel = 'profile.roommate.educationLevel';
+  static const profileRoommateFieldOfStudy = 'profile.roommate.fieldOfStudy';
+  static const profileRoommateSocialWork = 'profile.roommate.socialWork';
+  static const profileRoommateNoiseTolerance = 'profile.roommate.noiseTolerance';
+  static const profileRoommateGuestsFrequency = 'profile.roommate.guestsFrequency';
+  static const profileRoommateSharingLevel = 'profile.roommate.sharingLevel';
+  static const profileRoommateWorkSchedule = 'profile.roommate.workSchedule';
+
+  static const profileVerificationFrontIdCard = 'profile.verification.frontIdCard';
+  static const profileVerificationFrontIdRequired = 'profile.verification.frontIdRequired';
+  static const profileVerificationBackIdCard = 'profile.verification.backIdCard';
+  static const profileVerificationBackIdRequired = 'profile.verification.backIdRequired';
+  static const profileVerificationArabicAddress = 'profile.verification.arabicAddress';
+  static const profileVerificationArabicFullName = 'profile.verification.arabicFullName';
+  static const profileVerificationNationalId = 'profile.verification.nationalId';
+  static const profileVerificationNationalIdRequired = 'profile.verification.nationalIdRequired';
+  static const profileVerificationNationalIdLength = 'profile.verification.nationalIdLength';
+
+  static const propertyEmptyState = 'property.emptyState';
+
+  static const propertyMonthsJan = 'property.months.jan';
+  static const propertyMonthsFeb = 'property.months.feb';
+  static const propertyMonthsMar = 'property.months.mar';
+  static const propertyMonthsApr = 'property.months.apr';
+  static const propertyMonthsMay = 'property.months.may';
+  static const propertyMonthsJun = 'property.months.jun';
+  static const propertyMonthsJul = 'property.months.jul';
+  static const propertyMonthsAug = 'property.months.aug';
+  static const propertyMonthsSep = 'property.months.sep';
+  static const propertyMonthsOct = 'property.months.oct';
+  static const propertyMonthsNov = 'property.months.nov';
+  static const propertyMonthsDec = 'property.months.dec';
+
+  static const propertyStatusActive = 'property.status.active';
+  static const propertyStatusInactive = 'property.status.inactive';
+  static const propertyStatusAvailable = 'property.status.available';
+  static const propertyStatusNotAvailable = 'property.status.notAvailable';
+  static const propertyStatusShared = 'property.status.shared';
+  static const propertyStatusNotShared = 'property.status.notShared';
+  static const propertyStatusSharedSubtitle = 'property.status.sharedSubtitle';
+  static const propertyStatusNotSharedSubtitle = 'property.status.notSharedSubtitle';
+
+  static const propertyButtonsBookNow = 'property.buttons.bookNow';
+  static const propertyButtonsBack = 'property.buttons.back';
+  static const propertyButtonsNext = 'property.buttons.next';
+  static const propertyButtonsSubmit = 'property.buttons.submit';
+  static const propertyButtonsConfirm = 'property.buttons.confirm';
+  static const propertyButtonsCancel = 'property.buttons.cancel';
+  static const propertyButtonsDelete = 'property.buttons.delete';
+  static const propertyButtonsEdit = 'property.buttons.edit';
+  static const propertyButtonsView = 'property.buttons.view';
+
+  static const propertyDialogsToggleActiveTitle = 'property.dialogs.toggleActiveTitle';
+  static const propertyDialogsToggleActiveContent = 'property.dialogs.toggleActiveContent';
+  static const propertyDialogsActivate = 'property.dialogs.activate';
+  static const propertyDialogsDeactivate = 'property.dialogs.deactivate';
+  static const propertyDialogsDeleteTitle = 'property.dialogs.deleteTitle';
+  static const propertyDialogsDeleteContent = 'property.dialogs.deleteContent';
+
+  static const propertyBookingPriceEgp = 'property.booking.priceEgp';
+  static const propertyBookingStartRequired = 'property.booking.startRequired';
+  static const propertyBookingEndRequired = 'property.booking.endRequired';
+  static const propertyBookingSelectPaymentFrequency = 'property.booking.selectPaymentFrequency';
+  static const propertyBookingSelectEndMonthYear = 'property.booking.selectEndMonthYear';
+  static const propertyBookingSelectEndYear = 'property.booking.selectEndYear';
+  static const propertyBookingStartDate = 'property.booking.startDate';
+  static const propertyBookingEndDate = 'property.booking.endDate';
+  static const propertyBookingDay = 'property.booking.day';
+  static const propertyBookingMonth = 'property.booking.month';
+  static const propertyBookingYear = 'property.booking.year';
+  static const propertyBookingStatusBooking = 'property.booking.statusBooking';
+  static const propertyBookingConfirmBooking = 'property.booking.confirmBooking';
+  static const propertyBookingCancel = 'property.booking.cancel';
+
+  static const propertyDetailsAboutProperty = 'property.details.aboutProperty';
+  static const propertyDetailsAmenities = 'property.details.amenities';
+  static const propertyDetailsHostedBy = 'property.details.hostedBy';
+  static const propertyDetailsActiveRenters = 'property.details.activeRenters';
+  static const propertyDetailsMatching = 'property.details.matching';
+  static const propertyDetailsRules = 'property.details.rules';
+  static const propertyDetailsPaymentFrequency = 'property.details.paymentFrequency';
+  static const propertyDetailsDates = 'property.details.dates';
+  static const propertyDetailsOwnerWorkspace = 'property.details.ownerWorkspace';
+  static const propertyDetailsPropertyStatus = 'property.details.propertyStatus';
+  static const propertyDetailsPendingRequests = 'property.details.pendingRequests';
+  static const propertyDetailsAccept = 'property.details.accept';
+  static const propertyDetailsDecline = 'property.details.decline';
+  static const propertyDetailsContractsHistory = 'property.details.contractsHistory';
+  static const propertyDetailsExpiryDate = 'property.details.expiryDate';
+  static const propertyDetailsContract = 'property.details.contract';
+  static const propertyDetailsBedrooms = 'property.details.bedrooms';
+  static const propertyDetailsBaths = 'property.details.baths';
+  static const propertyDetailsArea = 'property.details.area';
+  static const propertyDetailsAreaValue = 'property.details.areaValue';
+  static const propertyDetailsBeds = 'property.details.beds';
+  static const propertyDetailsMaxOccupants = 'property.details.maxOccupants';
+  static const propertyDetailsSharedProperty = 'property.details.sharedProperty';
+  static const propertyDetailsListedOn = 'property.details.listedOn';
+  static const propertyDetailsRating = 'property.details.rating';
+  static const propertyDetailsPropertiesCount = 'property.details.propertiesCount';
+  static const propertyDetailsYes = 'property.details.yes';
+  static const propertyDetailsNo = 'property.details.no';
+  static const propertyDetailsRentLabel = 'property.details.rentLabel';
+  static const propertyDetailsRatingLabel = 'property.details.ratingLabel';
+  static const propertyDetailsReviewsCount = 'property.details.reviewsCount';
+
+  static const propertyCardViews = 'property.card.views';
+  static const propertyCardViewsLabel = 'property.card.viewsLabel';
+  static const propertyCardOccupied = 'property.card.occupied';
+  static const propertyCardActiveContracts = 'property.card.activeContracts';
+
+  static const propertyFiltersTitle = 'property.filters.title';
+  static const propertyFiltersSorting = 'property.filters.sorting';
+  static const propertyFiltersSortBy = 'property.filters.sortBy';
+  static const propertyFiltersOrder = 'property.filters.order';
+  static const propertyFiltersAscending = 'property.filters.ascending';
+  static const propertyFiltersDescending = 'property.filters.descending';
+  static const propertyFiltersLocation = 'property.filters.location';
+  static const propertyFiltersGovernorate = 'property.filters.governorate';
+  static const propertyFiltersCity = 'property.filters.city';
+  static const propertyFiltersMapSearch = 'property.filters.mapSearch';
+  static const propertyFiltersSelectOnMap = 'property.filters.selectOnMap';
+  static const propertyFiltersChange = 'property.filters.change';
+  static const propertyFiltersSelectedCoords = 'property.filters.selectedCoords';
+  static const propertyFiltersRadius = 'property.filters.radius';
+  static const propertyFiltersRadiusValue = 'property.filters.radiusValue';
+  static const propertyFiltersDetails = 'property.filters.details';
+  static const propertyFiltersType = 'property.filters.type';
+  static const propertyFiltersRentalUnit = 'property.filters.rentalUnit';
+  static const propertyFiltersIsShared = 'property.filters.isShared';
+  static const propertyFiltersPricingRating = 'property.filters.pricingRating';
+  static const propertyFiltersMinPrice = 'property.filters.minPrice';
+  static const propertyFiltersMaxPrice = 'property.filters.maxPrice';
+  static const propertyFiltersMinRating = 'property.filters.minRating';
+  static const propertyFiltersAny = 'property.filters.any';
+  static const propertyFiltersCapacitySpace = 'property.filters.capacitySpace';
+  static const propertyFiltersMinBedrooms = 'property.filters.minBedrooms';
+  static const propertyFiltersMinBeds = 'property.filters.minBeds';
+  static const propertyFiltersMinBathrooms = 'property.filters.minBathrooms';
+  static const propertyFiltersMaxOccupants = 'property.filters.maxOccupants';
+  static const propertyFiltersMinSqMeters = 'property.filters.minSqMeters';
+  static const propertyFiltersMaxSqMeters = 'property.filters.maxSqMeters';
+  static const propertyFiltersAmenities = 'property.filters.amenities';
+  static const propertyFiltersClearAll = 'property.filters.clearAll';
+  static const propertyFiltersApply = 'property.filters.apply';
+
+  static const propertyFormTitle = 'property.form.title';
+  static const propertyFormTitleHint = 'property.form.titleHint';
+  static const propertyFormTitleRequired = 'property.form.titleRequired';
+  static const propertyFormTitleLength = 'property.form.titleLength';
+  static const propertyFormAddress = 'property.form.address';
+  static const propertyFormAddressHint = 'property.form.addressHint';
+  static const propertyFormAddressRequired = 'property.form.addressRequired';
+  static const propertyFormStateLabel = 'property.form.stateLabel';
+  static const propertyFormStateHint = 'property.form.stateHint';
+  static const propertyFormStateRequired = 'property.form.stateRequired';
+  static const propertyFormZip = 'property.form.zip';
+  static const propertyFormZipHint = 'property.form.zipHint';
+  static const propertyFormZipRequired = 'property.form.zipRequired';
+  static const propertyFormNoLocationSelected = 'property.form.noLocationSelected';
+  static const propertyFormChangeLocation = 'property.form.changeLocation';
+  static const propertyFormBedrooms = 'property.form.bedrooms';
+  static const propertyFormBedroomsHint = 'property.form.bedroomsHint';
+  static const propertyFormBedroomsRequired = 'property.form.bedroomsRequired';
+  static const propertyFormBedroomsLength = 'property.form.bedroomsLength';
+  static const propertyFormBeds = 'property.form.beds';
+  static const propertyFormBedsHint = 'property.form.bedsHint';
+  static const propertyFormBedsRequired = 'property.form.bedsRequired';
+  static const propertyFormBedsLength = 'property.form.bedsLength';
+  static const propertyFormBathrooms = 'property.form.bathrooms';
+  static const propertyFormBathroomsHint = 'property.form.bathroomsHint';
+  static const propertyFormBathroomsRequired = 'property.form.bathroomsRequired';
+  static const propertyFormBathroomsLength = 'property.form.bathroomsLength';
+  static const propertyFormSqMeters = 'property.form.sqMeters';
+  static const propertyFormSqMetersHint = 'property.form.sqMetersHint';
+  static const propertyFormSqMetersRequired = 'property.form.sqMetersRequired';
+  static const propertyFormDescription = 'property.form.description';
+  static const propertyFormDescriptionHint = 'property.form.descriptionHint';
+  static const propertyFormDescriptionRequired = 'property.form.descriptionRequired';
+  static const propertyFormDescriptionLength = 'property.form.descriptionLength';
+  static const propertyFormMaxOccupants = 'property.form.maxOccupants';
+  static const propertyFormMaxOccupantsHint = 'property.form.maxOccupantsHint';
+  static const propertyFormMaxOccupantsRequired = 'property.form.maxOccupantsRequired';
+  static const propertyFormMaxOccupantsLength = 'property.form.maxOccupantsLength';
+  static const propertyFormLegalProofRequired = 'property.form.legal.proofRequired';
+  static const propertyFormLegalProofLabel = 'property.form.legal.proofLabel';
+  static const propertyFormPhotosPrimaryRequired = 'property.form.photos.primaryRequired';
+  static const propertyFormPhotosPrimaryLabel = 'property.form.photos.primaryLabel';
+  static const propertyFormPhotosAlreadyAdded = 'property.form.photos.alreadyAdded';
+  static const propertyFormPricingBillingCycle = 'property.form.pricing.billingCycle';
+  static const propertyFormPricingPriceLabel = 'property.form.pricing.priceLabel';
+  static const propertyFormPricingPriceHint = 'property.form.pricing.priceHint';
+  static const propertyFormPricingPriceRequired = 'property.form.pricing.priceRequired';
+  static const propertyFormPricingPriceInvalid = 'property.form.pricing.priceInvalid';
+  static const propertyFormRulesAddRule = 'property.form.rules.addRule';
+  static const propertyFormRulesRuleHint = 'property.form.rules.ruleHint';
+  static const propertyFormRulesRuleIndex = 'property.form.rules.ruleIndex';
+  static const propertyFormStepsDetails = 'property.form.steps.details';
+  static const propertyFormStepsAmenities = 'property.form.steps.amenities';
+  static const propertyFormStepsPhotos = 'property.form.steps.photos';
+  static const propertyFormStepsPricing = 'property.form.steps.pricing';
+  static const propertyFormStepsRules = 'property.form.steps.rules';
+  static const propertyFormStepsLegal = 'property.form.steps.legal';
+  static const propertySharePreparing = 'property.share.preparing';
+  static const propertyShareSubject = 'property.share.subject';
+  static const propertyShareTextTemplate = 'property.share.textTemplate';
+
+  static const dashboardOwnerDashboard = 'dashboard.ownerDashboard';
+  static const dashboardMyDashboard = 'dashboard.myDashboard';
+  static const dashboardActiveRentals = 'dashboard.activeRentals';
+  static const dashboardMyContractsAsOwner = 'dashboard.myContractsAsOwner';
+  static const dashboardMyContractsAsRenter = 'dashboard.myContractsAsRenter';
+  static const dashboardRecentReceivedPayments = 'dashboard.recentReceivedPayments';
+  static const dashboardRecentPaidPayments = 'dashboard.recentPaidPayments';
+  static const dashboardStripeSetupLaunchError = 'dashboard.stripeSetupLaunchError';
+  static const dashboardStripeSetupError = 'dashboard.stripeSetupError';
+
+  static const dashboardStatusAccountStatus = 'dashboard.status.accountStatus';
+  static const dashboardStatusYes = 'dashboard.status.yes';
+  static const dashboardStatusNo = 'dashboard.status.no';
+
+  static const dashboardButtonsShowProperty = 'dashboard.buttons.showProperty';
+  static const dashboardButtonsDecline = 'dashboard.buttons.decline';
+  static const dashboardButtonsCancel = 'dashboard.buttons.cancel';
+  static const dashboardButtonsAccept = 'dashboard.buttons.accept';
+  static const dashboardButtonsSign = 'dashboard.buttons.sign';
+  static const dashboardButtonsContractDetails = 'dashboard.buttons.contractDetails';
+  static const dashboardButtonsViewContract = 'dashboard.buttons.viewContract';
+  static const dashboardButtonsWithdrawEarnings = 'dashboard.buttons.withdrawEarnings';
+  static const dashboardButtonsSetupStripe = 'dashboard.buttons.setupStripe';
+
+  static const dashboardStatisticsNextPaymentRent = 'dashboard.statistics.nextPaymentRent';
+  static const dashboardStatisticsActiveRentals = 'dashboard.statistics.activeRentals';
+  static const dashboardStatisticsSavedProperties = 'dashboard.statistics.savedProperties';
+  static const dashboardStatisticsTotalRevenue = 'dashboard.statistics.totalRevenue';
+  static const dashboardStatisticsOnHoldAmount = 'dashboard.statistics.onHoldAmount';
+  static const dashboardStatisticsMyProperties = 'dashboard.statistics.myProperties';
+  static const dashboardStatisticsOccupied = 'dashboard.statistics.occupied';
+  static const dashboardStatisticsPendingRequests = 'dashboard.statistics.pendingRequests';
+  static const dashboardStatisticsTotalViews = 'dashboard.statistics.totalViews';
+
+  static const dashboardReportsReceivedOn = 'dashboard.reports.receivedOn';
+  static const dashboardReportsPaidOn = 'dashboard.reports.paidOn';
+  static const dashboardReportsAvailableOn = 'dashboard.reports.availableOn';
+  static const dashboardReportsAmountEgp = 'dashboard.reports.amountEgp';
+  static const dashboardReportsDue = 'dashboard.reports.due';
+  static const dashboardReportsEarningsOverview = 'dashboard.reports.earningsOverview';
+  static const dashboardReportsShowingMonthlyGrowth = 'dashboard.reports.showingMonthlyGrowth';
+  static const dashboardReportsShowingYearlyGrowth = 'dashboard.reports.showingYearlyGrowth';
+  static const dashboardReportsEarningsLegend = 'dashboard.reports.earningsLegend';
+  static const dashboardReportsNoData = 'dashboard.reports.noData';
+
+  static const dashboardManagementPaymentFrequency = 'dashboard.management.paymentFrequency';
+  static const dashboardManagementBookingRequestsCount = 'dashboard.management.bookingRequestsCount';
+  static const dashboardManagementPropertiesBookedCount = 'dashboard.management.propertiesBookedCount';
+  static const dashboardManagementRenterLabel = 'dashboard.management.renterLabel';
+  static const dashboardManagementOwnerLabel = 'dashboard.management.ownerLabel';
+  static const dashboardManagementExpiryDate = 'dashboard.management.expiryDate';
+  static const dashboardManagementPaymentOnlyAvailableSevenDays = 'dashboard.management.paymentOnlyAvailableSevenDays';
+  static const dashboardManagementChatWithOwner = 'dashboard.management.chatWithOwner';
+  static const dashboardManagementOwnerProfileStripe = 'dashboard.management.ownerProfileStripe';
+  static const dashboardManagementVacantPlaces = 'dashboard.management.vacantPlaces';
+  static const dashboardManagementRating = 'dashboard.management.rating';
+  static const dashboardManagementStripeLinked = 'dashboard.management.stripeLinked';
+  static const dashboardManagementWithdrawableEarnings = 'dashboard.management.withdrawableEarnings';
+  static const dashboardManagementOnHoldEarnings = 'dashboard.management.onHoldEarnings';
+  static const dashboardManagementPaymentFrequencyLabel = 'dashboard.management.paymentFrequencyLabel';
+  static const dashboardManagementNextPayment = 'dashboard.management.nextPayment';
+  static const dashboardManagementNoSchedule = 'dashboard.management.noSchedule';
+  static const dashboardManagementPaymentStatusLabel = 'dashboard.management.paymentStatusLabel';
+  static const dashboardManagementUnknown = 'dashboard.management.unknown';
+  static const dashboardManagementContract = 'dashboard.management.contract';
+  static const dashboardManagementPayment = 'dashboard.management.payment';
+  static const dashboardManagementDatesRange = 'dashboard.management.datesRange';
+
+  static const dashboardReportsMonthlyToggle = 'dashboard.reports.monthlyToggle';
+  static const dashboardReportsYearlyToggle = 'dashboard.reports.yearlyToggle';
+  static const dashboardReportsJan = 'dashboard.reports.jan';
+  static const dashboardReportsFeb = 'dashboard.reports.feb';
+  static const dashboardReportsMar = 'dashboard.reports.mar';
+  static const dashboardReportsApr = 'dashboard.reports.apr';
+  static const dashboardReportsMay = 'dashboard.reports.may';
+  static const dashboardReportsJun = 'dashboard.reports.jun';
+  static const dashboardReportsJul = 'dashboard.reports.jul';
+  static const dashboardReportsAug = 'dashboard.reports.aug';
+  static const dashboardReportsSep = 'dashboard.reports.sep';
+  static const dashboardReportsOct = 'dashboard.reports.oct';
+  static const dashboardReportsNov = 'dashboard.reports.nov';
+  static const dashboardReportsDec = 'dashboard.reports.dec';
+
+  static const dashboardStatusSucceeded = 'dashboard.status.succeeded';
+  static const dashboardStatusPending = 'dashboard.status.pending';
+  static const dashboardStatusFailed = 'dashboard.status.failed';
+  static const dashboardStatusRefunded = 'dashboard.status.refunded';
+
+  // Chat Feature
+  static const chatButtonsShowProfile = 'chat.buttons.show_profile';
+  static const chatButtonsReportUser = 'chat.buttons.report_user';
+  static const chatPlaceholdersSearchUsers = 'chat.placeholders.search_users';
+  static const chatPlaceholdersNoChatsYet = 'chat.placeholders.no_chats_yet';
+  static const chatPlaceholdersRecentChats = 'chat.placeholders.recent_chats';
+  static const chatPlaceholdersNoRecentChats = 'chat.placeholders.no_recent_chats';
+  static const chatPlaceholdersOtherUsers = 'chat.placeholders.other_users';
+  static const chatPlaceholdersNoOtherUsers = 'chat.placeholders.no_other_users';
+  static const chatPlaceholdersTypeMessage = 'chat.placeholders.type_message';
+  static const chatSnackbarFailedToSendMessage = 'chat.snackbar.failed_to_send_message';
+  static const chatMessagesYouPrefix = 'chat.messages.you_prefix';
+  static const chatMessagesCopy = 'chat.messages.copy';
+  static const chatMessagesReport = 'chat.messages.report';
+  static const chatStatusOnline = 'chat.status.online';
+  static const chatStatusOffline = 'chat.status.offline';
+  static const chatStatusUserDeletedNotice = 'chat.status.user_deleted_notice';
+
+  // Chatbot Feature
+  static const chatbotMessagesWelcomeGreeting = 'chatbot.messages.welcome_greeting';
+  static const chatbotMessagesHelpHeader = 'chatbot.messages.help_header';
+  static const chatbotMessagesHelpDesc = 'chatbot.messages.help_desc';
+  static const chatbotPromptsWhatCanYouDo = 'chatbot.prompts.what_can_you_do';
+  static const chatbotPromptsGettingStarted = 'chatbot.prompts.getting_started';
+  static const chatbotPromptsFindProperties = 'chatbot.prompts.find_properties';
+  static const chatbotStatusBotName = 'chatbot.status.bot_name';
+  static const chatbotStatusAlwaysHere = 'chatbot.status.always_here';
+
+  // Contracts Feature
+  static const contractsPlaceholdersInstructions = 'contracts.placeholders.instructions';
+  static const contractsStatusTitle = 'contracts.status.title';
+  static const contractsStatusAwaitingSignatures = 'contracts.status.awaiting_signatures';
+  static const contractsBlockchainTitle = 'contracts.blockchain.title';
+  static const contractsBlockchainStatus = 'contracts.blockchain.status';
+  static const contractsBlockchainTxId = 'contracts.blockchain.txId';
+  static const contractsBlockchainMerkleRoot = 'contracts.blockchain.merkleRoot';
+  static const contractsBlockchainAnchored = 'contracts.blockchain.anchored';
+  static const contractsBlockchainNotAnchored = 'contracts.blockchain.notAnchored';
+  static const contractsBlockchainCopied = 'contracts.blockchain.copied';
+  static const contractsPlaceholdersDetailsTitle = 'contracts.placeholders.details_title';
+  static const contractsPlaceholdersIdLabel = 'contracts.placeholders.id_label';
+  static const contractsPlaceholdersDurationLabel = 'contracts.placeholders.duration_label';
+  static const contractsPlaceholdersPropertyLabel = 'contracts.placeholders.property_label';
+  static const contractsPlaceholdersPricePerDuration = 'contracts.placeholders.price_per_duration';
+  static const contractsPlaceholdersTenantLabel = 'contracts.placeholders.tenant_label';
+  static const contractsPlaceholdersOwnerLabel = 'contracts.placeholders.owner_label';
+  static const contractsPlaceholdersRentalPeriodLabel = 'contracts.placeholders.rental_period_label';
+  static const contractsPlaceholdersStartDateLabel = 'contracts.placeholders.start_date_label';
+  static const contractsPlaceholdersEndDateLabel = 'contracts.placeholders.end_date_label';
+  static const contractsPlaceholdersTotalValueLabel = 'contracts.placeholders.total_value_label';
+  static const contractsPlaceholdersTotalValueAmount = 'contracts.placeholders.total_value_amount';
+  static const contractsButtonsDownloadContractTitle = 'contracts.buttons.download_contract_title';
+  static const contractsPlaceholdersRentalAgreementPdf = 'contracts.placeholders.rental_agreement_pdf';
+  static const contractsStatusDownloadDisabledPending = 'contracts.status.download_disabled_pending';
+  static const contractsPlaceholdersDownloadDesc = 'contracts.placeholders.download_desc';
+  static const contractsButtonsDownloadContract = 'contracts.buttons.download_contract';
+  static const contractsButtonsDownloadProofTitle = 'contracts.buttons.download_proof_title';
+  static const contractsPlaceholdersProofFile = 'contracts.placeholders.proof_file';
+  static const contractsStatusProofDisabledPending = 'contracts.status.proof_disabled_pending';
+  static const contractsPlaceholdersProofDesc = 'contracts.placeholders.proof_desc';
+  static const contractsButtonsDownloadProof = 'contracts.buttons.download_proof';
+  static const contractsButtonsVerifyContractTitle = 'contracts.buttons.verify_contract_title';
+  static const contractsStatusUploadDisabledPending = 'contracts.status.upload_disabled_pending';
+  static const contractsStatusPendingAnchoring = 'contracts.status.pending_anchoring';
+  static const contractsPlaceholdersUploadDesc = 'contracts.placeholders.upload_desc';
+  static const contractsStatusUploadDisabledLabel = 'contracts.status.upload_disabled_label';
+  static const contractsPlaceholdersSelectedFile = 'contracts.placeholders.selected_file';
+  static const contractsPlaceholdersClickToUpload = 'contracts.placeholders.click_to_upload';
+  static const contractsPlaceholdersPdfFormat = 'contracts.placeholders.pdf_format';
+  static const contractsPlaceholdersPdfFormatOnly = 'contracts.placeholders.pdf_format_only';
+  static const contractsButtonsSubmitContract = 'contracts.buttons.submit_contract';
+  static const contractsPlaceholdersImportantNotesTitle = 'contracts.placeholders.important_notes_title';
+  static const contractsPlaceholdersNoteReadCarefully = 'contracts.placeholders.note_read_carefully';
+  static const contractsPlaceholdersNoteBothParties = 'contracts.placeholders.note_both_parties';
+  static const contractsPlaceholdersNoteKeepCopy = 'contracts.placeholders.note_keep_copy';
+  static const contractsPlaceholdersNoteContactSupport = 'contracts.placeholders.note_contact_support';
+  static const contractsPlaceholdersNoteEffectiveDate = 'contracts.placeholders.note_effective_date';
+  static const contractsStatusPdfDownloadSuccess = 'contracts.status.pdf_download_success';
+  static const contractsStatusProofDownloadSuccess = 'contracts.status.proof_download_success';
+  static const contractsStatusMatched = 'contracts.status.matched';
+  static const contractsStatusNotMatched = 'contracts.status.not_matched';
+  static const contractsDialogsVerificationResult = 'contracts.dialogs.verification_result';
+
+  // Payments Feature
+  static const paymentsCheckoutMerchantDisplayName = 'payments.checkout.merchant_display_name';
+  static const paymentsErrorsPaymentCancelled = 'payments.errors.payment_cancelled';
+
+  // Main Layout Feature
+  static const mainLayoutHomeSearchProperties = 'mainLayout.home.searchProperties';
+  static const mainLayoutHomeSearchResult = 'mainLayout.home.searchResult';
+  static const mainLayoutHomeRecommendedForYou = 'mainLayout.home.recommendedForYou';
+
+  static const mainLayoutNavDashboard = 'mainLayout.nav.dashboard';
+  static const mainLayoutNavHome = 'mainLayout.nav.home';
+  static const mainLayoutNavChat = 'mainLayout.nav.chat';
+
+  static const mainLayoutDrawerShowProfile = 'mainLayout.drawer.showProfile';
+  static const mainLayoutDrawerMyProperties = 'mainLayout.drawer.myProperties';
+  static const mainLayoutDrawerOwnerDashboard = 'mainLayout.drawer.ownerDashboard';
+  static const mainLayoutDrawerFavorites = 'mainLayout.drawer.favorites';
+  static const mainLayoutDrawerAddProperty = 'mainLayout.drawer.addProperty';
+  static const mainLayoutDrawerSettings = 'mainLayout.drawer.settings';
+
+  static const mainLayoutSettingsAccount = 'mainLayout.settings.account';
+  static const mainLayoutSettingsEditProfile = 'mainLayout.settings.editProfile';
+  static const mainLayoutSettingsChangePassword = 'mainLayout.settings.changePassword';
+  static const mainLayoutSettingsPreferences = 'mainLayout.settings.preferences';
+  static const mainLayoutSettingsRoommatePreferences = 'mainLayout.settings.roommatePreferences';
+  static const mainLayoutSettingsSecurity = 'mainLayout.settings.security';
+  static const mainLayoutSettingsTwoFactorAuth = 'mainLayout.settings.twoFactorAuth';
+  static const mainLayoutSettingsIdentityVerification = 'mainLayout.settings.identityVerification';
+  static const mainLayoutSettingsLanguage = 'mainLayout.settings.language';
+  static const mainLayoutSettingsArabicLanguage = 'mainLayout.settings.arabicLanguage';
+  static const mainLayoutSettingsHelpSupport = 'mainLayout.settings.helpSupport';
+  static const mainLayoutSettingsAboutMarn = 'mainLayout.settings.aboutMarn';
+  static const mainLayoutSettingsHowItWorks = 'mainLayout.settings.howItWorks';
+  static const mainLayoutSettingsFaq = 'mainLayout.settings.faq';
+  static const mainLayoutSettingsPrivacyPolicy = 'mainLayout.settings.privacyPolicy';
+  static const mainLayoutSettingsTermsOfUse = 'mainLayout.settings.termsOfUse';
+  static const mainLayoutSettingsContact = 'mainLayout.settings.contact';
+  static const mainLayoutSettingsLogout = 'mainLayout.settings.logout';
+  static const mainLayoutSettingsDeleteAccount = 'mainLayout.settings.deleteAccount';
+  static const mainLayoutSettingsDeleteAccountConfirmTitle = 'mainLayout.settings.deleteAccountConfirmTitle';
+  static const mainLayoutSettingsDeleteAccountConfirmContent = 'mainLayout.settings.deleteAccountConfirmContent';
+  static const mainLayoutSettingsDelete = 'mainLayout.settings.delete';
+
+  static const mainLayoutNotificationsMarkAsRead = 'mainLayout.notifications.markAsRead';
+  static const mainLayoutNotificationsAction = 'mainLayout.notifications.action';
+  static const mainLayoutNotificationsViewProperty = 'mainLayout.notifications.viewProperty';
+  static const mainLayoutNotificationsChatNow = 'mainLayout.notifications.chatNow';
+  static const mainLayoutNotificationsEditProfile = 'mainLayout.notifications.editProfile';
+  static const mainLayoutNotificationsRenterDashboard = 'mainLayout.notifications.renterDashboard';
+  static const mainLayoutNotificationsOwnerDashboard = 'mainLayout.notifications.ownerDashboard';
+  static const mainLayoutNotificationsViewContract = 'mainLayout.notifications.viewContract';
+  static const mainLayoutNotificationsPayNow = 'mainLayout.notifications.payNow';
+
+  static const staticScreensTitlesAboutMarn = 'staticScreens.titles.aboutMarn';
+  static const staticScreensTitlesHowItWorks = 'staticScreens.titles.howItWorks';
+  static const staticScreensTitlesFaq = 'staticScreens.titles.faq';
+  static const staticScreensTitlesPrivacyPolicy = 'staticScreens.titles.privacyPolicy';
+  static const staticScreensTitlesTermsOfUse = 'staticScreens.titles.termsOfUse';
+  static const staticScreensTitlesContactUs = 'staticScreens.titles.contactUs';
+  static const staticScreensTitlesPageNotFound = 'staticScreens.titles.pageNotFound';
+  static const staticScreensTitlesOurMission = 'staticScreens.titles.ourMission';
+  static const staticScreensTitlesOurValues = 'staticScreens.titles.ourValues';
+  static const staticScreensTitlesMeetOurTeam = 'staticScreens.titles.meetOurTeam';
+  static const staticScreensTitlesStillHaveQuestions = 'staticScreens.titles.stillHaveQuestions';
+  static const staticScreensTitlesQuestionsAboutPrivacy = 'staticScreens.titles.questionsAboutPrivacy';
+  static const staticScreensTitlesQuestionsAboutTerms = 'staticScreens.titles.questionsAboutTerms';
+  
+  static const staticScreensTitlesFaqForTenants = 'staticScreens.titles.faqForTenants';
+  static const staticScreensTitlesFaqForPropertyOwners = 'staticScreens.titles.faqForPropertyOwners';
+  static const staticScreensTitlesFaqSafetyAndSecurity = 'staticScreens.titles.faqSafetyAndSecurity';
+  static const staticScreensTitlesFaqPaymentsAndBilling = 'staticScreens.titles.faqPaymentsAndBilling';
+
+  static const staticScreensTitlesFaqGeneralOverview = 'staticScreens.titles.faqGeneralOverview';
+  static const staticScreensTitlesFaqAccountAndRegistration = 'staticScreens.titles.faqAccountAndRegistration';
+  static const staticScreensTitlesFaqIdentityVerification = 'staticScreens.titles.faqIdentityVerification';
+  static const staticScreensTitlesFaqSearchingForProperties = 'staticScreens.titles.faqSearchingForProperties';
+  static const staticScreensTitlesFaqListingAPropertyOwners = 'staticScreens.titles.faqListingAPropertyOwners';
+  static const staticScreensTitlesFaqBookingAndRequests = 'staticScreens.titles.faqBookingAndRequests';
+  static const staticScreensTitlesFaqRoommateMatching = 'staticScreens.titles.faqRoommateMatching';
+  static const staticScreensTitlesFaqAiRecommendationsAndChatbot = 'staticScreens.titles.faqAiRecommendationsAndChatbot';
+  static const staticScreensTitlesFaqDigitalContractsAndBlockchain = 'staticScreens.titles.faqDigitalContractsAndBlockchain';
+  static const staticScreensTitlesFaqPayments = 'staticScreens.titles.faqPayments';
+  static const staticScreensTitlesFaqCommunicationAndNotifications = 'staticScreens.titles.faqCommunicationAndNotifications';
+  static const staticScreensTitlesFaqRatingsReviewsAndReporting = 'staticScreens.titles.faqRatingsReviewsAndReporting';
+  static const staticScreensTitlesFaqAdminAndPlatformGovernance = 'staticScreens.titles.faqAdminAndPlatformGovernance';
+  static const staticScreensTitlesFaqTechnicalStackAndArchitecture = 'staticScreens.titles.faqTechnicalStackAndArchitecture';
+  static const staticScreensTitlesFaqFutureImprovements = 'staticScreens.titles.faqFutureImprovements';
+
+  static const staticScreensTitlesWhyChooseUs = 'staticScreens.titles.whyChooseUs';
+
+  static const staticScreensSubtitlesAboutMarn = 'staticScreens.subtitles.aboutMarn';
+  static const staticScreensSubtitlesHowItWorks = 'staticScreens.subtitles.howItWorks';
+  static const staticScreensSubtitlesFaq = 'staticScreens.subtitles.faq';
+  static const staticScreensSubtitlesContactUs = 'staticScreens.subtitles.contactUs';
+  static const staticScreensSubtitlesPageNotFound = 'staticScreens.subtitles.pageNotFound';
+  static const staticScreensSubtitlesOurValues = 'staticScreens.subtitles.ourValues';
+  static const staticScreensSubtitlesMeetOurTeam = 'staticScreens.subtitles.meetOurTeam';
+  static const staticScreensSubtitlesStillHaveQuestions = 'staticScreens.subtitles.stillHaveQuestions';
+  static const staticScreensSubtitlesQuestionsAboutPrivacy = 'staticScreens.subtitles.questionsAboutPrivacy';
+  static const staticScreensSubtitlesQuestionsAboutTerms = 'staticScreens.subtitles.questionsAboutTerms';
+  static const staticScreensSubtitlesPrivacyPolicy = 'staticScreens.subtitles.privacyPolicy';
+  static const staticScreensSubtitlesTermsOfUse = 'staticScreens.subtitles.termsOfUse';
+
+  static const staticScreensPlaceholdersSearchFaq = 'staticScreens.placeholders.searchFaq';
+  static const staticScreensPlaceholdersFullName = 'staticScreens.placeholders.fullName';
+  static const staticScreensPlaceholdersEmailAddress = 'staticScreens.placeholders.emailAddress';
+  static const staticScreensPlaceholdersPhoneNumber = 'staticScreens.placeholders.phoneNumber';
+  static const staticScreensPlaceholdersSubject = 'staticScreens.placeholders.subject';
+  static const staticScreensPlaceholdersMessage = 'staticScreens.placeholders.message';
+
+  static const staticScreensValidationFullNameRequired = 'staticScreens.validation.fullNameRequired';
+  static const staticScreensValidationEmailRequired = 'staticScreens.validation.emailRequired';
+  static const staticScreensValidationEmailInvalid = 'staticScreens.validation.emailInvalid';
+  static const staticScreensValidationPhoneNumberRequired = 'staticScreens.validation.phoneNumberRequired';
+  static const staticScreensValidationSubjectRequired = 'staticScreens.validation.subjectRequired';
+  static const staticScreensValidationMessageRequired = 'staticScreens.validation.messageRequired';
+
+  static const staticScreensButtonsBackToHome = 'staticScreens.buttons.backToHome';
+  static const staticScreensButtonsContactSupport = 'staticScreens.buttons.contactSupport';
+  static const staticScreensButtonsSendMessage = 'staticScreens.buttons.sendMessage';
+
+  static const staticScreensMessagesMessageSentSuccess = 'staticScreens.messages.messageSentSuccess';
+  static const staticScreensMessagesMessageSentError = 'staticScreens.messages.messageSentError';
+  static const staticScreensLabelsPhone = 'staticScreens.labels.phone';
+  static const staticScreensLabelsEmail = 'staticScreens.labels.email';
+  static const staticScreensLabelsLocation = 'staticScreens.labels.location';
+  static const staticScreensLabelsWhatsapp = 'staticScreens.labels.whatsapp';
+  static const staticScreensLabelsLocationValue = 'staticScreens.labels.locationValue';
+  static const staticScreensLastUpdated = 'staticScreens.lastUpdated';
+
+  static const propertyDetailsYourRating = 'property.details.yourRating';
+  static const propertyDetailsTapStarsToRate = 'property.details.tapStarsToRate';
+  static const propertyDetailsNoRatingSubmitted = 'property.details.noRatingSubmitted';
+  static const propertyDetailsNoReviewsYet = 'property.details.noReviewsYet';
+  static const propertyDetailsRateShareThoughts = 'property.details.rateShareThoughts';
+  static const propertyDetailsShareExperience = 'property.details.shareExperience';
+  static const propertyDetailsYourRatingLabel = 'property.details.yourRatingLabel';
+  static const propertyDetailsWriteReviewHere = 'property.details.writeReviewHere';
+  static const propertyDetailsSubmitReview = 'property.details.submitReview';
+  static const propertyDetailsDeleteCommentTitle = 'property.details.deleteCommentTitle';
+  static const propertyDetailsDeleteCommentConfirm = 'property.details.deleteCommentConfirm';
+  static const propertyDetailsDelete = 'property.details.delete';
+  static const propertyDetailsCancel = 'property.details.cancel';
+  static const propertyDetailsUpdateCommentHint = 'property.details.updateCommentHint';
+  static const propertyDetailsSave = 'property.details.save';
+  static const propertyDetailsStayFrom = 'property.details.stayFrom';
+  static const propertyDetailsStayTo = 'property.details.stayTo';
+  static const propertyDetailsActiveTenant = 'property.details.activeTenant';
+  static const propertyDetailsFeedbackSuccess = 'property.details.feedbackSuccess';
+  static const propertyDetailsRatingRequired = 'property.details.ratingRequired';
+  static const propertyDetailsCommentRequired = 'property.details.commentRequired';
+  static const propertyDetailsReportComment = 'property.details.reportComment';
+
+  static const mainLayoutNavRoommate = 'mainLayout.nav.roommate';
+  static const roommateTitle = 'roommate.title';
+  static const roommateCompatibility = 'roommate.compatibility';
+  static const roommateNoMatchesFound = 'roommate.noMatchesFound';
+  static const roommateUpdatePreferences = 'roommate.updatePreferences';
+  static const roommateMatchingTraits = 'roommate.matchingTraits';
+  static const roommateMismatchedTraits = 'roommate.mismatchedTraits';
+  static const roommateDealbreakers = 'roommate.dealbreakers';
+  static const roommateChatWith = 'roommate.chatWith';
+  static const roommateSearchStatus = 'roommate.searchStatus';
+  static const roommateCompatibilityHigh = 'roommate.compatibilityHigh';
+  static const roommateCompatibilityMedium = 'roommate.compatibilityMedium';
+  static const roommateCompatibilityLow = 'roommate.compatibilityLow';
+}

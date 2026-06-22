@@ -1,0 +1,49 @@
+{
+  "searchPlaceholder": "Search by location, property type...",
+  "explore": "Explore",
+  "becomeHost": "Become a Host",
+  "pleaseWait": "Please wait…",
+  "menu": {
+    "home": "Home",
+    "exploreProperties": "Explore Properties",
+    "findRoommates": "Find Roommates",
+    "chats": "Chats",
+    "chatSupport": "Chat Support",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "profile": "Profile",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "loginSignUp": "Login / Sign Up"
+  },
+  "drawer": {
+    "tagline": "Your Modern Rental Network",
+    "needHelp": "Need Help?",
+    "supportAvailable": "Our support team is available 24/7",
+    "contactSupport": "Contact Support"
+  },
+  "dashboards": {
+    "ownerDashboard": "Owner Dashboard",
+    "tenantDashboard": "Tenant Dashboard",
+    "adminDashboard": "Admin Dashboard"
+  },
+  "footer": {
+    "tagline": "Your trusted platform for finding the perfect rental property and roommates.",
+    "quickLinks": "Quick Links",
+    "searchProperties": "Search Properties",
+    "listYourProperty": "List Your Property",
+    "aboutUs": "About Us",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "support": "Support",
+    "faq": "FAQ",
+    "contactUs": "Contact Us",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2026 MARN. All rights reserved.",
+    "address": "Besides new Damietta University\nNew Damietta, Egypt",
+    "phoneNumber": "01012345678"
+  },
+  "logoAlt": "MARN Logo"
+}

@@ -1,0 +1,20 @@
+## Identity Verification
+
+**Why do I need to verify my identity?**
+Verification ensures platform trust and legal compliance. Unverified users cannot create property listings or enter into rental contracts.
+
+**What documents are required for verification?**
+- Renters: A valid legal identification document (e.g., National ID)
+- Owners: National ID plus proof of property ownership documents
+
+**How does the verification process work?**
+1. Upload your documents from the Profile Settings or verification section
+2. The system validates the file format and stores documents securely
+3. Documents are submitted for administrative review
+4. You will be notified once your verification is approved or rejected
+
+**How long does verification take?**
+Verification is reviewed by MARN administrators. You will receive a notification as soon as a decision is made.
+
+**What happens if my verification is rejected?**
+You will be notified of the rejection. You can re-upload corrected documents and resubmit for review.

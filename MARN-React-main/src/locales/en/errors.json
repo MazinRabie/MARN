@@ -1,0 +1,9 @@
+{
+  "timeout": "Request timed out",
+  "unexpected": "An unexpected error occurred",
+  "somethingWentWrong": "Something went wrong. Please try again.",
+  "networkError": "Network error. Please check your connection.",
+  "unauthorized": "You are not authorized to perform this action.",
+  "notFound": "The requested resource was not found.",
+  "serverError": "Server error. Please try again later."
+}

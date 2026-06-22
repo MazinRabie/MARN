@@ -1,0 +1,19 @@
+## Payments
+
+**How do I pay rent on MARN?**
+From the Payment screen, select "Pay Rent." The system creates a payment session through an integrated online payment gateway. Supported methods include credit/debit cards and mobile wallets.
+
+**Does MARN support monthly payment scheduling?**
+Yes. After a contract is activated, monthly rent installments are scheduled with defined due dates. The system tracks each installment's status and sends automated reminders for upcoming or overdue payments.
+
+**Will I be notified about upcoming payments?**
+Yes. MARN sends reminders before payment due dates and notifications for successful or failed transactions.
+
+**Where can I view my payment history?**
+Payment history is available from the Payment screen for renters and from the Owner Dashboard (earnings and payment status) for owners.
+
+**How do owners receive their rental income?**
+Owners can connect a payment account and initiate withdrawals of their balance through the Owner Dashboard.
+
+**What happens if a payment fails?**
+The system provides retry options. You will be notified of the failure and can attempt the payment again.

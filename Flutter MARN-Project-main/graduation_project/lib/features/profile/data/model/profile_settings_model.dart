@@ -1,0 +1,111 @@
+import 'package:MARN/core/enums/models/enum_item.dart';
+import 'package:MARN/core/enums/models/enum_type.dart';
+import 'package:MARN/core/widgets/buildImage_url.dart';
+import 'package:MARN/features/profile/domain/entities/profile_settings_entity.dart';
+
+class ProfileSettingsModel extends ProfileSettingsEntity {
+  ProfileSettingsModel({
+    required super.id,
+    required super.email,
+    required super.phoneNumber,
+    required super.firstName,
+    required super.lastName,
+    required super.dateOfBirth,
+    required super.language,
+    required super.profileImage,
+    required super.gender,
+    required super.country,
+    required super.bio,
+    required super.twoFactorEnabled,
+    required super.frontIdPhoto,
+    required super.backIdPhoto,
+    required super.arabicAddress,
+    required super.arabicFullName,
+    required super.nationalIDNumber,
+    required super.roommatePreferencesEnabled,
+    required super.smoking,
+    required super.pets,
+    required super.sleepSchedule,
+    required super.educationLevel,
+    required super.fieldOfStudy,
+    required super.noiseTolerance,
+    required super.guestsFrequency,
+    required super.workSchedule,
+    required super.sharingLevel,
+    required super.budgetRangeMin,
+    required super.budgetRangeMax,
+    required super.smokingImportance,
+    required super.petsImportance,
+    required super.sleepImportance,
+    required super.educationImportance,
+    required super.fieldOfStudyImportance,
+    required super.noiseToleranceImportance,
+    required super.guestsFrequencyImportance,
+    required super.workScheduleImportance,
+    required super.sharingLevelImportance,
+    required super.budgetImportance,
+  });
+
+  factory ProfileSettingsModel.fromJson(Map<String, dynamic> json) {
+    final data = json['data'];
+    return ProfileSettingsModel(
+      id: data['id'],
+      email: data['email'],
+      phoneNumber: data['phoneNumber'],
+      firstName: data['firstName'],
+      lastName: data['lastName'],
+      dateOfBirth: data['dateOfBirth'],
+      language: EnumItem.resolve(EnumType.languages, data['language']),
+      profileImage: buildImageUrl(data['profileImage']),
+      gender: EnumItem.resolve(EnumType.gender, data['gender']),
+      country: EnumItem.resolve(EnumType.countries, data['country']),
+      bio: data['bio'],
+      twoFactorEnabled: data['twoFactorEnabled'],
+      frontIdPhoto: buildImageUrl(data['frontIdPhoto']),
+      backIdPhoto: buildImageUrl(data['backIdPhoto']),
+      arabicAddress: data['arabicAddress'],
+      arabicFullName: data['arabicFullName'],
+      nationalIDNumber: data['nationalIDNumber'],
+      roommatePreferencesEnabled: data['roommatePreferencesEnabled'],
+      smoking: data['smoking'],
+      pets: data['pets'],
+      sleepSchedule: EnumItem.resolve(
+        EnumType.sleepSchedules,
+        data['sleepSchedule'],
+      ),
+      educationLevel: EnumItem.resolve(
+        EnumType.educationLevels,
+        data['educationLevel'],
+      ),
+      fieldOfStudy: EnumItem.resolve(
+        EnumType.fieldsOfStudy,
+        data['fieldOfStudy'],
+      ),
+      noiseTolerance: data['noiseTolerance'],
+      guestsFrequency: EnumItem.resolve(
+        EnumType.guestsFrequencies,
+        data['guestsFrequency'],
+      ),
+      workSchedule: EnumItem.resolve(
+        EnumType.workSchedules,
+        data['workSchedule'],
+      ),
+      sharingLevel: EnumItem.resolve(
+        EnumType.sharingLevels,
+        data['sharingLevel'],
+      ),
+      budgetRangeMin: data['budgetRangeMin'],
+      budgetRangeMax: data['budgetRangeMax'],
+      smokingImportance: data['smokingImportance'],
+      petsImportance: data['petsImportance'],
+      sleepImportance: data['sleepImportance'],
+      educationImportance: data['educationImportance'],
+      fieldOfStudyImportance: data['fieldOfStudyImportance'],
+      noiseToleranceImportance: data['noiseToleranceImportance'],
+      guestsFrequencyImportance: data['guestsFrequencyImportance'],
+      workScheduleImportance: data['workScheduleImportance'],
+      sharingLevelImportance: data['sharingLevelImportance'],
+      budgetImportance: data['budgetImportance'],
+    );
+  }
+}

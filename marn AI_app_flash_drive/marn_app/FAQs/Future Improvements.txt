@@ -1,0 +1,11 @@
+## Future Improvements
+
+**What features are planned for future versions of MARN?**
+
+- AI-Assisted Verification: Automated review of identity and ownership documents to speed up the verification process and detect inconsistencies
+- AI-Based Price Estimation: A pricing model to help owners set fair rental prices and help renters evaluate offers based on market data
+- Geographical Expansion: Extending the platform beyond Egypt to support other countries, currencies, and languages
+- Handwritten Digital Signature Support: Allowing users to sign contracts with a handwritten-style signature for a more natural experience
+- Voice-Enabled Assistant: Adding voice interaction to the chatbot for improved accessibility
+- AI-Assisted Reporting & Violation Detection: Using AI to help detect abusive messages, misleading listings, and repeated policy violations
+- Property Sales Support: Expanding MARN beyond rentals to support full property purchases
