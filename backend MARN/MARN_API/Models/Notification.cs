@@ -1,0 +1,32 @@
+using MARN_API.Enums;
+using MARN_API.Enums.Notification;
+using System;
+
+namespace MARN_API.Models
+{
+    public class Notification
+    {
+        public long Id { get; set; }
+        public Guid UserId { get; set; }
+        public NotificationUserType UserType { get; set; }
+        public NotificationType Type { get; set; }
+
+        public string? TitleKey { get; set; }
+        public string? BodyKey { get; set; }
+        public string? LocalizationArgumentsJson { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Body { get; set; } = string.Empty;
+        public string? Data { get; set; } = null;
+
+        public NotificationActionType? ActionType { get; set; } = null;
+        public string? ActionId { get; set; } = null;
+
+        public DateTime? ReadAt { get; set; } = null;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public virtual ApplicationUser User { get; set; } = null!;
+    }
+}
+
+
+
